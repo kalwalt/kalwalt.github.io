@@ -1,5 +1,5 @@
-name: Walter Perdaan
+#name: Walter Perdaan
 theme: jekyll-theme-architect
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+#markdown: kramdown
+#permalink: /blog/:year/:month/:day/:title
 
