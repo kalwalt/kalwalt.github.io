@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 atom:
   buildCommand:
     - jekyll
@@ -14,3 +15,10 @@ name: Walter Perdan
 #theme: jekyll-theme-minima
 markdown: kramdown
 #permalink: /blog/:year/:month/:day/:title
+=======
+#name: Walter Perdaan
+theme: jekyll-theme-architect
+#markdown: kramdown
+#permalink: /blog/:year/:month/:day/:title
+
+>>>>>>> 19c07dcc9bbbd6a66c313df7427e33e649684d8c

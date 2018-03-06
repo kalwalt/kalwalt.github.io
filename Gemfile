@@ -8,6 +8,9 @@
 #source 'https://rubygems.org'
 
 #gem 'github-pages'
+<<<<<<< HEAD
 
 source 'https://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
+=======
+>>>>>>> 19c07dcc9bbbd6a66c313df7427e33e649684d8c
