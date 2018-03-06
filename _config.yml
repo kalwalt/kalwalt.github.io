@@ -1,5 +1,16 @@
-name: Walter Perdaan
-theme: jekyll-theme-architect
+atom:
+  buildCommand:
+    - jekyll
+    - build
+    - --option
+    - --this
+  buildEnv:
+    JEKYLL_ENV: development
+  postDirs:
+    - _newsletters
+  defaultPostDir: _drafts
+name: Walter Perdan
+#theme: jekyll-theme-architect
+#theme: jekyll-theme-minima
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
-
+#permalink: /blog/:year/:month/:day/:title
