@@ -53,13 +53,6 @@ title: Mon cher Mondrian
 		// to read from the webcam
 		sourceType : 'webcam',
 
-		// // to read from an image
-		// sourceType : 'image',
-		// sourceUrl : THREEx.ArToolkitContext.baseURL + '../data/images/img.jpg',
-
-		// to read from a video
-		// sourceType : 'video',
-		// sourceUrl : THREEx.ArToolkitContext.baseURL + '../data/videos/headtracking.mp4',
 	})
 
 	arToolkitSource.init(function onReady(){
@@ -132,6 +125,22 @@ title: Mon cher Mondrian
 	var mesh	= new THREE.Mesh( geometry, material );
 	mesh.position.y	= geometry.parameters.height/2
 	scene.add( mesh );
+
+	var mesh;
+
+	var loader = new THREE.JSONLoader();
+	
+	loader.load('../resources/data/moncher.json', function (geometry, mat) {
+			mesh = new THREE.Mesh(geometry, mat[0]);
+
+			mesh.scale.x = 15;
+			mesh.scale.y = 15;
+			mesh.scale.z = 15;
+
+			scene.add(mesh);
+
+	}, '../resources/data');
+
 
 	var geometry	= new THREE.TorusKnotGeometry(0.3,0.1,64,16);
 	var material	= new THREE.MeshNormalMaterial();
