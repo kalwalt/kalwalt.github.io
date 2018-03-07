@@ -129,8 +129,8 @@ title: Mon cher Mondrian
 	var mesh;
 
 	var loader = new THREE.JSONLoader();
-	
-	loader.load('../resources/data/moncher.json', function (geometry, mat) {
+
+	loader.load('../resources/data/moncher.js', function (geometry, mat) {
 			mesh = new THREE.Mesh(geometry, mat[0]);
 
 			mesh.scale.x = 15;
