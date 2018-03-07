@@ -128,19 +128,24 @@ title: Mon cher Mondrian
 
 	var mesh;
 
-	//var loader = new THREE.JSONLoader();
+
+	// model
 	var loader = new THREE.GLTFLoader();
+	loader.load( '../../resources/data/moncher.gltf', function ( gltf ) {
 
-	loader.load('../../resources/data/moncher.gltf', function (geometry, mat) {
-			mesh = new THREE.Mesh(geometry, mat[0]);
+		gltf.scene.traverse( function ( child ) {
 
-			mesh.scale.x = 15;
-			mesh.scale.y = 15;
-			mesh.scale.z = 15;
+			if ( child.isMesh ) {
 
-			scene.add(mesh);
+				child.material.envMap = envMap;
 
-	});
+			}
+
+		} );
+
+		scene.add( gltf.scene );
+
+	} );
 
 
 	var geometry	= new THREE.TorusKnotGeometry(0.3,0.1,64,16);
