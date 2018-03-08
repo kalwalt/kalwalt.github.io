@@ -128,9 +128,16 @@ title: Mon cher Mondrian
 
 	var mesh;
 
+	var manager = new THREE.LoadingManager();
+	manager.onProgress = function ( item, loaded, total ) {
+
+		console.log( item, loaded, total );
+
+	};
+
 
 	var loader = new THREE.OBJLoader( manager );
-	loader.load( 'models/obj/male02/male02.obj', function ( object ) {
+	loader.load( '../../resources/data/moncher.obj', function ( object ) {
 
 		object.traverse( function ( child ) {
 
