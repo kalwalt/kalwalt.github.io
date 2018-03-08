@@ -128,6 +128,8 @@ title: Mon cher Mondrian
 
 	};
 
+	var mat = new THREE.MeshPhongMaterial({color: red});
+
 	loader = new THREE.GLTF2Loader();
 
 	loader.load( '../../resources/data/moncher.gltf', function ( gltf ) {
@@ -136,7 +138,8 @@ title: Mon cher Mondrian
 
 			if ( child.isMesh ) {
 
-				child.material.envMap = envMap;
+				//child.material.envMap = envMap;
+				child.material =
 
 			}
 
