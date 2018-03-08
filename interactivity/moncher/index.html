@@ -7,9 +7,8 @@ title: Mon cher Mondrian
 <!-- three.js library -->
 <script src='../../resources/three.min.js'></script>
 <script src="../../resources/ar.js"></script>
-<script src="../../resources/js/loaders/OBJLoader.js"></script>
 <script src="../../resources/js/loaders/GLTF2Loader.js"></script>
-<div style="text-align: center"><h2><p>Simple test with three.js</p></h2></div>
+<div style="text-align: center"><h2><p>Mon cher Mondrian</p></h2></div>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
 
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
@@ -119,7 +118,6 @@ title: Mon cher Mondrian
 
   var pointLight = new THREE.PointLight( 0xffffff, 0.8 );
   camera.add( pointLight );
-  //scene.add( camera );
 
 	var manager = new THREE.LoadingManager();
 	manager.onProgress = function ( item, loaded, total ) {
@@ -139,7 +137,7 @@ title: Mon cher Mondrian
 			if ( child.isMesh ) {
 
 				//child.material.envMap = envMap;
-				child.material = mat;
+				//child.material = mat;
 
 			}
 
