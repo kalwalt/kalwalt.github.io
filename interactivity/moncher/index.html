@@ -115,7 +115,7 @@ title: Mon cher Mondrian
 	//////////////////////////////////////////////////////////////////////////////////
 	//		add an object in the scene
 	//////////////////////////////////////////////////////////////////////////////////
-
+/*
 	// add a torus knot
 	var geometry	= new THREE.CubeGeometry(1,1,1);
 	var material	= new THREE.MeshNormalMaterial({
@@ -128,7 +128,7 @@ title: Mon cher Mondrian
 	scene.add( mesh );
 
 	var mesh;
-
+*/
 	var manager = new THREE.LoadingManager();
 	manager.onProgress = function ( item, loaded, total ) {
 
@@ -156,7 +156,7 @@ title: Mon cher Mondrian
 	} );
 
 
-
+/*
 	var geometry	= new THREE.TorusKnotGeometry(0.3,0.1,64,16);
 	var material	= new THREE.MeshNormalMaterial();
 	var mesh	= new THREE.Mesh( geometry, material );
@@ -166,7 +166,7 @@ title: Mon cher Mondrian
 	onRenderFcts.push(function(delta){
 		mesh.rotation.x += Math.PI*delta
 	})
-
+*/
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
 	//////////////////////////////////////////////////////////////////////////////////
