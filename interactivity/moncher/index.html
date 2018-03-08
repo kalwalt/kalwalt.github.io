@@ -111,22 +111,9 @@ title: Mon cher Mondrian
 	scene.visible = false
 
 	//////////////////////////////////////////////////////////////////////////////////
-	//		add an object in the scene
+	//		add a gltf object in the scene
 	//////////////////////////////////////////////////////////////////////////////////
-/*
-	// add a torus knot
-	var geometry	= new THREE.CubeGeometry(1,1,1);
-	var material	= new THREE.MeshNormalMaterial({
-		transparent : true,
-		opacity: 0.5,
-		side: THREE.DoubleSide
-	});
-	var mesh	= new THREE.Mesh( geometry, material );
-	mesh.position.y	= geometry.parameters.height/2
-	scene.add( mesh );
 
-	var mesh;
-*/
   var ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
   scene.add( ambientLight );
 
@@ -140,25 +127,6 @@ title: Mon cher Mondrian
 		console.log( item, loaded, total );
 
 	};
-
-
-	var loader = new THREE.OBJLoader( manager );
-	loader.load( '../../resources/data/moncher.obj', function ( object ) {
-
-		object.traverse( function ( child ) {
-
-			if ( child instanceof THREE.Mesh ) {
-
-				//child.material.map = texture;
-
-			}
-
-		} );
-
-		//object.position.y = - 95;
-		//scene.add( object );
-
-	} );
 
 	loader = new THREE.GLTF2Loader();
 
@@ -178,18 +146,6 @@ title: Mon cher Mondrian
 
 	} );
 
-
-/*
-	var geometry	= new THREE.TorusKnotGeometry(0.3,0.1,64,16);
-	var material	= new THREE.MeshNormalMaterial();
-	var mesh	= new THREE.Mesh( geometry, material );
-	mesh.position.y	= 0.5
-	scene.add( mesh );
-
-	onRenderFcts.push(function(delta){
-		mesh.rotation.x += Math.PI*delta
-	})
-*/
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
 	//////////////////////////////////////////////////////////////////////////////////
