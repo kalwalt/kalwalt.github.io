@@ -129,6 +129,13 @@ title: Mon cher Mondrian
 
 	var mesh;
 */
+  var ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
+  scene.add( ambientLight );
+
+  var pointLight = new THREE.PointLight( 0xffffff, 0.8 );
+  camera.add( pointLight );
+  //scene.add( camera );
+
 	var manager = new THREE.LoadingManager();
 	manager.onProgress = function ( item, loaded, total ) {
 
