@@ -8,14 +8,12 @@ title: Mon cher Mondrian
 <script src='../../resources/three.min.js'></script>
 <script src="../../resources/ar.js"></script>
 <script src="../../resources/js/loaders/OBJLoader.js"></script>
+<script src="../../resources/js/loaders/GLTF2Loader.js"></script>
 <div style="text-align: center"><h2><p>Simple test with three.js</p></h2></div>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
 
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'><div style='position: absolute; top: 10px; width:100%; text-align: center; z-index: 1;'>
-	<a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - three.js camera transform
-	<br/>
-	Contact me any time at <a href='https://twitter.com/jerome_etienne' target='_blank'>@jerome_etienne</a>
-</div><script>
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+<script>
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
 	//////////////////////////////////////////////////////////////////////////////////
@@ -158,7 +156,25 @@ title: Mon cher Mondrian
 		} );
 
 		//object.position.y = - 95;
-		scene.add( object );
+		//scene.add( object );
+
+	} );
+
+	loader = new THREE.GLTF2Loader();
+
+	loader.load( '../../resources/data/moncher.gltf', function ( gltf ) {
+
+		gltf.scene.traverse( function ( child ) {
+
+			if ( child.isMesh ) {
+
+				//child.material.envMap = envMap;
+
+			}
+
+		} );
+
+		scene.add( gltf.scene );
 
 	} );
 
