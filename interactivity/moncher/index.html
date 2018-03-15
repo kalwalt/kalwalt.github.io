@@ -198,8 +198,9 @@ title: Mon cher Mondrian
 		textShape.fromGeometry( geometry );
 
 		text = new THREE.Mesh( textShape, matLite );
+		text.rotation.x=-0.5*Math.PI;
 		//text.position.z = - 150;
-		text.position.z = - 10;
+		//text.position.z = - 10;
 		scene.add( text );
 
 		// make line shape ( N.B. edge view remains visible )
