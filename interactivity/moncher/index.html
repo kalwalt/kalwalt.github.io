@@ -224,23 +224,23 @@ title: Mon cher Mondrian
 
 		shapes.push.apply( shapes, holeShapes );
 
-		var lineText = new THREE.Object3D();
+		//var lineText = new THREE.Object3D();
 
-		for ( var i = 0; i < shapes.length; i ++ ) {
+		//for ( var i = 0; i < shapes.length; i ++ ) {
 
-			var shape = shapes[ i ];
+		//	var shape = shapes[ i ];
 
-			var points = shape.getPoints();
-			var geometry = new THREE.BufferGeometry().setFromPoints( points );
+		//	var points = shape.getPoints();
+		//	var geometry = new THREE.BufferGeometry().setFromPoints( points );
 
-			geometry.translate( xMid, 0, 0 );
+		//	geometry.translate( xMid, 0, 0 );
 
-			var lineMesh = new THREE.Line( geometry, matDark );
-			lineText.add( lineMesh );
+		//	var lineMesh = new THREE.Line( geometry, matDark );
+		//	lineText.add( lineMesh );
 
-		}
+		//}
 
-		scene.add( lineText );
+		//scene.add( lineText );
 
 	} ); //end load function
 
