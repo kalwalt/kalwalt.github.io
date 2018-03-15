@@ -8,6 +8,7 @@ title: Mon cher Mondrian
 <script src='../../resources/three.min.js'></script>
 <script src="../../resources/ar.js"></script>
 <script src="../../resources/js/loaders/GLTF2Loader.js"></script>
+<script src="../../resources/js/loaders/OBJLoader.js"></script>
 <div style="text-align: center"><h2><p>Mon cher Mondrian</p></h2></div>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
 
@@ -128,8 +129,19 @@ title: Mon cher Mondrian
 
 	var mat = new THREE.MeshPhongMaterial({color: 0xbbbbff});
 
-	loader = new THREE.GLTF2Loader();
+	//loader = new THREE.GLTF2Loader();
 
+	var loader = new THREE.OBJLoader( manager );
+	loader.load( '../../resources/data/moncher.obj', function ( object ) {
+		object.traverse( function ( child ) {
+			if ( child instanceof THREE.Mesh ) {
+				child.material.map = texture;
+			}
+		} );
+		//object.position.y = - 95;
+		scene.add( object );
+	}, onProgress, onError );
+/*
 	loader.load( '../../resources/data/moncher.gltf', function ( gltf ) {
 
 		gltf.scene.traverse( function ( child ) {
@@ -147,6 +159,7 @@ title: Mon cher Mondrian
 		scene.add( gltf.scene );
 
 	} );
+	*/
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
