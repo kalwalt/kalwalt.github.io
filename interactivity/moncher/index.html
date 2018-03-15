@@ -184,7 +184,7 @@ title: Mon cher Mondrian
 
 		var message = "Noise";
 
-		var shapes = font.generateShapes( message, 100, 2 );
+		var shapes = font.generateShapes( message, 10, 2 );
 
 		var geometry = new THREE.ShapeGeometry( shapes );
 		geometry.computeBoundingBox();
@@ -199,6 +199,7 @@ title: Mon cher Mondrian
 
 		text = new THREE.Mesh( textShape, matLite );
 		//text.position.z = - 150;
+		text.position.z = - 10;
 		scene.add( text );
 
 		// make line shape ( N.B. edge view remains visible )
