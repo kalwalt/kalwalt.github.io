@@ -136,6 +136,7 @@ title: Mon cher Mondrian
 		object.traverse( function ( child ) {
 			if ( child instanceof THREE.Mesh ) {
 				//child.material.map = texture;
+				child.material = mat;
 			}
 		} );
 		//object.position.y = - 95;
