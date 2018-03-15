@@ -199,7 +199,9 @@ title: Mon cher Mondrian
 
 		text = new THREE.Mesh( textShape, matLite );
 		text.rotation.x=-0.5*Math.PI;
-		text.scale(0.1,0.1,0.1);
+		text.scale.x=0.1;
+		text.scale.y=0.1;
+		text.scale.z=0.1;
 		//text.position.z = - 150;
 		//text.position.z = - 10;
 		scene.add( text );
