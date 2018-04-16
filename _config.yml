@@ -1,21 +1,21 @@
 atom:
   buildCommand:
-    - jekyll
+    - home/walter/gems/bin/jekyll
     - build
-    - --option
-    - --this
-  buildEnv:
-    JEKYLL_ENV: development
-  postDirs:
-    - _newsletters
-  defaultPostDir: _drafts
+#    - --option
+#    - --this
+#  buildEnv:
+#    JEKYLL_ENV: development
+#  postDirs:
+#    - _newsletters
+#  defaultPostDir: _drafts
 name: Walter Perdan
 #theme: jekyll-theme-architect
 #theme: jekyll-theme-minima
-markdown: kramdown
+#markdown: kramdown
 #permalink: /blog/:year/:month/:day/:title
 
 #name: Walter Perdaan
-theme: jekyll-theme-architect
+#theme: jekyll-theme-architect
 #markdown: kramdown
 #permalink: /blog/:year/:month/:day/:title
