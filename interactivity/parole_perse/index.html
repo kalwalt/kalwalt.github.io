@@ -47,8 +47,11 @@ title: Parole perse
 			}
 	geometry.addAttribute( 'position', new THREE.Float32BufferAttribute( vertices, 3 ) );
 	material = new THREE.PointsMaterial( { size: 35, sizeAttenuation: false, map: sprite, alphaTest: 0.5, transparent: true } );
+  material2 = new THREE.PointsMaterial( { size: 35, sizeAttenuation: false, map: sprite, alphaTest: 0.5, transparent: true } );
 	material.color.setHSL( 1.0, 0.3, 0.7 );
-	var particles = new THREE.Points( geometry, material );
+  material2.color.setHSL(0.5, 0.3, 0.7 );
+	var particles1 = new THREE.Points( geometry, material );
+  var particles2 = new THREE.Points(geometry, material2);
 	//scene.add( particles );
 
 
@@ -132,7 +135,7 @@ title: Parole perse
 
   var markerScene = new THREE.Scene()
 	markerGroupSX.add(markerScene)
-  markerScene.add(particles)
+  markerScene.add(particles1)
 
   var markerGroupDX = new THREE.Group
   markerGroupDX.name = 'marker2'
@@ -149,7 +152,7 @@ title: Parole perse
 
   var markerScene2 = new THREE.Scene()
 	markerGroupDX.add(markerScene2)
-  markerScene2.add(particles)
+  markerScene2.add(particles2)
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
@@ -160,7 +163,7 @@ title: Parole perse
 
   	var container = new THREE.Group
   	scene.add(container)
-    
+
 	// render the scene
 	onRenderFcts.push(function(){
     if( markerGroupSX.visible === true || markerGroupDX.visible === true ){
