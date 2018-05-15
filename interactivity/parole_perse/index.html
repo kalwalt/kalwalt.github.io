@@ -19,7 +19,7 @@ title: Parole perse
 	//////////////////////////////////////////////////////////////////////////////////
 
 	// init renderer
-	/*var renderer	= new THREE.WebGLRenderer({
+	var renderer	= new THREE.WebGLRenderer({
 		antialias: true,
 		alpha: true
 	});
@@ -29,19 +29,28 @@ title: Parole perse
 	renderer.domElement.style.top = '0px'
 	renderer.domElement.style.left = '0px'
 	document.body.appendChild( renderer.domElement );
-  */
-  renderer = new THREE.CanvasRenderer();
-	renderer.setPixelRatio( window.devicePixelRatio );
-	renderer.setSize( window.innerWidth, window.innerHeight );
-	//container.appendChild( renderer.domElement );
-  document.body.appendChild( renderer.domElement );
-
 
 	// array of functions for the rendering loop
 	var onRenderFcts= [];
 
 	// init scene and camera
 	var scene	= new THREE.Scene();
+  scene.fog = new THREE.FogExp2( 0x000000, 0.001 );
+	var geometry = new THREE.BufferGeometry();
+	var vertices = [];
+	var sprite = new THREE.TextureLoader().load( '../../resources/data/textures/disc.png' );
+	for ( var i = 0; i < 10000; i ++ ) {
+			var x = 2000 * Math.random() - 1000;
+			var y = 2000 * Math.random() - 1000;
+			var z = 2000 * Math.random() - 1000;
+			vertices.push( x, y, z );
+			}
+	geometry.addAttribute( 'position', new THREE.Float32BufferAttribute( vertices, 3 ) );
+	material = new THREE.PointsMaterial( { size: 35, sizeAttenuation: false, map: sprite, alphaTest: 0.5, transparent: true } );
+	material.color.setHSL( 1.0, 0.3, 0.7 );
+	var particles = new THREE.Points( geometry, material );
+	scene.add( particles );
+
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Initialize a basic camera
@@ -86,11 +95,6 @@ title: Parole perse
   artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
   artoolkitProfile.contextParameters.detectionMode = 'mono'
 
-	// create atToolkitContext
-	//var arToolkitContext = new THREEx.ArToolkitContext({
-	//	cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat',
-	//	detectionMode: 'mono',
-	//})
   var arToolkitContext = new THREEx.ArToolkitContext(artoolkitProfile.contextParameters)
 	// initialize it
 	arToolkitContext.init(function onCompleted(){
@@ -115,7 +119,7 @@ title: Parole perse
 	// init controls for camera
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
 		type : 'pattern',
-		 patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois09.patt',
+		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-sx.patt',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix',
 	})
@@ -127,104 +131,6 @@ title: Parole perse
 
   var pointLight = new THREE.PointLight( 0xffffff, 0.8 );
   camera.add( pointLight );
-
-	/*var manager = new THREE.LoadingManager();
-	manager.onProgress = function ( item, loaded, total ) {
-
-		console.log( item, loaded, total );
-
-	};
-  */
-
-	//var mat = new  THREE.MeshBasicMaterial(parameters)
-  var texture = new THREE.TextureLoader().load( '../../resources/data/textures/flower02.png' );
-
-	var billboard = new THREE.PlaneGeometry(1,1,1,1);
-  var material = new THREE.MeshBasicMaterial( { map: texture } );
-	var mesh2 = new THREE.Mesh( billboard, material );
-	mesh2.rotation.x = -0.5*Math.PI;
-	mesh2.scale.x = 2.1;
-	mesh2.scale.y = 2.1;
-	mesh2.scale.z = 2.1;
-	//scene.add(mesh2);
-  /*
-  var geometry = new THREE.CircleGeometry( 5, 32 );
-  var material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
-  var circle = new THREE.Mesh( geometry, material );
-  circle.rotation.x = -0.5*Math.PI;
-	circle.scale.x = 0.1;
-	circle.scale.y = 0.1;
-	circle.scale.z = 0.1;
-  //scene.add( circle );
-  */
-  var PI2 = Math.PI * 2;
-  var program = function ( context ) {
-  					context.beginPath();
-  					context.arc( 0, 0, 0.5, 0, PI2, true );
-  					context.fill();
-  				};
-
-
-  //createParticles(1.8, true, 0.6, true, 0x0000ff)
-
-  function createParticles(size, transparent, opacity, sizeAttenuation, color) {
-
-    var texture = new THREE.TextureLoader().load( '../../resources/data/textures/dot.png' );
-    var geom2 = new THREE.Geometry();
-    var material2 = new THREE.SpriteCanvasMaterial({
-						color: color,
-						program: program
-					});
-    var material = new THREE.ParticleBasicMaterial({
-        size: size,
-        transparent: transparent,
-        opacity: opacity,
-        map: texture,
-        blending: THREE.AdditiveBlending,
-        sizeAttenuation: sizeAttenuation,
-        color: color});
-    var range = 20;
-    for (var i = 0; i < 2000; i++) {
-        var particle = new THREE.Vector3(
-                Math.random() * range - range / 2,
-                Math.random() * range * 1.5,
-                Math.random() * range - range / 2);
-        particle.velocityY = 0.1 + Math.random() / 5;
-        particle.velocityX = (Math.random() - 0.5) / 3;
-        geom2.vertices.push(particle);
-    }
-    system2 = new THREE.ParticleSystem(geom2, material);
-
-//            system1.sortParticles = true;
-//            system1.name = "particles1";
-
-    system2.sortParticles = true;
-    system2.name = "particles2";
-
-//            scene.add(system1);
-    scene.add(system2);
-  }
-  createSpriteParticles(1.8, true, 0.6, true, 0x0000ff)
-  function createSpriteParticles(size, transparent, opacity, sizeAttenuation, color) {
-        group = new THREE.Group();
-				scene.add( group );
-				for ( var i = 0; i < 1000; i++ ) {
-					var material = new THREE.SpriteCanvasMaterial( {
-						color: Math.random() * 0x808008 + 0x808080,
-						program: program
-					} );
-					particle = new THREE.Sprite( material );
-					particle.position.x = Math.random() * 2000 - 1000;
-					particle.position.y = Math.random() * 2000 - 1000;
-					particle.position.z = Math.random() * 2000 - 1000;
-					particle.scale.x = particle.scale.y = Math.random() * 20 + 10;
-					group.add( particle );
-				}
-  }
-
-
-
-
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
@@ -244,9 +150,9 @@ title: Parole perse
 		lastTimeMsec	= lastTimeMsec || nowMsec-1000/60
 		var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec)
 		lastTimeMsec	= nowMsec
-		var time = Date.now() * 0.001;
-		//mesh2.rotation.x = time;
-		mesh2.rotation.z = time;
+		var time = Date.now() * 0.00005;
+		var h = ( 360 * ( 1.0 + time ) % 360 ) / 360;
+		material.color.setHSL( h, 0.5, 0.5 );
 		// call each update function
 		onRenderFcts.forEach(function(onRenderFct){
 			onRenderFct(deltaMsec/1000, nowMsec/1000)
