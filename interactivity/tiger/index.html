@@ -1,0 +1,234 @@
+---
+layout: interactivity
+title: The Tiger never follows the Square
+---
+<!--
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!-- three.js library -->
+<script src='../../resources/three.js'></script>
+<script src="../../resources/js/ar-new.js"></script>
+<script src="../../resources/js/renderers/CanvasRenderer.js"></script>
+<script src="../../resources/js/renderers/Projector.js"></script>
+<script src="../../resources/js/loaders/OBJLoader.js"></script>S
+<div style="text-align: center"><h2><p>The Tiger never follows the Square</p></h2></div>
+<script>THREEx.ArToolkitContext.baseURL = '../'</script>
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+<script>
+	//////////////////////////////////////////////////////////////////////////////////
+	//		Init
+	//////////////////////////////////////////////////////////////////////////////////
+
+	// init renderer
+	var renderer	= new THREE.WebGLRenderer({
+		antialias: true,
+		alpha: true
+	});
+	renderer.setClearColor(new THREE.Color('lightgrey'), 0)
+	renderer.setSize( 800, 600 );
+	renderer.domElement.style.position = 'absolute'
+	renderer.domElement.style.top = '0px'
+	renderer.domElement.style.left = '0px'
+	document.body.appendChild( renderer.domElement );
+
+	// array of functions for the rendering loop
+	var onRenderFcts= [];
+
+	// init scene and camera
+	var scene	= new THREE.Scene();
+  //scene.fog = new THREE.FogExp2( 0x000000, 0.001 );
+	var geometry = new THREE.BufferGeometry();
+	var vertices = [];
+	var sprite = new THREE.TextureLoader().load( '../../resources/data/textures/disc.png' );
+	for ( var i = 0; i < 5000; i ++ ) {
+			var x = 2000 * Math.random() - 1000;
+			var y = 2000 * Math.random() - 1000;
+			var z = 2000 * Math.random() - 1000;
+			vertices.push( x, y, z );
+			}
+	geometry.addAttribute( 'position', new THREE.Float32BufferAttribute( vertices, 3 ) );
+	material = new THREE.PointsMaterial( { size: 35, sizeAttenuation: false, map: sprite, alphaTest: 0.5, transparent: true } );
+  material2 = new THREE.PointsMaterial( { size: 35, sizeAttenuation: false, map: sprite, alphaTest: 0.5, transparent: true } );
+	material.color.setHSL( 1.0, 0.3, 0.7 );
+  material2.color.setHSL(0.5, 0.3, 0.7 );
+	var particles1 = new THREE.Points( geometry, material );
+  var particles2 = new THREE.Points(geometry, material2);
+	//scene.add( particles );
+
+	//////////////////////////////////////////////////////////////////////////////////
+	//		Initialize a basic camera
+	//////////////////////////////////////////////////////////////////////////////////
+
+	// Create a camera
+	var camera = new THREE.Camera();
+	scene.add(camera);
+
+	var ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
+	scene.add( ambientLight );
+
+	var pointLight = new THREE.PointLight( 0xffffff, 0.8 );
+	camera.add( pointLight );
+
+	var manager = new THREE.LoadingManager();
+	manager.onProgress = function ( item, loaded, total ) {
+
+		console.log( item, loaded, total );
+
+	};
+
+	var mat = new THREE.MeshPhongMaterial({color: 0xbbbbff});
+
+	var object = new THREE.Object3D();
+
+
+	var loader = new THREE.OBJLoader( manager );
+	loader.load( '../../resources/data/half-moon.obj', function ( object ) {
+		object.traverse( function ( child ) {
+			if ( child instanceof THREE.Mesh ) {
+
+				child.material = mat;
+			}
+		} );
+		//object.position.y = - 95;
+		//object.rotation.x=-0.5*Math.PI;
+		scene.add( object );
+	} );
+
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+	//          handle arToolkitSource
+	////////////////////////////////////////////////////////////////////////////////
+  var artoolkitProfile = new THREEx.ArToolkitProfile();
+
+	var arToolkitSource = new THREEx.ArToolkitSource({
+		// to read from the webcam
+		sourceType : 'webcam',
+
+	})
+
+	arToolkitSource.init(function onReady(){
+		onResize()
+	})
+
+	// handle resize
+	window.addEventListener('resize', function(){
+		onResize()
+	})
+	function onResize(){
+		arToolkitSource.onResize()
+		arToolkitSource.copySizeTo(renderer.domElement)
+		if( arToolkitContext.arController !== null ){
+			arToolkitSource.copySizeTo(arToolkitContext.arController.canvas)
+		}
+	}
+	////////////////////////////////////////////////////////////////////////////////
+	//          initialize arToolkitContext
+	////////////////////////////////////////////////////////////////////////////////
+
+  // set patternRatio
+  artoolkitProfile.contextParameters.patternRatio = 0.9
+  artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
+  artoolkitProfile.contextParameters.detectionMode = 'mono'
+
+  var arToolkitContext = new THREEx.ArToolkitContext(artoolkitProfile.contextParameters)
+	// initialize it
+	arToolkitContext.init(function onCompleted(){
+		// copy projection matrix to camera
+		camera.projectionMatrix.copy( arToolkitContext.getProjectionMatrix() );
+	})
+
+	// update artoolkit on every frame
+	onRenderFcts.push(function(){
+		if( arToolkitSource.ready === false )	return
+
+		arToolkitContext.update( arToolkitSource.domElement )
+
+		// update scene.visible if the marker is seen
+		scene.visible = camera.visible
+	})
+
+	////////////////////////////////////////////////////////////////////////////////
+	//          Create a ArMarkerControls
+	////////////////////////////////////////////////////////////////////////////////
+  //var markerGroupSX = new THREE.Group
+  //markerGroupSX.name = 'marker1'
+	//scene.add(markerGroupSX)
+
+	// init controls for camera
+	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
+  //var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerGroupSX, {
+	//var markerControls = new THREEx.ArMarkerControls(arToolkitContext, scene, {
+		type : 'pattern',
+		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-sx.patt',
+		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/patt.hiro',
+		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
+		changeMatrixMode: 'cameraTransformMatrix',
+	})
+	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
+	scene.visible = false
+
+  //var markerScene = new THREE.Scene()
+	//markerGroupSX.add(markerScene)
+  //markerScene.add(particles1)
+	//markerScene.add(object)
+  /*
+  var markerGroupDX = new THREE.Group
+  markerGroupDX.name = 'marker2'
+	scene.add(markerGroupDX)
+
+  var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerGroupDX, {
+		type : 'pattern',
+		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-dx.patt',
+		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
+		changeMatrixMode: 'cameraTransformMatrix',
+	})
+	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
+	scene.visible = false
+
+  var markerScene2 = new THREE.Scene()
+	markerGroupDX.add(markerScene2)
+  markerScene2.add(particles2)
+  */
+	//////////////////////////////////////////////////////////////////////////////////
+	//		render the whole thing on the page
+	//////////////////////////////////////////////////////////////////////////////////
+	/*
+  ;(function(){
+  	var markerGroupSX = scene.getObjectByName('marker1')
+  	//var markerGroupDX = scene.getObjectByName('marker2')
+
+  	var container = new THREE.Group
+  	scene.add(container)
+
+	// render the scene
+	onRenderFcts.push(function(){
+    if( markerGroupSX.visible === true ){
+      container.visible = true}
+		renderer.render( scene, camera );
+	})
+})()
+*/
+onRenderFcts.push(function(){
+	renderer.render( scene, camera );
+})
+
+	// run the rendering loop
+	var lastTimeMsec= null
+	requestAnimationFrame(function animate(nowMsec){
+		// keep looping
+		requestAnimationFrame( animate );
+		// measure time
+		lastTimeMsec	= lastTimeMsec || nowMsec-1000/60
+		var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec)
+		lastTimeMsec	= nowMsec
+		var time = Date.now() * 0.00005;
+		var h = ( 360 * ( 1.0 + time ) % 360 ) / 360;
+		//material.color.setHSL( h, 0.5, 0.5 );
+		// call each update function
+		onRenderFcts.forEach(function(onRenderFct){
+			onRenderFct(deltaMsec/1000, nowMsec/1000)
+		})
+	})
+</script></body>
