@@ -9,7 +9,7 @@ title: The Tiger never follows the Square
 <script src="../../resources/js/ar-new.js"></script>
 <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
 <script src="../../resources/js/renderers/Projector.js"></script>
-<script src="../../resources/js/loaders/OBJLoader.js"></script>S
+<script src="../../resources/js/loaders/OBJLoader.js"></script>
 <div style="text-align: center"><h2><p>The Tiger never follows the Square</p></h2></div>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
 
@@ -36,30 +36,6 @@ title: The Tiger never follows the Square
 
 	// init scene and camera
 	var scene	= new THREE.Scene();
-  //scene.fog = new THREE.FogExp2( 0x000000, 0.001 );
-	/*
-	var geometry = new THREE.BufferGeometry();
-	var vertices = [];
-	var sprite = new THREE.TextureLoader().load( '../../resources/data/textures/disc.png' );
-	for ( var i = 0; i < 5000; i ++ ) {
-			var x = 2000 * Math.random() - 1000;
-			var y = 2000 * Math.random() - 1000;
-			var z = 2000 * Math.random() - 1000;
-			vertices.push( x, y, z );
-			}
-	geometry.addAttribute( 'position', new THREE.Float32BufferAttribute( vertices, 3 ) );
-	material = new THREE.PointsMaterial( { size: 35, sizeAttenuation: false, map: sprite, alphaTest: 0.5, transparent: true } );
-  material2 = new THREE.PointsMaterial( { size: 35, sizeAttenuation: false, map: sprite, alphaTest: 0.5, transparent: true } );
-	material.color.setHSL( 1.0, 0.3, 0.7 );
-  material2.color.setHSL(0.5, 0.3, 0.7 );
-	var particles1 = new THREE.Points( geometry, material );
-  var particles2 = new THREE.Points(geometry, material2);
-	//scene.add( particles );
-*/
-	//////////////////////////////////////////////////////////////////////////////////
-	//		Initialize a basic camera
-	//////////////////////////////////////////////////////////////////////////////////
-
 	// Create a camera
 	var camera = new THREE.Camera();
 	scene.add(camera);
