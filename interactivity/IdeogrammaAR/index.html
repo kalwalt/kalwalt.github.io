@@ -1,0 +1,173 @@
+---
+layout: interactivity
+title: Ideogramma AR01
+---
+<!--
+<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<!-- three.js library -->
+<script src='../../resources/three.js'></script>
+<script src="../../resources/js/ar-new.js"></script>
+<script src="../../resources/js/renderers/CanvasRenderer.js"></script>
+<script src="../../resources/js/renderers/Projector.js"></script>
+<script src="../../resources/js/loaders/OBJLoader.js"></script>
+<div style="text-align: center"><h2><p>Ideogramma AR01</p></h2></div>
+<script>THREEx.ArToolkitContext.baseURL = '../'</script>
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+<script>
+	//////////////////////////////////////////////////////////////////////////////////
+	//		Init
+	//////////////////////////////////////////////////////////////////////////////////
+
+	// init renderer
+	var renderer	= new THREE.WebGLRenderer({
+		antialias: true,
+		alpha: true
+	});
+	renderer.setClearColor(new THREE.Color('lightgrey'), 0)
+	renderer.setSize( 800, 600 );
+	renderer.domElement.style.position = 'absolute'
+	renderer.domElement.style.top = '0px'
+	renderer.domElement.style.left = '0px'
+	document.body.appendChild( renderer.domElement );
+
+	// array of functions for the rendering loop
+	var onRenderFcts= [];
+
+	// init scene and camera
+	var scene	= new THREE.Scene();
+	// Create a camera
+	var camera = new THREE.Camera();
+	scene.add(camera);
+
+	var ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
+	scene.add( ambientLight );
+
+	var pointLight = new THREE.PointLight( 0xffffff, 1.5 );
+	scene.add( pointLight );
+
+	var manager = new THREE.LoadingManager();
+	manager.onProgress = function ( item, loaded, total ) {
+
+		console.log( item, loaded, total );
+
+	};
+
+	var mat = new THREE.MeshLambertMaterial({color: 0x2625ff});
+
+	var object = new THREE.Object3D();
+
+
+	var loader = new THREE.OBJLoader( manager );
+	loader.load( '../../resources/data/ideoARt.obj', function ( object ) {
+		object.traverse( function ( child ) {
+			if ( child instanceof THREE.Mesh ) {
+
+				child.material = mat;
+			}
+		} );
+		//object.position.y = - 95;
+		//object.rotation.x=-0.5*Math.PI;
+		//object.scale.x = 2.85;
+    //object.scale.y = 2.85;
+		//object.scale.z = 2.85;
+		//object.rotation.z = 10;
+
+		scene.add( object );
+	} );
+
+
+
+
+	////////////////////////////////////////////////////////////////////////////////
+	//          handle arToolkitSource
+	////////////////////////////////////////////////////////////////////////////////
+  var artoolkitProfile = new THREEx.ArToolkitProfile();
+
+	var arToolkitSource = new THREEx.ArToolkitSource({
+		// to read from the webcam
+		sourceType : 'webcam',
+
+	})
+
+	arToolkitSource.init(function onReady(){
+		onResize()
+	})
+
+	// handle resize
+	window.addEventListener('resize', function(){
+		onResize()
+	})
+	function onResize(){
+		arToolkitSource.onResize()
+		arToolkitSource.copySizeTo(renderer.domElement)
+		if( arToolkitContext.arController !== null ){
+			arToolkitSource.copySizeTo(arToolkitContext.arController.canvas)
+		}
+	}
+	////////////////////////////////////////////////////////////////////////////////
+	//          initialize arToolkitContext
+	////////////////////////////////////////////////////////////////////////////////
+
+  // set patternRatio
+  artoolkitProfile.contextParameters.patternRatio = 0.8
+  artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
+  artoolkitProfile.contextParameters.detectionMode = 'mono'
+
+  var arToolkitContext = new THREEx.ArToolkitContext(artoolkitProfile.contextParameters)
+	// initialize it
+	arToolkitContext.init(function onCompleted(){
+		// copy projection matrix to camera
+		camera.projectionMatrix.copy( arToolkitContext.getProjectionMatrix() );
+	})
+
+	// update artoolkit on every frame
+	onRenderFcts.push(function(){
+		if( arToolkitSource.ready === false )	return
+
+		arToolkitContext.update( arToolkitSource.domElement )
+
+		// update scene.visible if the marker is seen
+		scene.visible = camera.visible
+	})
+
+	////////////////////////////////////////////////////////////////////////////////
+	//          Create a ArMarkerControls
+	////////////////////////////////////////////////////////////////////////////////
+
+	// init controls for camera
+	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
+		type : 'pattern',
+		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/ideoAr.patt',
+		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
+		changeMatrixMode: 'cameraTransformMatrix',
+	})
+	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
+	scene.visible = false
+
+	//////////////////////////////////////////////////////////////////////////////////
+	//		render the whole thing on the page
+	//////////////////////////////////////////////////////////////////////////////////
+
+onRenderFcts.push(function(){
+	renderer.render( scene, camera );
+})
+
+	// run the rendering loop
+	var lastTimeMsec= null
+	requestAnimationFrame(function animate(nowMsec){
+		// keep looping
+		requestAnimationFrame( animate );
+		// measure time
+		lastTimeMsec	= lastTimeMsec || nowMsec-1000/60
+		var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec)
+		lastTimeMsec	= nowMsec
+		var time = Date.now() * 0.00005;
+		var h = ( 360 * ( 1.0 + time ) % 360 ) / 360;
+		//material.color.setHSL( h, 0.5, 0.5 );
+		// call each update function
+		onRenderFcts.forEach(function(onRenderFct){
+			onRenderFct(deltaMsec/1000, nowMsec/1000)
+		})
+	})
+</script></body>
