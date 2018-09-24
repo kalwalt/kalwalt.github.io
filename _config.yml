@@ -10,6 +10,8 @@ atom:
 #    - _newsletters
 #  defaultPostDir: _drafts
 name: Walter Perdan
+plugins:
+  - jekyll-seo-tag
 #theme: jekyll-theme-architect
 #theme: jekyll-theme-minima
 #markdown: kramdown
