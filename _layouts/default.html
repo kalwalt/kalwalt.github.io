@@ -3,8 +3,11 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
 			{% seo %}
+			<!-- CSS -->
+    <style>
+    {% include main.css %}
+    </style>
 		</head>
 		<body>
 			<nav>
