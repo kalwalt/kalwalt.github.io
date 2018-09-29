@@ -12,7 +12,7 @@ atom:
 name: Walter Perdan
 author: Walter Perdan
 lang: en_US
-description: Original website of Kalwalt alias Walter Perdan: In this website are stored all my augmented reality applications.
+description: Original website of Kalwalt alias Walter Perdan. In this website are stored all my augmented reality applications
 plugins:
   - jekyll-seo-tag
 twitter:
