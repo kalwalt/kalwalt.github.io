@@ -7,4 +7,4 @@ Disallow: .gitignore
 Disallow: Gemfile
 Disallow: Gemfile.lock
 
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://kalwalt.github.io/sitemap.xml
