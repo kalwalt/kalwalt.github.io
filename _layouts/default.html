@@ -8,6 +8,22 @@
     <style>
     {% include main.css %}
     </style>
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#237afc"
+    },
+    "button": {
+      "background": "#fff",
+      "text": "#237afc"
+    }
+  }
+})});
+</script>
 		</head>
 		<body>
 			<nav>
@@ -32,7 +48,5 @@
               <li><a href="https://www.walterperdan.com">www.walterperdan.com</a></li>
 				</ul>
 			</footer>
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      {% include cookie-consent.html %}
 		</body>
 	</html>
