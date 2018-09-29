@@ -12,6 +12,8 @@ atom:
 name: Walter Perdan
 plugins:
   - jekyll-seo-tag
+twitter:
+  username: kalwalt
 #theme: jekyll-theme-architect
 #theme: jekyll-theme-minima
 #markdown: kramdown
