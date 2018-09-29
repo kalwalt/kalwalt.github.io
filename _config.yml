@@ -10,6 +10,8 @@ atom:
 #    - _newsletters
 #  defaultPostDir: _drafts
 name: Walter Perdan
+author: Walter Perdan
+lang: en_US
 plugins:
   - jekyll-seo-tag
 twitter:
