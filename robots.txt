@@ -2,9 +2,11 @@
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
+
+Disallow: /_config.yml
 Disallow: /.git/
-Disallow: .gitignore
-Disallow: Gemfile
-Disallow: Gemfile.lock
+Disallow: /.gitignore
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
 
 Sitemap: https://kalwalt.github.io/sitemap.xml
