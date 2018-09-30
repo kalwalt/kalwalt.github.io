@@ -14,6 +14,7 @@ author: Walter Perdan
 google_site_verification: cC3276h9Hn4i0CmY109jtXIAAv8edaU7XJRkBLUOjLM
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 twitter:
   username: kalwalt
 #theme: jekyll-theme-architect
