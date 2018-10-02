@@ -3,12 +3,15 @@
 		<head>
 			<!--<title>{{ page.title }}</title>-->
 			<meta charset="utf-8" />
+			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %}
+      <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
 			{% seo %}
 			<!-- CSS -->
-    <style>
-    {% include main.css %}
-    </style>
-		<link async rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+      <style>
+     {% include main.css %}
+     </style>
+	  <link async rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 <script defer src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 <script defer>
 window.addEventListener("load", function(){
