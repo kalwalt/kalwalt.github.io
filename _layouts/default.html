@@ -4,7 +4,6 @@
 			<!--<title>{{ page.title }}</title>-->
 			<meta charset="utf-8" />
 			{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-      {% for page in pages %}
       <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
 			{% seo %}
 			<!-- CSS -->
