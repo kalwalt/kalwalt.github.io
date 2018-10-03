@@ -18,8 +18,8 @@ plugins_dir:
   - jekyll-sitemap
 twitter:
   username: kalwalt
-theme: jekyll-theme-architect
-#theme: jekyll-theme-minima
+#theme: jekyll-theme-architect
+#theme: jekyll-theme-minimal
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 github: [metadata]
