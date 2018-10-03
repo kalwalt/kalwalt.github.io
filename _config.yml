@@ -1,6 +1,6 @@
 atom:
   buildCommand:
-    - home/walter/gems/bin/jekyll
+    - /home/walter/gems/bin/jekyll
     - build
 #    - --option
 #    - --this
@@ -13,12 +13,20 @@ name: Walter Perdan
 author: Walter Perdan
 google_site_verification: cC3276h9Hn4i0CmY109jtXIAAv8edaU7XJRkBLUOjLM
 url: https://kalwalt.github.io/
-plugins:
+plugins_dir:
   - jekyll-seo-tag
   - jekyll-sitemap
 twitter:
   username: kalwalt
-#theme: jekyll-theme-architect
+theme: jekyll-theme-architect
 #theme: jekyll-theme-minima
-#markdown: kramdown
-#permalink: /blog/:year/:month/:day/:title
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+github: [metadata]
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
+future: true
+jailed: false
+gfm_quirks: paragraph_end
