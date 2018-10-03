@@ -8,13 +8,14 @@ lang: en_GB
 	<h1>Contacts</h1>
 	<p>In this page you can send me an email for any questions regarding my art, my applications and other info you require.</p>
   <p> </p>
-  <form action="https://formspree.io/info@kalwaltart.it"
-        method="POST">
-      <input type="text" name="name">
-      <input type="email" name="_replyto">
-      <input type="hidden" name="_subject" value="New submission!" />
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      <input type="submit" value="Send">
+  <form class="container" action="https://formspree.io/info@kalwaltart.it" method="POST">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <label for="_subject">Subject</label>
+    <textarea id="subject" name="_subject" placeholder="Write something.." style="height:200px"></textarea>
+    <button type="submit">Send</button>
   </form>
 </div><!-- /.blurb -->
