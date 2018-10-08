@@ -143,7 +143,6 @@ title: Glitch
 	texture.magFilter = THREE.LinearFilter;
 	texture.format = THREE.RGBFormat;
 
-	//var mat = new THREE.MeshPhongMaterial({color: 0xbbbbff, map: texture});
 	var mat = new THREE.MeshLambertMaterial({color: 0xbbbbff, map: texture});
   var planeGeom = new THREE.PlaneGeometry(1,1,2,2);
   var plane = new THREE.Mesh(planeGeom, mat);
