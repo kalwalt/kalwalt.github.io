@@ -34,7 +34,6 @@ analytics_id: ""
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 github: [metadata]
-encoding: UTF-8
 kramdown:
   input: GFM
   hard_wrap: false
