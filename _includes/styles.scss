@@ -565,3 +565,11 @@ pre {
 
 
 }
+
+amp-user-notification > div {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #102599;
+}
