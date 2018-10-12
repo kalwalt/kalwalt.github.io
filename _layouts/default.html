@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html ⚡ lang="en">
    {% include head.html %}
+	 <head>
+		 <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
+		 
+	 </head>
 		<body>
 			{% include header.html %}
+			<amp-user-notification id="my-notification"
+  layout="nodisplay">
+  <div>This is an amp-user-notification. It uses local storage to store the dismissed state.
+    <button on="tap:my-notification.dismiss"
+      class="ampstart-btn caps ml1">I accept</button>
+  </div>
+</amp-user-notification>
 
 			{{ content }}
 
