@@ -210,12 +210,23 @@ body {
   text-align: center;
   color: #999999;
   line-height: $rs * 1.1;
+  background-color: #efd829ff;
   a {
     color: #666666;
     text-decoration: none;
     &:hover {
       color: #333333;
     }
+  }
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f07928ff;
   }
 }
 
@@ -545,7 +556,7 @@ pre {
 .text-accordion-menu {
   font-size: 24px;
   background: #0011ff url(/assets/images/mobile_menu_black.png) no-repeat;
-  background-color: #1363eaff;
+  background-color: #1397eaff;
   background-position: right 4px top 2px;
   color: #333333;
   height: 36px;
