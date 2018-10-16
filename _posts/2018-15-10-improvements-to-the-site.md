@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Some Improvements to the site by Walter Perdan | Kalwalt"
+description: "Some news about my site and future development, migrating hosting and other stuff. Switch to AMP and new plans for the future of www.kalwaltart.it Walter perdan old website."
 date: 2018-10-15
 ---
 I'm planning to migrate my [www.kalwaltart.it](https://www.kalwaltart.it) site to this location. There are several reasons for this: Mainly because i have my new personal and official website [www.walterperdan.com](https://www.walterperdan.com), i don't want to have duplicate content and, most important, this is my website for interactive art. So I will transfer my hosting to github, maintaining my hostname **kalwaltart.it**. Actually my improvements to the site consist in "amplyfing" it. That's means adding **[AMP](https://www.ampproject.org/it/)** technology. I red that should be faster on mobile dispositives, and in fact it is. Many advantages using this tech, but maybe other bad aspects that i'm not sure. An expert html javascript developer probably would be capable to do better things and realize at the end a website with equal performances.
