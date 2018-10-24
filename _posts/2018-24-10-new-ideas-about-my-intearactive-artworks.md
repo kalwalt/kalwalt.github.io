@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interactive art| some new ideas about development of my interactive artworks by Walter Perdan"
-description: "In this article i try to express some new ideas for developing new artworks of interactive art. See more in the article."
+description: "In this article i try to express some new ideas for developing new artworks of interactive art. See more in the text."
 date: 2018-10-24
 ---
 ## Interactive art: future personal development.
