@@ -9,4 +9,7 @@ Disallow: /.gitignore
 Disallow: /Gemfile
 Disallow: /Gemfile.lock
 
+Allow: /assets/images/*.jpg
+Allow: /assets/images/*.png
+
 Sitemap: https://kalwalt.github.io/sitemap.xml
