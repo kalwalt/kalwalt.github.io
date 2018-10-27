@@ -7,9 +7,7 @@ seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
-  image:
-    type: ImageObject
-    url: "/assets/images/Art_Is_a_joke_interactive_slice.jpg"
+image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
 ---
 ## Interactive art: future personal development.
 [!["Art is a joke" interactive art with augmented reality by Walter Perdan](/assets/images/Art_Is_a_joke_interactive_slice.jpg)][26ccdd60]
