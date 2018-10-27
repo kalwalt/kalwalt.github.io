@@ -4,13 +4,16 @@ title: contact page of kalwalt website
 description: This is the page where you can find contacts information about kalwalt alias Walter Perdan.
 lang: en_GB
 ---
+<head>
+	<script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+</head>
 <main class="content" role="main">
 	<article>
 	<h1>Contacts</h1>
 	<p>In this page you can send me an email for any questions regarding my art, my applications and other info you require.</p>
   <p> </p>
 	<div class="container_form">
-  <form  action="https://formspree.io/info@kalwaltart.it" method="POST">
+  <form  action-xhr="https://formspree.io/info@kalwaltart.it" method="POST">
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
     <label for="lname">Last Name</label>
@@ -19,7 +22,7 @@ lang: en_GB
     <input type="email" id="email" name="_replyto" placeholder="Your email">
     <label for="_subject">Subject</label>
     <textarea id="subject" name="_subject" placeholder="Write something.." style="height:200px"></textarea>
-    <button type="submit">Send</button>
+    <input type="submit">Send</input>
   </form>
 </div>
 </article>
