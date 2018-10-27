@@ -3,6 +3,10 @@ layout: post
 title: "Interactive art| some new ideas about development of my interactive artworks by Walter Perdan"
 description: "In this article i try to express some new ideas for developing new artworks of interactive art. See more in the text."
 date: 2018-10-24
+seo:
+  type: BlogPosting
+  author: Walter Perdan
+  datePublished: date
 ---
 ## Interactive art: future personal development.
 [!["Art is a joke" interactive art with augmented reality by Walter Perdan](/assets/images/Art_Is_a_joke_interactive_slice.jpg)][26ccdd60]
