@@ -26,6 +26,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-minifier
 twitter:
   username: kalwalt
 github_username: kalwalt
