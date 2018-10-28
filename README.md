@@ -1,42 +1,23 @@
 ---
 layout: default
-title: readme, sample
+title: Readme page of Kalwalt website
+description: Simple Readme.md page with website structure to offer a simple description of the portal.
 ---
 
-## Welcome to GitHub Pages
+## Welcome to my website
+Simple page with website structure.
 
-You can use the [editor on GitHub](https://github.com/kalwalt/walterperdan.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Website structure
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[Home](https://kalwalt.github.io/)
+[Artworks](https://kalwalt.github.io/artworks/)
+[Interactivity](https://kalwalt.github.io/interactivity/)
+[CV](https://kalwalt.github.io/cv/)
+[Blog](https://kalwalt.github.io/blog/)
+[About](https://kalwalt.github.io/about/)
+[Contact me](https://kalwalt.github.io/contacts/)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kalwalt/walterperdan.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you need support or if you want to ask something, go to my [contact](https://kalwalt.github.io/contacts) page
