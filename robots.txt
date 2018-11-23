@@ -11,5 +11,6 @@ Disallow: /Gemfile.lock
 
 Allow: /assets/images/*.jpg
 Allow: /assets/images/*.png
+Allow: /interactivity/resources/data/*.patt
 
 Sitemap: https://kalwalt.github.io/sitemap.xml
