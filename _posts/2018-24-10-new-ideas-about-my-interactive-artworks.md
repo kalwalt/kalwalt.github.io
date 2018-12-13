@@ -10,9 +10,7 @@ seo:
 image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
 ---
 ## Interactive art: future personal development.
-[!["Art is a joke" interactive art with augmented reality by Walter Perdan](/assets/images/Art_Is_a_joke_interactive_slice.jpg)][26ccdd60]
-
-  [26ccdd60]: https://www.walterperdan.com/en/artworks/painting/artisajoke-abstract-painting "Art is a joke an abstract interactive painting!!"
+<a href="https://www.walterperdan.com/en/artworks/painting/artisajoke-abstract-painting"><amp-img src="/assets/images/Art_Is_a_joke_interactive_slice.jpg" alt="'Art is a joke' interactive art with augmented reality by Walter Perdan"  width="720px" height="180px" layout="responsive"></amp-img></a>
 
 _"Art is a joke" abstract painting with augmented reality - a slice of the artwork._
 
