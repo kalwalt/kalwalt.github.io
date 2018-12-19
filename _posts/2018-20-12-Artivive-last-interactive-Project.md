@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Artivie | my last interactive project"
+title: "Artivive | my last interactive project"
 description: "In this article i explain my last project with Artivive technology. project initially developed for Kaleida studio open call."
 date: 2018-12-20
 lang: en_GB
