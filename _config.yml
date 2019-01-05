@@ -20,7 +20,7 @@ logo: "/assets/images/logo_kalwalt_600x60.png"
 paginate:	5 # The number of posts to show per page on your homepage
 paginate_path: "/blog/page:num/"
 google_site_verification: cC3276h9Hn4i0CmY109jtXIAAv8edaU7XJRkBLUOjLM
-url: https://kalwalt.github.io
+url: https://www.kalwaltart.it
 baseurl: ""
 plugins:
   - jekyll-seo-tag
