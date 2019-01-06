@@ -1,0 +1,20 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "email",
+    "tumblr",
+    "twitter"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "More to read"
+    },
+    {
+      "type": "small",
+      "title": "Visit my website for more infos",
+      "url": "https://www.walterperdan.com",
+      "image": "/assets/images/thumb/Art_Is_a_joke_interactive_augmented_reality_walter_perdan_kalwalt.jpg"
+    }
+  ]
+}
