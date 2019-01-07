@@ -15,6 +15,12 @@
       "title": "Visit my website for more infos",
       "url": "https://www.walterperdan.com",
       "image": "/assets/images/thumb/Art_Is_a_joke_interactive_augmented_reality_walter_perdan_kalwalt.jpg"
+    },
+    {
+      "type": "small",
+      "title": "See my presentation on youtube.com",
+      "url": "https://youtu.be/Dxb5kjdlWa4",
+      "image": "/assets/images/my-presentation-walter-perdan-artist.jpg"
     }
   ]
 }
