@@ -8,10 +8,11 @@ cover:
    subtitle: <h3>Some info about me...</h3>
 pages:
  - page-number: 1
-   layout: vertical
+   layout: fill
    top: <h1>Hi to all</h1>
    bottom: My presentation
-   youtube: ed6ZX_WJHW8
+   video: /assets/videos/my_presentation.mp4
+   background: "/assets/images/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg"
  - page-number: 2
    layout: thirds
    top: Official website

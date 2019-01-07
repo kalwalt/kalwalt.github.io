@@ -172,12 +172,11 @@
 
 {% if page.youtube %}
   <amp-story-grid-layer template="fill">
-          <amp-youtube autoplay loop
+          <amp-youtube autoplay
                 width="720" height="1280"
-                poster="{{page.background}}"
                 data-videoid="{{page.youtube}}" 
                 layout="responsive" 
-                type="video/mp4"></amp-youtube>
+                ></amp-youtube>
   </amp-story-grid-layer>
 {% endif %}
 
