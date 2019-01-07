@@ -4,7 +4,7 @@ title: Walter Perdan artist | My presentation
 description: "A simple AMP story to present me: I am Walter Perdan an italian visual artist who make art in different forms of expression."
 date: January 6th 2018
 seo:
-  type: BlogPosting
+  type: NewsArticle
   author: Walter Perdan
   datePublished: date
 cover:
