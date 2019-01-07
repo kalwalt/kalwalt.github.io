@@ -1,16 +1,16 @@
 ---
 layout: ampstory
-title: My presentation
+title: Walter Perdan artist | My presentation
 description: "A simple AMP story to present me: I am Walter Perdan an italian visual artist who make art in different forms of expression."
 date: January 6th 2018
 cover:
-   title: My presentation
-   subtitle: <h3>Some info about me...</h3>
+   title: <h1>My presentation</h1>
+   subtitle: <h3 animate-in="fly-in-left">Some info about me...</h3>
 pages:
  - page-number: 1
-   layout: fill
-   top: <h1>Hi to all</h1>
-   bottom: My presentation
+   layout: vertical
+   top: <h1>Hi to all 😃❗❗</h1>
+   bottom: <h3 animate-in="fly-in-right">My presentation</h3>
    video: /assets/videos/my_presentation.mp4
    background: "/assets/images/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg"
  - page-number: 2

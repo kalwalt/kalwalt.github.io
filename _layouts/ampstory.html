@@ -184,9 +184,11 @@
 
   <amp-story-grid-layer template="vertical" {% if page.textcolor %}style="color:{{page.textcolor}}"{%endif%}>
     <div class="content">{{page.top}}</div>
+    {% if page.image %}
     <amp-img class="verticalimg" src="{{page.image}}"
         layout="responsive" height="400px" width="400px">
     </amp-img>
+    {% endif %}
     <div class="content">{{page.bottom}}</div>
   </amp-story-grid-layer>
 
