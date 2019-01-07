@@ -22,14 +22,14 @@ pages:
       text: www.walterperdan.com
  - page-number: 3
    layout: thirds
-   top: <h2> My Instagram profile</h2>
+   top: <h2 class="fab fa-instagram"> My Instagram profile</h2>
    background: "/assets/images/Eterno_dilemma_abstract_painting_kalwalt.jpg"
    cta:
       link: https://www.instagram.com/walterperdan
       text: walterperdan
  - page-number: 4
    layout: thirds
-   top: <h2>My twitter profile</h2>
+   top: <h2 class="fab fa-twitter-square"> My twitter profile</h2>
    background: "/assets/images/Respiro_cosmico_abstract_sculpture_kalwalt.jpg"
    cta:
       link: https://www.twitter.com/kalwalt
