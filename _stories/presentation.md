@@ -7,6 +7,7 @@ seo:
   type: NewsArticle
   author: Walter Perdan
   datePublished: date
+image: /assets/images/Eterno_dilemma_abstract_painting_kalwalt.jpg
 cover:
    title: <h1>My presentation</h1>
    subtitle: <h3 animate-in="fly-in-left">Some info about me...</h3>
