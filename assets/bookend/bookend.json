@@ -3,7 +3,14 @@
   "shareProviders": [
     "email",
     "tumblr",
-    "twitter"
+    {
+     "provider": "twitter",
+     "text": "Walter Perdan is an italian visual artist check out his presentation #artist #sculpture #painting #abstractartist #augmentedreality #coding"
+   },
+    {
+     "provider": "facebook",
+     "app_id": "2080531858727836"
+   }
   ],
   "components": [
     {
