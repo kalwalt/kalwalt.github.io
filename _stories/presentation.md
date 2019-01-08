@@ -4,7 +4,7 @@ title: Walter Perdan artist | My presentation
 description: "A simple AMP story to present me: I am Walter Perdan an italian visual artist who make art in different forms of expression."
 date: January 6th 2018
 image:
-  path: /assets/images/Eterno_dilemma_abstract_painting_kalwalt.jpg
+  path: assets/images/stories/Eterno_dilemma_abstract_art_walter_perdan_kalwalt_story.jpg
   height: 600
   width: 600
 seo:
