@@ -154,7 +154,7 @@
 
 {% if page.background %}
   <amp-story-grid-layer template="fill">
-    <amp-img src="{{page.background}}"
+    <amp-img srcset="{{page.background}} 720w, {{page.background_m}} 346w" src="{{page.background}}"
         width="720" height="1280"
         layout="responsive" {% if page.backgroundblur %}class="blurimage"{% endif %}>
     </amp-img>
