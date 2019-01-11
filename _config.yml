@@ -9,6 +9,12 @@ atom:
 #  postDirs:
 #    - _newsletters
 #  defaultPostDir: _drafts
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
+
 encoding: utf-8
 title: Interactive art by Kalwalt
 email: info@kalwaltart.it
@@ -43,4 +49,4 @@ jailed: false
 gfm_quirks: paragraph_end
 collections:
   stories:
-    output: true 
+    output: true

@@ -3,10 +3,14 @@ layout: default
 title: Interactive art | augmented reality art by Walter Perdan
 description: Interactive art with augmented reality. A series of applications for artwork wih augmented reality.
 lang: en_GB
+carousel: true
 ---
 <main class="content" role="main">
 	<h1>Interactivity</h1>
 	<h2>Interactive works with augmented reality</h2>
+	{% if page.carousel %}
+	  {% include carousel.html %}
+	{% endif %}
 	<article>
 	<p>My interactive art - works are listed here. Most of theme are paintings with
 		augmented reality, go to my <a href="../artworks" title="visit this page!">artworks</a> page to discover more.</p>

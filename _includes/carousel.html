@@ -1,0 +1,17 @@
+<div>
+ <amp-carousel class="carousel2"
+  width="720"
+  height="420"
+  layout="responsive"
+  type="slides"
+  controls>
+    {% for slide in site.data.interactivity %}
+    <div class="slide">
+      <amp-img   width="720"
+        height="376" layout="responsive"
+        src="/assets/images/slide/{{slide.name}}.jpg"></amp-img>
+      <div class="caption">{{ slide.caption }}</div>
+    </div>
+    {% endfor %}
+ </amp-carousel>
+</div>
