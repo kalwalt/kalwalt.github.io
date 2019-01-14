@@ -1,8 +1,14 @@
 ---
 layout: post
 title: Netlify CDN | Changing service for the website
+description: "In this post i explain why i switched to Netlify for my website www.kalwaltart.it, for his CDN and other services. Article by Kalwalt alias Walter Perdan."
 author: walter_perdan
 date: '2019-01-14 18:01:58'
+seo:
+  type: BlogPosting
+  author: Walter Perdan
+  datePublished: date
+image: /assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg
 intro_paragraph: ''
 ---
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/noise-abstract-art"><amp-img src="/assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg" alt="'Noise (Mon cher Mondrian)'' interactive acrylic painting made with Ar.js by Walter Perdan."  width="600px" height="424px" layout="responsive"></amp-img></a>
