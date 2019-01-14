@@ -54,7 +54,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-minifier
 # set some common post defaults
 defaults:
   -
