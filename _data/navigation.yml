@@ -1,0 +1,16 @@
+# specify main menu items here
+
+- text: Home
+  url: /
+- text: Artworks
+  url: /artworks
+- text: Interactivity
+  url: /interactivity
+- text: CV
+  url: /cv
+- text: Blog
+  url: /blog
+- text: About
+  url: /about
+- text: Contact me
+  url: /contacts

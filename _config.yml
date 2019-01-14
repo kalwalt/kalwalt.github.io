@@ -28,11 +28,43 @@ paginate_path: "/blog/page:num/"
 google_site_verification: cC3276h9Hn4i0CmY109jtXIAAv8edaU7XJRkBLUOjLM
 url: https://www.kalwaltart.it
 baseurl: ""
+# Permalink format (/blog/ is ignored for pages)
+permalink: /blog/:title
+
+# Enable section IDs in frontmatter, useful for identifying current page
+# (used as a hook for styling etc)
+section: true
+
+# set to 'true' to enable Netlify CMS (/admin) in production builds
+netlifycms: true
+
+# set to 'true' to enable Google Analytics tracking code in production builds
+analytics: false
+
+# Compress CSS
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Compress HTML (in liquid via layouts/compress.html)
+compress_html:
+  clippings: all
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-minifier
+# set some common post defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post" # set the correct default template for a post
+      section: "post" # set the root section name
+
 twitter:
   username: kalwalt
 github_username: kalwalt
@@ -44,9 +76,25 @@ github: [metadata]
 kramdown:
   input: GFM
   hard_wrap: false
+  # Prevent IDs from being added to h1-h6 tags
+  auto_ids: false
 future: true
 jailed: false
 gfm_quirks: paragraph_end
 collections:
   stories:
     output: true
+# Exclude from processing.
+# The following items will not be processed.
+exclude:
+  - README.md
+  - LICENSE.txt
+  - netlify.toml
+  - feed.xml
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
