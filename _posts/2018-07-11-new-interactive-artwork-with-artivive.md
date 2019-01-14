@@ -8,10 +8,10 @@ seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
-image: /assets/images/suono_di superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg
+image: /assets/images/uploads/suono_di superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg
 ---
 ## Suono di superficie my new interactive artwork with Artivive.
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/sound-surface-artivive"><amp-img src="/assets/images/suono_di superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg" alt="'Suono di superficie' interactive acrylic painting made with Artivive by Walter Perdan"  width="720px" height="506px" layout="responsive"></amp-img></a>
+<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/sound-surface-artivive"><amp-img src="/assets/images/uploads/suono_di superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg" alt="'Suono di superficie' interactive acrylic painting made with Artivive by Walter Perdan"  width="720px" height="506px" layout="responsive"></amp-img></a>
 _"Suono di superficie" acrylic color on canvas, 70 x 50 cm, 2018_
 ### What is Artivive technology?
 This is a new technology for developing augmented reality applications. It is very simple,

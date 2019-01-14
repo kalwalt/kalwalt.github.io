@@ -2,22 +2,17 @@
 layout: page
 title: Abstract art | Artworks about Kalwalt alias Walter Perdan visual artist.
 permalink: /artworks/
-section: Artworks
-description: 'Some Kalwalt's alias Walter Perdan Artworks. His works is mainly focused on abstract art.
- For an exaustive list of artworks go to the attached link.'
+section: artworks
+description: "Some Kalwalt's alias Walter Perdan Artworks. His works is mainly focused on abstract art. For an exaustive list of artworks go to the attached link."
 lang: en_GB
 intro_paragraph: '## Introduction
 
-  In this page briefly i will introduce you to my artistic research and i
-	will explain some fields in which i like to express with. It does not want to be an exhaustive explanation but rather a quick review of my main fields of expression.
+  In this page briefly i will introduce you to my artistic research and i will explain some fields in which i like to express with. It does not want to be an exhaustive explanation but rather a quick review of my main fields of expression.
   For a deeper understanding of my artworks and a better fruition of them, i suggest a visit to my official artistic website.'
-
-
-
 ---
 ## Painting
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" ><amp-img
-  src="/assets/images/Eterno_dilemma_abstract_painting_kalwalt.jpg"
+  src="/assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.jpg"
    alt="L'Eterno dilemma - abstract painting by Kalwalt" width="600px" height="600px" layout="responsive"></a>
 
 I like the abstract art and the surreal art, my paintings reflect this my enjoyment.
@@ -28,7 +23,7 @@ Got to [my website for more...](https://www.walterperdan.com/en/artworks/paintin
 ## Sculpture
 
 <a href="https://www.walterperdan.com/en/artworks/sculpture/marble/respiro-cosmico-abstract-sculpture" ><amp-img
-  src="/assets/images/Respiro_cosmico_abstract_sculpture_kalwalt.jpg"
+  src="/assets/images/uploads/Respiro_cosmico_abstract_sculpture_kalwalt.jpg"
    alt="Respiro cosmico abstract sculpture by Kalwalt" width="600px" height="399px" layout="responsive"></a>
 
 I create abstract sculptures with different materials: Marble, stone, wood, bronze, acrylic and epoxy resyns.
@@ -39,7 +34,7 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
 ## Interactive artworks
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" ><amp-img
-  src="/assets/images/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg"
+  src="/assets/images/uploads/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg"
    alt="Art is a joke - abstract painting with augmented reality by Kalwalt" width="600px" height="430px" layout="responsive"></a>
 
 The majority of interactive artworks consist of acrylic paintings with markers for augmented reality.

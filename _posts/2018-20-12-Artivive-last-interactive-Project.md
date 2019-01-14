@@ -8,7 +8,7 @@ seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
-image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
+image: /assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg
 ---
 
 ## What is happened? News about my interactive projects.

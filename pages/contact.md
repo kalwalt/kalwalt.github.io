@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Contact
-permalink: /contact
+permalink: /contacts/
 section: contact
 description: This is the page where you can find contacts information about kalwalt alias Walter Perdan.
 lang: en_GB
