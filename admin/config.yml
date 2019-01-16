@@ -20,6 +20,31 @@ collections: # A list of collections the CMS should be able to edit
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Description", name: "description", widget: "text"}
+      - label: "Author"
+        name: "author"
+        widget: "select"
+        options:
+          - { label: "Walter Perdan", value: "Walter Perdan" }
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS"}
+      - {label: "Language", name: "lang", widget: "text", default: "en_GB"}
+      - label: "Seo"
+        name: "seo"
+        widget: "object"
+        fields:
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            options:
+              - { label: "BlogPosting", value: "BlogPosting"}
+              - { label: "NewsArticle", value: "NewsArticle"}
+          - label: "Author"
+            name: "author"
+            widget: "select"
+            options:
+              - { label: "Walter Perdan", value: "Walter Perdan" }
+          - {label: "Date_Published", name: "datePublished", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Image", name: "image", widget: "file"}
       - label: "Author"
         name: "author"
         widget: "select"
