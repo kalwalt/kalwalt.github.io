@@ -40,7 +40,7 @@ $rs: 16px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0d.woff) format('woff');
+    src: local('Open Sans')url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0d.woff) format('woff');
 }
 
 @mixin respond-to($breakpoint) {
