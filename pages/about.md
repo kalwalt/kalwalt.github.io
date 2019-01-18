@@ -4,7 +4,7 @@ title: Biography about Kalwalt alias Walter Perdan visual artist.
 permalink: /about/
 section: about
 description: 'Some information about Kalwalt alias Walter Perdan visual artist. See the attached link for more.'
-lang: en_GB
+lang: en
 intro_paragraph: >-
   I'm a visual artist, my media fields are: sculpture, painting, drawing, 3d, coding and interactivity
 

@@ -4,7 +4,7 @@ title: Cv by Walter Perdan, visual artist.
 permalink: /cv/
 section: cv
 description:  A short introduction on Walter Perdan formation and activities. For more go to the official page.
-lang: en_GB
+lang: en
 intro_paragraph: >-
   I'm a visual artist, my media fields are: sculpture, painting, drawing, 3d, coding and interactivity
 
