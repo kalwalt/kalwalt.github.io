@@ -208,14 +208,14 @@ body {
   max-width: 700px;
   font-size: $rs / 4 * 3;
   text-align: center;
-  color: #999999;
+  color: #363636;
   line-height: $rs * 1.1;
   background-color: #efd829ff;
   a {
-    color: #666666;
+    color: #363636;
     text-decoration: none;
     &:hover {
-      color: #333333;
+      color: #1397ea;
     }
   }
   hr {
@@ -582,7 +582,7 @@ amp-user-notification > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #102599;
+  background-color: #1397ea;
 }
 
 .social-tab{
