@@ -1,0 +1,22 @@
+{
+  "name": "kalwaltart.it",
+  "short_name": "kalwaltart",
+  "description": "official kalwalt app",
+  "lang": "en",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1397ea",
+  "icons": [
+    {
+      "src": "../images/logo_kalwalt.png",
+      "sizes": "300x300",
+      "type": "image/png"
+    },
+    {
+      "src": "../images/logo_kalwalt_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff"
+}
