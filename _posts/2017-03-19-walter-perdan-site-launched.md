@@ -3,6 +3,7 @@ layout: post
 title: "Walter Perdan, Visual artist, Launches Site"
 description: "First blog post in the kalwalt.github.io website, just to say hello to the world..."
 date: 2017-03-19
+lang: en
 seo:
   type: BlogPosting
   author: Walter Perdan

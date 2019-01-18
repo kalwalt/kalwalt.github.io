@@ -4,6 +4,7 @@ title: Netlify CDN | Changing service for the website
 description: "In this post i explain why i switched to Netlify for my website www.kalwaltart.it, for his CDN and other services. Article by Kalwalt alias Walter Perdan."
 author: walter_perdan
 date: '2019-01-14 18:01:58'
+lang: en
 seo:
   type: BlogPosting
   author: Walter Perdan
