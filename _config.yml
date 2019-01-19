@@ -50,11 +50,23 @@ sass:
 compress_html:
   clippings: all
 
+# options for responsive_image plugin
+responsive_image:
+  template: _includes/responsive-image.html
+  sizes:
+   - width: 1200
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-pwa-plugin
+  - jekyll-responsive-image
+
 # set some common post defaults
 defaults:
   -

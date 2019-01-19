@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interactive art| some new ideas about development of my interactive artworks by Walter Perdan"
+title: "Interactive art, some new ideas about development of my interactive artworks by Walter Perdan"
 description: "In this article i try to express some new ideas for developing new artworks of interactive art. Read more in the written text."
 date: 2018-10-24
 lang: en
@@ -11,9 +11,28 @@ seo:
 image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
 ---
 ## Interactive art: future personal development.
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting"><amp-img src="/assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg" alt="'Art is a joke' interactive art with augmented reality by Walter Perdan"  width="720px" height="180px" layout="responsive"></amp-img></a>
+
+{% assign path = 'assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg' %}
+{% assign alt = 'Art is a joke interactive art with augmented reality by Walter Perdan' %}
+{% assign title = 'Art is a joke' %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  sizes:
+   - width: 1200
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
 
 _"Art is a joke" abstract painting with augmented reality - a slice of the artwork._
+
+<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/artisajoke-abstract-painting">Art is a joke</a>
 
 ### Intoduction to the question...
 
