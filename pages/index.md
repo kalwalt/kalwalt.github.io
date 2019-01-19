@@ -19,6 +19,8 @@ intro_paragraph: ''
   path: {{ path }}
   alt: {{ alt }}
   sizes:
+   - width: 1200
+   - width: 720
    - width: 600
    - width: 480
    - width: 320
