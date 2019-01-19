@@ -13,9 +13,7 @@ intro_paragraph: '## Introduction
 ## Painting
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" ><amp-img
   src="/assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.jpg"
-   alt="L'Eterno dilemma - abstract painting by Kalwalt" width="600px" height="600px"
-   "
-    layout="responsive"></a>
+   alt="L'Eterno dilemma - abstract painting by Kalwalt" width="600px" height="600px" layout="responsive"></a>
 
 I like the abstract art and the surreal art, my paintings reflect this my enjoyment.
 I usually paint with acrylic colors, watercolors and other techniques. I create forms that represent state of mind rather imitate Nature. In my paintings, i try to find a balance between expression and abstraction, innovation and tradition.
