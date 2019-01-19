@@ -11,9 +11,26 @@ intro_paragraph: '## Introduction
   For a deeper understanding of my artworks and a better fruition of them, i suggest a visit to my official artistic website.'
 ---
 ## Painting
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" ><amp-img
-  src="/assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.jpg"
-   alt="L'Eterno dilemma - abstract painting by Kalwalt" width="600px" height="600px" layout="responsive"></a>
+
+{% assign path = 'assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.jpg' %}
+{% assign alt = 'L Eterno dilemma - abstract painting by Kalwalt' %}
+{% assign title = 'L Eterno dilemma' %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  sizes:
+   - width: 1200
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
+
+<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" >L'Eterno dilemma</a>
 
 I like the abstract art and the surreal art, my paintings reflect this my enjoyment.
 I usually paint with acrylic colors, watercolors and other techniques. I create forms that represent state of mind rather imitate Nature. In my paintings, i try to find a balance between expression and abstraction, innovation and tradition.
@@ -22,10 +39,25 @@ Got to [my website for more...](https://www.walterperdan.com/en/artworks/paintin
 
 ## Sculpture
 
-<a href="https://www.walterperdan.com/en/artworks/sculpture/marble/respiro-cosmico-abstract-sculpture" ><amp-img
-  src="/assets/images/uploads/Respiro_cosmico_abstract_sculpture_kalwalt.jpg"
-   alt="Respiro cosmico abstract sculpture by Kalwalt" width="600px" height="399px"
-    layout="responsive"></a>
+{% assign path = 'assets/images/uploads/Respiro_cosmico_abstract_sculpture_kalwalt.jpg' %}
+{% assign alt = "Respiro cosmico abstract sculpture by Kalwalt" %}
+{% assign title = "Respiro cosmico" %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  sizes:
+   - width: 1200
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
+
+<a href="https://www.walterperdan.com/en/artworks/sculpture/marble/respiro-cosmico-abstract-sculpture" >Respiro cosmico</a>
 
 I create abstract sculptures with different materials: Marble, stone, wood, bronze, acrylic and epoxy resyns.
 I like to feel the material under my fingers and express my emotions of Form and of Nature. A part of my research wants to represent the concepts of time and space and the change of our being in a "liquid" society: The reflection of our way of living and thinking in the contemporary world.
@@ -34,9 +66,25 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
 
 ## Interactive artworks
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" ><amp-img
-  src="/assets/images/uploads/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg"
-   alt="Art is a joke - abstract painting with augmented reality by Kalwalt" width="600px" height="430px" layout="responsive"></a>
+{% assign path = 'assets/images/uploads/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg' %}
+{% assign alt = "Art is a joke - abstract painting with augmented reality by Kalwalt" %}
+{% assign title = "Respiro cosmico" %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  sizes:
+   - width: 1200
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
+
+<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" >Art is a joke</a>
 
 The majority of interactive artworks consist of acrylic paintings with markers for augmented reality.
 My research consists in finding an agreement between the abstract forms of the markers and

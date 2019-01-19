@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Netlify CDN | Changing service for the website
+title: 'Netlify CDN Changing service for the website'
 description: "In this post i explain why i switched to Netlify for my website www.kalwaltart.it, for his CDN and other services. Article by Kalwalt alias Walter Perdan."
 author: walter_perdan
 date: '2019-01-14 18:01:58'
@@ -12,7 +12,25 @@ seo:
 image: /assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg
 intro_paragraph: ''
 ---
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/noise-abstract-art"><amp-img src="/assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg" alt="'Noise (Mon cher Mondrian)'' interactive acrylic painting made with Ar.js by Walter Perdan."  width="600px" height="424px" layout="responsive"></amp-img></a>
+{% assign path = 'assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg' %}
+{% assign alt = 'Noise (Mon cher Mondrian) interactive acrylic painting made with Ar.js by Walter Perdan.' %}
+{% assign title = 'Noise (Mon cher Mondrian)' %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  sizes:
+   - width: 1200
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
+
+<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/noise-abstract-art">Noise (Mon cher Mondrian)</a>
 
 I decided to change hosting for my website [www.kalwaltart.it](https://www.kalwaltart.it) . I found that [Netlify](https://www.netlify.com) has a lot of interesting features. Visually will not change a lot but for sure my website will gain in speed and performance. These are the features that make very appealing Netlify:
 
