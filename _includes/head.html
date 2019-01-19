@@ -33,13 +33,13 @@
   <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
   <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
   <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+  {% if page.contact %}
+   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+  {% endif %}
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Arvo:400,700' rel='stylesheet' type='text/css'>
   {% if page.carousel %}
     {% include inject_carousel.html %}
-  {% endif %}
-  {% if page.contact %}
-   <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
   {% endif %}
   <style amp-custom>
   {% capture include_to_scssify %}
