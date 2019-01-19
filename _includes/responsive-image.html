@@ -1,3 +1,4 @@
+{% assign largest = resized | sort: 'width' | last %}
 {% capture srcset %}
 {% for i in resized %}
     /{{ i.path }} {{ i.width }}w,
@@ -6,4 +7,4 @@
 
 {% assign smallest = resized | sort: 'width' | first %}
 
-<amp-img width="600px" height="424px" src="/{{ smallest.path }}" alt="{{ alt }}" data-srcset="{{ srcset | strip_newlines }}"></amp-img>
+<amp-img width="{{ original.width }}px" height="{{ original.height }}px" src="/{{ original.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" layout="responsive" ></amp-img>

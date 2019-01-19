@@ -11,9 +11,6 @@ intro_paragraph: ''
 
 ## Painting, sculpture, drawing, interactive art and more...
 
-<!-- <amp-img src="/assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.jpg" alt="Glitch - Interactive art -
-Abstract painting with augmented reality by Walter Perdan"  width="600px" height="424px" layout="responsive"></amp-img> -->
-
 {% assign path = 'assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.jpg' %}
 {% assign alt = 'Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan' %}
 {% assign title = 'Art is a joke' %}
@@ -24,6 +21,7 @@ Abstract painting with augmented reality by Walter Perdan"  width="600px" height
   sizes:
    - width: 600
    - width: 480
+   - width: 320
   {% if title %}
   title: {{ title }}
   {% endif %}
@@ -40,4 +38,3 @@ In this website you can find all my applications used for my interactive artwork
 I became to be really interested in interactive art when i graduated from the my first degree in painting at Academy of Fine Arts in Bologna. To be honest i was interested in computer science and informathics as i was a teenager, but during my first studies at Academy in fine arts i was interested to perceive the theme of ascension in the contemporary art. I explain this aspect in my official web page. As i said as i took my first degree i feel that i needed to find new possibilities and try new approach to art making. I started developing virtual worlds with game engines like OGRE but after i discovered augmented reality with ARToolkit and Openframeworks. This wasn't an easy path because they are based on C++ language. Even if Openframeworks has a lot of facilities it's not easy as Javascript and Html i think. So i discovered AR.js open source project and was my best decision. Developing with AR.js has a lot of advantages in terms of usability and cross code compatibilty. No worries about that kind of issue, simply your code will work on every operative system simply uploading an Html and some javascript files.
 
 If you are interested, you will find more explanations in the artworks page. I wish you a good continuation of my site, and thanks for your attention!
-
