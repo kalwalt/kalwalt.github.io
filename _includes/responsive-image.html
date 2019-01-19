@@ -1,0 +1,9 @@
+{% capture srcset %}
+{% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
+
+{% assign smallest = resized | sort: 'width' | first %}
+
+<amp-img width="600px" height="424px" src="/{{ smallest.path }}" alt="{{ alt }}" data-srcset="{{ srcset | strip_newlines }}"></amp-img>
