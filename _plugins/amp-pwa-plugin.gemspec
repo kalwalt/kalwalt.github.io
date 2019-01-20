@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'info@kalwaltart.it'
   s.files       = Dir["lib/*.rb"] + Dir["lib/vendor/**/*"]
   s.homepage    =
-    ''
+    'https://www.kalwaltart.it'
   s.license       = 'MIT'
 end
