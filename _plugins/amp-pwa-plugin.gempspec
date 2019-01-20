@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'AMP-pwa-plugin'
+  s.name        = 'amp-pwa-plugin'
   s.version     = '2.1.1'
   s.date        = '2018-09-03'
   s.summary     = "PWA support for Jekyll."
@@ -8,6 +8,6 @@ Gem::Specification.new do |s|
   s.email       = 'info@kalwaltart.it'
   s.files       = Dir["lib/*.rb"] + Dir["lib/vendor/**/*"]
   s.homepage    =
-    'https://github.com/lavas-project/jekyll-pwa'
+    ''
   s.license       = 'MIT'
 end
