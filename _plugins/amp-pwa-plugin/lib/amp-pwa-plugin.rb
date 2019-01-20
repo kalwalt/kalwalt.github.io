@@ -133,7 +133,7 @@ class SWHelper
         page.output = page.output.sub('</body>',
         <<-SCRIPT
           <amp-install-serviceworker
-            src="/sw.js"
+            src="/service-worker.js"
             layout="nodisplay"
             data-iframe-src="/install-service-worker.html">
           </amp-install-serviceworker>
