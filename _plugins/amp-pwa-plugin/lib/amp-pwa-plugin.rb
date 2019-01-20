@@ -132,12 +132,11 @@ class SWHelper
     def self.insert_sw_register_into_body(page)
         page.output = page.output.sub('</body>',
         <<-SCRIPT
-             <amp-install-serviceworker
-               src="/sw.js"
-               layout="nodisplay"
-               data-iframe-src="/install-service-worker.html">
-             </amp-install-serviceworker>
-            </body>
+          <amp-install-serviceworker
+            src="/sw.js"
+            layout="nodisplay"
+            data-iframe-src="/install-service-worker.html">
+          </amp-install-serviceworker>
         SCRIPT
         )
     end
