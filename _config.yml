@@ -54,7 +54,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-pwa-plugin
+  - AMP-pwa-plugin
 # set some common post defaults
 defaults:
   -
