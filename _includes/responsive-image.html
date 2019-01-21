@@ -1,0 +1,8 @@
+{% capture srcset %}
+{% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
+
+
+<amp-img width="{{ original.width }}px" height="{{ original.height }}px" src="/{{ original.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }}" layout="responsive" ></amp-img>

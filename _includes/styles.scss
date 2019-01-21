@@ -58,7 +58,7 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 main {
   display: block;
 }
-
+html{overflow-x: hidden;}
 body {
   background-color: #fff;
   font-family: $font-sans;

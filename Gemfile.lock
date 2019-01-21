@@ -31,6 +31,9 @@ GEM
     jekyll-compose (0.9.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
+    jekyll-responsive-image (1.5.2)
+      jekyll (>= 2.0, < 4.0)
+      rmagick (>= 2.0, < 3.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
@@ -52,6 +55,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rmagick (2.16.0)
     rouge (3.3.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
@@ -65,9 +69,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+
   jekyll-amp-pwa-plugin
   jekyll-compose
   jekyll-paginate
+  jekyll-pwa-plugin
+  jekyll-responsive-image
   jekyll-seo-tag
   jekyll-sitemap
 

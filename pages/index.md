@@ -11,8 +11,23 @@ intro_paragraph: ''
 
 ## Painting, sculpture, drawing, interactive art and more...
 
-<amp-img src="/assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.jpg" alt="Glitch - Interactive art -
-Abstract painting with augmented reality by Walter Perdan"  width="600px" height="424px" layout="responsive"></amp-img>
+{% assign path = 'assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.jpg' %}
+{% assign alt = 'Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan' %}
+{% assign title = 'Art is a joke' %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  sizes:
+   - width: 1200
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
 
 I am Kalwalt alias Walter Perdan, i am an italian visual artist specialized in interactive art. My artistic research has a wide range, from painting, sculpture, drawing and, of course, interactive art.
 I like to mix different languages and search connections between innovative media and traditional one. I love abstract and surreal art and some aspect of psicadelyc art. I believe in experimentation and this is a daily practice.

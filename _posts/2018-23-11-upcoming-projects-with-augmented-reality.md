@@ -13,9 +13,27 @@ image: /assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_P
 ---
 ## Upcoming projects with Augmented Reality.
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/noise-abstract-art"><amp-img src="/assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg" alt="'Noise (Mon cher Mondrian)'' interactive acrylic painting made with Ar.js by Walter Perdan."  width="600px" height="424px" layout="responsive"></amp-img></a>
+{% assign path = 'assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg' %}
+{% assign alt = 'Noise (Mon cher Mondrian) interactive acrylic painting made with Ar.js by Walter Perdan.' %}
+{% assign title = 'Noise (Mon cher Mondrian)' %}
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  sizes:
+   - width: 1200
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+{% endresponsive_image_block %}
 
 _"Noise (Mon cher Mondrian)" acrylic color on canvas, 100 x 70 cm, 2018_
+
+<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/noise-abstract-art">Noise (Mon cher Mondrian)</a>
 
   [4fd2387c]: https://www.kaleida.studio/ar-art-show-open-call "AR show"
 
