@@ -128,33 +128,9 @@ class SWHelper
         )
         sw_dest_file.close
     end
-
-    def self.insert_sw_register_into_body(page)
-
-        url = File.join(page.url.to_s, "/service-worker.js");
-        page.output = page.output.sub('</body>',
-        <<-SCRIPT
-          <amp-install-serviceworker
-            src = "#{url}"
-            layout = "nodisplay"
-            data-iframe-src="/install-service-worker.html">
-          </amp-install-serviceworker>
-        SCRIPT
-        )
-    end
 end
 
 module Jekyll
-
-    Hooks.register :pages, :post_render do |page|
-        # append <script> for sw-register.js in <body>
-        SWHelper.insert_sw_register_into_body(page)
-    end
-
-    Hooks.register :documents, :post_render do |document|
-        # append <script> for sw-register.js in <body>
-        SWHelper.insert_sw_register_into_body(document)
-end
 
     Hooks.register :site, :post_write do |site|
         pwa_config = site.config['pwa'] || {}
