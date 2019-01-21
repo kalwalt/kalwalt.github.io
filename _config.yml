@@ -64,7 +64,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-pwa-plugin
+  - jekyll-amp-pwa-plugin
   - jekyll-responsive-image
 
 # set some common post defaults
@@ -77,7 +77,6 @@ defaults:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
 pwa:
-  sw_filename: sw.js
   dest_js_directory: assets/js
   cache_name: pwa-cache
   precache_recent_posts_num: 12

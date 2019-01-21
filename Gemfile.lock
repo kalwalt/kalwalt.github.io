@@ -27,10 +27,10 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-amp-pwa-plugin (2.1.2)
     jekyll-compose (0.9.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
-    jekyll-pwa-plugin (2.2.1)
     jekyll-responsive-image (1.5.2)
       jekyll (>= 2.0, < 4.0)
       rmagick (>= 2.0, < 3.0)
@@ -69,6 +69,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+
+  jekyll-amp-pwa-plugin
   jekyll-compose
   jekyll-paginate
   jekyll-pwa-plugin
