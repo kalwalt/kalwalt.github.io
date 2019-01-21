@@ -5,5 +5,5 @@ group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
-  gem 'amp-pwa-plugin'
+  gem 'jekyll-amp-pwa-plugin'
 end

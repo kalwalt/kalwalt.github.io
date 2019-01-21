@@ -3,7 +3,6 @@ GEM
   specs:
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
-    amp-pwa-plugin (2.1.1)
     colorator (1.1.0)
     concurrent-ruby (1.1.4)
     em-websocket (0.5.1)
@@ -28,6 +27,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-amp-pwa-plugin (2.1.2)
     jekyll-compose (0.9.0)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
@@ -65,7 +65,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  amp-pwa-plugin
+  jekyll-amp-pwa-plugin
   jekyll-compose
   jekyll-paginate
   jekyll-seo-tag
