@@ -3,7 +3,7 @@
   "short_name": "kalwaltart",
   "description": "official kalwalt app",
   "lang": "en",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#1397ea",
   "icons": [
