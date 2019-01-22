@@ -28,7 +28,7 @@ self.addEventListener('install', event => {
 });
 
 // use `networkFirst` strategy for `*.html`, like all my posts
-workbox.routing.registerRoute(/(index|\/articles\/)(.*)html|(.*)\/$/, args => {
+workbox.routing.registerRoute(/\.html$/, args => {
   return workbox.strategies.networkFirst().handle(args).then(response => {
     if (!response) {
       return caches.match('offline.html');
@@ -39,7 +39,7 @@ workbox.routing.registerRoute(/(index|\/articles\/)(.*)html|(.*)\/$/, args => {
 
 // use `cacheFirst` strategy for images
 workbox.routing.registerRoute(
-    /\.(?:js|css|png|gif|jpg|svg)$/,
+    /\.(?:js|css|png|gif|jpg|svg|json)$/,
     workbox.strategies.cacheFirst()
 );
 
