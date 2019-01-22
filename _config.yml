@@ -82,8 +82,10 @@ pwa:
   precache_recent_posts_num: 12
   precache_glob_directory: /
   precache_glob_patterns:
-    - "{js,css,fonts}/**/*.{js,css,woff,woff2}"
+    - "{js,css,fonts}/**/*.{js,css,woff,woff2,json}"
+    - /assets/icons/*.png
     - /index.html
+    - /offline.html
     - /about.html
   precache_glob_ignores:
     - sw-register.js
