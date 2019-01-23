@@ -15,6 +15,7 @@ intro_paragraph: '## Introduction
 {% assign path = 'assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.jpg' %}
 {% assign alt = 'L Eterno dilemma - abstract painting by Kalwalt' %}
 {% assign title = 'L Eterno dilemma' %}
+{% assign caption = "L'Eterno dilemma, acrylic color on canvas, 30x30 cm, 2018."%}
 
 {% responsive_image_block %}
   path: {{ path }}
@@ -27,6 +28,9 @@ intro_paragraph: '## Introduction
    - width: 320
   {% if title %}
   title: {{ title }}
+  {% endif %}
+  {% if caption %}
+  caption: {{ caption }}
   {% endif %}
 {% endresponsive_image_block %}
 
@@ -42,6 +46,7 @@ Got to [my website for more...](https://www.walterperdan.com/en/artworks/paintin
 {% assign path = 'assets/images/uploads/Respiro_cosmico_abstract_sculpture_kalwalt.jpg' %}
 {% assign alt = "Respiro cosmico abstract sculpture by Kalwalt" %}
 {% assign title = "Respiro cosmico" %}
+{% assign caption = "Respiro cosmico, Carrara marble, 55x30x30 cm, 2011."%}
 
 {% responsive_image_block %}
   path: {{ path }}
@@ -54,6 +59,9 @@ Got to [my website for more...](https://www.walterperdan.com/en/artworks/paintin
    - width: 320
   {% if title %}
   title: {{ title }}
+  {% endif %}
+  {% if caption %}
+  caption: {{ caption }}
   {% endif %}
 {% endresponsive_image_block %}
 
@@ -68,7 +76,8 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
 
 {% assign path = 'assets/images/uploads/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg' %}
 {% assign alt = "Art is a joke - abstract painting with augmented reality by Kalwalt" %}
-{% assign title = "Respiro cosmico" %}
+{% assign title = "Art is a joke" %}
+{% assign caption = "Art is a joke, acrylic color on canvas, 70x50 cm, 2011."%}
 
 {% responsive_image_block %}
   path: {{ path }}
@@ -81,6 +90,9 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
    - width: 320
   {% if title %}
   title: {{ title }}
+  {% endif %}
+  {% if caption %}
+  caption: {{ caption }}
   {% endif %}
 {% endresponsive_image_block %}
 
