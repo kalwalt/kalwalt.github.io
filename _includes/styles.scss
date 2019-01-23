@@ -233,7 +233,6 @@ body {
 .post {
   .post-meta {
     font-family: $font-sans;
-    //font-family: Open sans;
   }
   .post-title {
     font-weight: 700;
@@ -271,11 +270,9 @@ body {
 
   .post-content {
     width: 100%;
-    //font-family: Arvo;
     font-family: $font-serif;
     color: #333333;
     h1, h2, h3 {
-      //font-family: Open sans;
       font-family: $font-sans;
     }
     h3, h4, h5, h6 {
@@ -286,7 +283,6 @@ body {
       line-height: 1.3;
       margin-top: 50px;
       margin-bottom: 0px;
-      //font-family: Open sans;
       font-family: $font-sans;
     }
     h3 {
@@ -603,6 +599,11 @@ amp-user-notification > div {
 
 .interactivity-thumb{
   width: 100%;
+}
+
+.figure-amp-img{
+  margin: 0;
+  padding: 0 0 30px;
 }
 
 .image-responsive-caption{
