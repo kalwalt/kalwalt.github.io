@@ -15,6 +15,8 @@ image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
 {% assign path = 'assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg' %}
 {% assign alt = 'Art is a joke interactive art with augmented reality by Walter Perdan' %}
 {% assign title = 'Art is a joke' %}
+{% assign caption = "Art is a joke, acrylic color on canvas, 70x50 cm, 2011."%}
+
 
 {% responsive_image_block %}
   path: {{ path }}
@@ -28,11 +30,12 @@ image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
   {% if title %}
   title: {{ title }}
   {% endif %}
+  {% if caption %}
+  caption: {{ caption }}
+  {% endif %}
 {% endresponsive_image_block %}
 
-_"Art is a joke" abstract painting with augmented reality - a slice of the artwork._
-
-<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/artisajoke-abstract-painting">Art is a joke</a>
+<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/artisajoke-abstract-painting">Read more on "Art is a joke"...</a>
 
 ### Intoduction to the question...
 
