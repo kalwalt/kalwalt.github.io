@@ -14,6 +14,7 @@ intro_paragraph: ''
 {% assign path = 'assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.jpg' %}
 {% assign alt = 'Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan' %}
 {% assign title = 'Art is a joke' %}
+{% assign caption = 'Art is a joke, acrylic color on canvas, 70x50 cm, 2018.'%}
 
 {% responsive_image_block %}
   path: {{ path }}
@@ -26,6 +27,9 @@ intro_paragraph: ''
    - width: 320
   {% if title %}
   title: {{ title }}
+  {% endif %}
+  {% if caption %}
+  caption: {{ caption }}
   {% endif %}
 {% endresponsive_image_block %}
 
