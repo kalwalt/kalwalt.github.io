@@ -6,5 +6,5 @@
 
 <figure>
 <amp-img width="{{ original.width }}px" height="{{ original.height }}px" src="/{{ original.path }}" alt="{{ alt }}" title="{{ title }}" srcset="{{ srcset | strip_newlines }}" layout="responsive" sizes="(min-width: 1200px) 720px, 90vw"></amp-img>
-<figcaption>{{ caption }}</figcaption>
+<figcaption class="image-responsive-caption">{{ caption }}</figcaption>
 </figure>
