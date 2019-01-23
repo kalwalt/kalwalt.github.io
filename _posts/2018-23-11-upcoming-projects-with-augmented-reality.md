@@ -35,7 +35,7 @@ image: /assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_P
   {% endif %}
 {% endresponsive_image_block %}
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/noise-abstract-art">Noise (Mon cher Mondrian)</a>
+<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/noise-abstract-art">Read more on "Noise (Mon cher Mondrian)"...</a>
 
   [4fd2387c]: https://www.kaleida.studio/ar-art-show-open-call "AR show"
 

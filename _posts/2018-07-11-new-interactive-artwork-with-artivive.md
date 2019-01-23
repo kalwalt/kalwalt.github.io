@@ -34,7 +34,7 @@ image: /assets/images/uploads/suono_di superficie_artivive_acrylic_painting_inte
   {% endif %}
 {% endresponsive_image_block %}
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/sound-surface-artivive">Suono di superficie</a>
+<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/sound-surface-artivive">Read more on "Suono di superficie"...</a>
 
 ### What is Artivive technology?
 This is a new technology for developing augmented reality applications. It is very simple,

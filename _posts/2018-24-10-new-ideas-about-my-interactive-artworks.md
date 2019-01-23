@@ -35,7 +35,7 @@ image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
   {% endif %}
 {% endresponsive_image_block %}
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/artisajoke-abstract-painting">Art is a joke</a>
+<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/artisajoke-abstract-painting">Read more on "Art is a joke"...</a>
 
 ### Intoduction to the question...
 

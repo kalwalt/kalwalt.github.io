@@ -13,8 +13,8 @@ intro_paragraph: '## Introduction
 ## Painting
 
 {% assign path = 'assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.jpg' %}
-{% assign alt = 'L Eterno dilemma - abstract painting by Kalwalt' %}
-{% assign title = 'L Eterno dilemma' %}
+{% assign alt = 'Eterno dilemma - abstract painting by Kalwalt' %}
+{% assign title = "L'Eterno dilemma" %}
 {% assign caption = "L'Eterno dilemma, acrylic color on canvas, 30x30 cm, 2018."%}
 
 {% responsive_image_block %}
@@ -34,7 +34,7 @@ intro_paragraph: '## Introduction
   {% endif %}
 {% endresponsive_image_block %}
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" >L'Eterno dilemma</a>
+<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" >Read more on "L'Eterno dilemma"...</a>
 
 I like the abstract art and the surreal art, my paintings reflect this my enjoyment.
 I usually paint with acrylic colors, watercolors and other techniques. I create forms that represent state of mind rather imitate Nature. In my paintings, i try to find a balance between expression and abstraction, innovation and tradition.
@@ -65,7 +65,7 @@ Got to [my website for more...](https://www.walterperdan.com/en/artworks/paintin
   {% endif %}
 {% endresponsive_image_block %}
 
-<a href="https://www.walterperdan.com/en/artworks/sculpture/marble/respiro-cosmico-abstract-sculpture" >Respiro cosmico</a>
+<a href="https://www.walterperdan.com/en/artworks/sculpture/marble/respiro-cosmico-abstract-sculpture" >Read more on "Respiro cosmico"...</a>
 
 I create abstract sculptures with different materials: Marble, stone, wood, bronze, acrylic and epoxy resyns.
 I like to feel the material under my fingers and express my emotions of Form and of Nature. A part of my research wants to represent the concepts of time and space and the change of our being in a "liquid" society: The reflection of our way of living and thinking in the contemporary world.
@@ -96,7 +96,7 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
   {% endif %}
 {% endresponsive_image_block %}
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" >Art is a joke</a>
+<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" >Read more on "Art is a joke"...</a>
 
 The majority of interactive artworks consist of acrylic paintings with markers for augmented reality.
 My research consists in finding an agreement between the abstract forms of the markers and
