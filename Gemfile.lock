@@ -40,6 +40,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-sitemap (1.2.0)
       jekyll (~> 3.3)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -49,6 +51,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
+    nuggets (1.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
@@ -69,14 +72,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-
   jekyll-amp-pwa-plugin
   jekyll-compose
   jekyll-paginate
-  jekyll-pwa-plugin
   jekyll-responsive-image
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-tagging
 
 BUNDLED WITH
    1.16.6

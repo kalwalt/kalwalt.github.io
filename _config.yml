@@ -76,6 +76,11 @@ defaults:
     values:
       layout: "post" # set the correct default template for a post
       section: "post" # set the root section name
+
+# jekyll-tagging variables
+tag_page_layout: tag_page
+tag_page_dir: tag
+
 pwa:
   dest_js_directory: assets/js
   cache_name: pwa-cache
