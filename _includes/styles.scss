@@ -2,7 +2,12 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
-
+/*
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+}
+*/
 .icon {
 
     > svg {
@@ -615,4 +620,31 @@ amp-user-notification > div {
   outline: 0;
   z-index: 300;
   text-align: center;
+}
+
+.tag-cloud {
+  background: white;
+  padding: 10px  0px 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #1397ea;
+  font-size: 90%;
+  display: block;
+  height: 120px;
+  a{
+    color: white;
+    background: #1397ea;
+    border-radius: 4px;
+    padding: 1px 2px 1px 2px;
+    margin: 4px 2px 4px 2px;
+    font-family: $font-sans;
+    text-decoration: none;
+    display: inline-block;
+}
+}
+
+.tag-cloud > a:hover{
+  text-decoration: none;
+  background: grey;
+  color: white;
 }
