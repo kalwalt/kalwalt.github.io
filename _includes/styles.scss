@@ -29,20 +29,6 @@ $rs: 16px;
 
 $font-serif: 'Arvo', Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
 $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
-/* @font-face {
-
-  font-family: 'Arvo';
-  font-display: auto;
-  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-}
-@font-face {
-
-    font-family: 'Open Sans';
-    font-display: auto;
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans')url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0d.woff) format('woff');
-}*/
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -58,11 +44,10 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 main {
   display: block;
 }
-html{overflow-x: hidden;}
+html {overflow-x: hidden;}
 body {
   background-color: #fff;
   font-family: $font-sans;
-  //font-family: Open sans;
   margin: 0;
   padding: 0;
   text-rendering: optimizeLegibility;
