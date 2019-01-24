@@ -1,19 +1,8 @@
 ---
 layout: interactivity
 title: The Tiger never follows the Square
+meta-name: false
 ---
-<!--
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<!-- three.js library -->
-<script src='../../resources/three.js'></script>
-<script src="../../resources/js/ar-new.js"></script>
-<script src="../../resources/js/renderers/CanvasRenderer.js"></script>
-<script src="../../resources/js/renderers/Projector.js"></script>
-<script src="../../resources/js/loaders/OBJLoader.js"></script>
-<div style="text-align: center"><h2><p>The Tiger never follows the Square</p></h2></div>
-<script>THREEx.ArToolkitContext.baseURL = '../'</script>
-
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 <script>
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
@@ -66,18 +55,11 @@ title: The Tiger never follows the Square
 				child.material = mat;
 			}
 		} );
-		//object.position.y = - 95;
-		//object.rotation.x=-0.5*Math.PI;
 		object.scale.x = 2.85;
     object.scale.y = 2.85;
 		object.scale.z = 2.85;
-		//object.rotation.z = 10;
-
 		scene.add( object );
 	} );
-
-
-
 
 	////////////////////////////////////////////////////////////////////////////////
 	//          handle arToolkitSource
@@ -134,65 +116,21 @@ title: The Tiger never follows the Square
 	////////////////////////////////////////////////////////////////////////////////
 	//          Create a ArMarkerControls
 	////////////////////////////////////////////////////////////////////////////////
-  //var markerGroupSX = new THREE.Group
-  //markerGroupSX.name = 'marker1'
-	//scene.add(markerGroupSX)
 
 	// init controls for camera
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
-  //var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerGroupSX, {
-	//var markerControls = new THREEx.ArMarkerControls(arToolkitContext, scene, {
 		type : 'pattern',
-		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-sx.patt',
 		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pattern-tiger.patt',
-		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/patt.hiro',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix',
 	})
 	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
 	scene.visible = false
 
-  //var markerScene = new THREE.Scene()
-	//markerGroupSX.add(markerScene)
-  //markerScene.add(particles1)
-	//markerScene.add(object)
-  /*
-  var markerGroupDX = new THREE.Group
-  markerGroupDX.name = 'marker2'
-	scene.add(markerGroupDX)
-
-  var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerGroupDX, {
-		type : 'pattern',
-		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-dx.patt',
-		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
-		changeMatrixMode: 'cameraTransformMatrix',
-	})
-	// as we do changeMatrixMode: 'cameraTransformMatrix', start with invisible scene
-	scene.visible = false
-
-  var markerScene2 = new THREE.Scene()
-	markerGroupDX.add(markerScene2)
-  markerScene2.add(particles2)
-  */
 	//////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
 	//////////////////////////////////////////////////////////////////////////////////
-	/*
-  ;(function(){
-  	var markerGroupSX = scene.getObjectByName('marker1')
-  	//var markerGroupDX = scene.getObjectByName('marker2')
 
-  	var container = new THREE.Group
-  	scene.add(container)
-
-	// render the scene
-	onRenderFcts.push(function(){
-    if( markerGroupSX.visible === true ){
-      container.visible = true}
-		renderer.render( scene, camera );
-	})
-})()
-*/
 onRenderFcts.push(function(){
 	renderer.render( scene, camera );
 })
@@ -208,10 +146,9 @@ onRenderFcts.push(function(){
 		lastTimeMsec	= nowMsec
 		var time = Date.now() * 0.00005;
 		var h = ( 360 * ( 1.0 + time ) % 360 ) / 360;
-		//material.color.setHSL( h, 0.5, 0.5 );
 		// call each update function
 		onRenderFcts.forEach(function(onRenderFct){
 			onRenderFct(deltaMsec/1000, nowMsec/1000)
 		})
 	})
-</script></body>
+</script>

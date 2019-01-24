@@ -1,18 +1,8 @@
 ---
 layout: interactivity
 title: Parole perse
+meta-name: false
 ---
-<!--
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<!-- three.js library -->
-<script src='../../resources/three.js'></script>
-<script src="../../resources/js/ar-new.js"></script>
-<script src="../../resources/js/renderers/CanvasRenderer.js"></script>
-<script src="../../resources/js/renderers/Projector.js"></script>
-<div style="text-align: center"><h2><p>Parole perse</p></h2></div>
-<script>THREEx.ArToolkitContext.baseURL = '../'</script>
-
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 <script>
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
@@ -123,7 +113,6 @@ title: Parole perse
 	scene.add(markerGroupSX)
 
 	// init controls for camera
-	//var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
   var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerGroupSX, {
 		type : 'pattern',
 		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-sx.patt',
@@ -189,4 +178,4 @@ title: Parole perse
 			onRenderFct(deltaMsec/1000, nowMsec/1000)
 		})
 	})
-</script></body>
+</script>

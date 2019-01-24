@@ -2,38 +2,47 @@
 	<title>{{ page.title }}</title>
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
-	<link async rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-	<script defer src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-	<script defer>
-		window.addEventListener("load", function() {
-			window.cookieconsent.initialise({
-				"palette": {
-					"popup": {
-						"background": "#237afc"
-					},
-					"button": {
-						"background": "#fff",
-						"text": "#237afc"
-					}
-				}
-			})
-		});
-	</script>
-  {% if page.title != "Ideogramma AR01" %}
-  <script src='../../resources/three.min.js'></script>
-  <script src="../../resources/ar.js"></script>
-  {% endif %}
-  {% if page.title == "Glitch" %}
-  <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
-  <script src="../../resources/js/renderers/WebGL.js"></script>
-  {% endif %}
-  {% if page.title == "Ideogramma AR01" %}
-  <script src='../../resources/three.js'></script>
-  <script src="../../resources/js/ar-new.js"></script>
-  <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
-  <script src="../../resources/js/renderers/Projector.js"></script>
-  <script src="../../resources/js/loaders/OBJLoader.js"></script>
-  {% endif %}
+{% include cookieconsent.html %}
+  {% case page.title %}
+    {% when "Simple test" %}
+       <script src='../../resources/three.min.js'></script>
+    {% when "Mon cher Mondrian" %}
+       <script src='../../resources/three.min.js'></script>
+       <script src="../../resources/ar.js"></script>
+    {% when "Art is a Joke" %}
+      <script src='../../resources/three.min.js'></script>
+      <script src="../../resources/ar.js"></script>
+    {% when "Dada Knigth" %}
+      <script src='../../resources/three.min.js'></script>
+      <script src="../../resources/ar.js"></script>
+    {% when "FloW-er PoW-er" %}
+      <script src='../../resources/three.min.js'></script>
+      <script src="../../resources/ar.js"></script>
+    {% when "Glitch" %}
+      <script src='../../resources/three.min.js'></script>
+      <script src="../../resources/ar.js"></script>
+      <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
+      <script src="../../resources/js/renderers/WebGL.js"></script>
+    {% when "Ideogramma AR01" %}
+      <script src='../../resources/three.js'></script>
+      <script src="../../resources/js/ar-new.js"></script>
+      <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
+      <script src="../../resources/js/renderers/Projector.js"></script>
+      <script src="../../resources/js/loaders/OBJLoader.js"></script>
+    {% when "The Tiger never follows the Square" %}
+      <script src='../../resources/three.js'></script>
+      <script src="../../resources/js/ar-new.js"></script>
+      <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
+      <script src="../../resources/js/renderers/Projector.js"></script>
+      <script src="../../resources/js/loaders/OBJLoader.js"></script>
+    {% when "Parole perse" %}
+      <script src='../../resources/three.js'></script>
+      <script src="../../resources/js/ar-new.js"></script>
+      <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
+      <script src="../../resources/js/renderers/Projector.js"></script>
+    {% else %}
+      <script src='../../resources/three.min.js'></script>
+  {% endcase %}
   <script>THREEx.ArToolkitContext.baseURL = '../'</script>
   {%if meta-name %}
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
