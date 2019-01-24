@@ -29,7 +29,7 @@ google_site_verification: cC3276h9Hn4i0CmY109jtXIAAv8edaU7XJRkBLUOjLM
 url: https://www.kalwaltart.it
 baseurl: ""
 # Permalink format (/blog/ is ignored for pages)
-permalink: /blog/:title
+permalink: /blog/:title/
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
@@ -82,6 +82,7 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 tag_page_data:
   sitemap: false
+tag_permalink_style: pretty
 
 pwa:
   dest_js_directory: assets/js
