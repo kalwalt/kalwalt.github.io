@@ -19,12 +19,23 @@
 			})
 		});
 	</script>
+  {% if page.title != "Ideogramma AR01" %}
   <script src='../../resources/three.min.js'></script>
   <script src="../../resources/ar.js"></script>
-  {% if page.title= "Glitch" %}
+  {% endif %}
+  {% if page.title == "Glitch" %}
   <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
   <script src="../../resources/js/renderers/WebGL.js"></script>
   {% endif %}
+  {% if page.title == "Ideogramma AR01" %}
+  <script src='../../resources/three.js'></script>
+  <script src="../../resources/js/ar-new.js"></script>
+  <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
+  <script src="../../resources/js/renderers/Projector.js"></script>
+  <script src="../../resources/js/loaders/OBJLoader.js"></script>
+  {% endif %}
   <script>THREEx.ArToolkitContext.baseURL = '../'</script>
+  {%if meta-name %}
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  {% endif %}
 </head>
