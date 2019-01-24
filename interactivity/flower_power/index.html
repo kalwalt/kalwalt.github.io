@@ -2,15 +2,6 @@
 layout: interactivity
 title: FloW-er PoW-er
 ---
-<!--
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<!-- three.js library -->
-<script src='../../resources/three.min.js'></script>
-<script src="../../resources/ar.js"></script>
-<div style="text-align: center"><h2><p>FloW-er PoW-er</p></h2></div>
-<script>THREEx.ArToolkitContext.baseURL = '../'</script>
-
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 <script>
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
@@ -124,12 +115,6 @@ title: FloW-er PoW-er
 
 	};
 
-	//var texture = new THREE.TextureLoader();
-	//var mat = new  THREE.MeshBasicMaterial(parameters)
-
-	//var texture = new THREE.ImageUtils.loadTexture(
-	//	"../../resources/data/textures/flower02.png"
-	//)
 	var texture = new THREE.TextureLoader().load( '../../resources/data/textures/flower02.png' );
 
 	var billboard = new THREE.PlaneGeometry(1,1,1,1);
@@ -230,11 +215,10 @@ title: FloW-er PoW-er
 		var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec)
 		lastTimeMsec	= nowMsec
 		var time = Date.now() * 0.001;
-		//mesh2.rotation.x = time;
 		mesh2.rotation.z = time;
 		// call each update function
 		onRenderFcts.forEach(function(onRenderFct){
 			onRenderFct(deltaMsec/1000, nowMsec/1000)
 		})
 	})
-</script></body>
+</script>

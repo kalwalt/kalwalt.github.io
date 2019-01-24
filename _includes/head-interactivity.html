@@ -21,6 +21,10 @@
 	</script>
   <script src='../../resources/three.min.js'></script>
   <script src="../../resources/ar.js"></script>
+  {% if page.title= "Glitch" %}
+  <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
+  <script src="../../resources/js/renderers/WebGL.js"></script>
+  {% endif %}
   <script>THREEx.ArToolkitContext.baseURL = '../'</script>
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 </head>
