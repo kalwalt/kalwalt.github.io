@@ -3,45 +3,35 @@
 	<!-- link to main stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
 {% include cookieconsent.html %}
+  <script src='../../resources/three.min.js'></script>
   {% case page.title %}
-    {% when "Simple test" %}
-       <script src='../../resources/three.min.js'></script>
     {% when "Mon cher Mondrian" %}
-       <script src='../../resources/three.min.js'></script>
-       <script src="../../resources/ar.js"></script>
+      <script src="../../resources/ar.min.js"></script>
     {% when "Art is a Joke" %}
-      <script src='../../resources/three.min.js'></script>
-      <script src="../../resources/ar.js"></script>
+      <script src="../../resources/ar.min.js"></script>
     {% when "Dada Knigth" %}
-      <script src='../../resources/three.min.js'></script>
-      <script src="../../resources/ar.js"></script>
+      <script src="../../resources/ar.min.js"></script>
     {% when "FloW-er PoW-er" %}
-      <script src='../../resources/three.min.js'></script>
-      <script src="../../resources/ar.js"></script>
+      <script src="../../resources/ar.min.js"></script>
     {% when "Glitch" %}
-      <script src='../../resources/three.min.js'></script>
-      <script src="../../resources/ar.js"></script>
+      <script src="../../resources/ar.min.js"></script>
       <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
       <script src="../../resources/js/renderers/WebGL.js"></script>
     {% when "Ideogramma AR01" %}
-      <script src='../../resources/three.js'></script>
-      <script src="../../resources/js/ar-new.js"></script>
+      <script src="../../resources/ar.min.js"></script>
       <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
       <script src="../../resources/js/renderers/Projector.js"></script>
       <script src="../../resources/js/loaders/OBJLoader.js"></script>
     {% when "The Tiger never follows the Square" %}
-      <script src='../../resources/three.js'></script>
-      <script src="../../resources/js/ar-new.js"></script>
+      <script src="../../resources/ar.min.js"></script>
       <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
       <script src="../../resources/js/renderers/Projector.js"></script>
       <script src="../../resources/js/loaders/OBJLoader.js"></script>
     {% when "Parole perse" %}
-      <script src='../../resources/three.js'></script>
-      <script src="../../resources/js/ar-new.js"></script>
+      <script src="../../resources/ar.min.js"></script>
       <script src="../../resources/js/renderers/CanvasRenderer.js"></script>
       <script src="../../resources/js/renderers/Projector.js"></script>
     {% else %}
-      <script src='../../resources/three.min.js'></script>
   {% endcase %}
   <script>THREEx.ArToolkitContext.baseURL = '../'</script>
   {%if meta-name %}
