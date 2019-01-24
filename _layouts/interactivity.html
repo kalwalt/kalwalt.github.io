@@ -1,32 +1,36 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<link async rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<html>
+
+<head>
+	<title>{{ page.title }}</title>
+	<!-- link to main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link async rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
 	<script defer src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
 	<script defer>
-	window.addEventListener("load", function(){
-	window.cookieconsent.initialise({
-		"palette": {
-			"popup": {
-				"background": "#237afc"
-			},
-			"button": {
-				"background": "#fff",
-				"text": "#237afc"
-			}
-		}
-	})});
+		window.addEventListener("load", function() {
+			window.cookieconsent.initialise({
+				"palette": {
+					"popup": {
+						"background": "#237afc"
+					},
+					"button": {
+						"background": "#fff",
+						"text": "#237afc"
+					}
+				}
+			})
+		});
 	</script>
-    </head>
-    <body>
+</head>
 
-      <div class="container">
+<body>
 
-      {{ content }}
+	<div class="container">
 
-      </div><!-- /.container -->
-    </body>
-  </html>
+		{{ content }}
+
+	</div><!-- /.container -->
+</body>
+
+</html>
