@@ -9,6 +9,7 @@ seo:
   author: Walter Perdan
   datePublished: date
 image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
+tags: Interactive-art AR 2018
 ---
 ## Interactive art: future personal development.
 

@@ -7,5 +7,6 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-amp-pwa-plugin'
   gem 'jekyll-responsive-image'
+  gem 'jekyll-tagging'
 
 end

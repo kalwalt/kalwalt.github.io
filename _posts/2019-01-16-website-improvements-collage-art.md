@@ -18,6 +18,7 @@ intro_paragraph: >-
   plugin and **P**rogressive **W**eb** A**pp functionality. Some collage art and
   a new wood sculpture by Kalwalt, Walter Perdan.
 categories: ' '
+tags: Web-design AMP WPA Sculpture Collage-art 2019
 ---
 {% assign path = 'assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg' %}
 {% assign alt = 'Art is a joke interactive art with augmented reality by Walter Perdan' %}

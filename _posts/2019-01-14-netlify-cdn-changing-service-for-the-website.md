@@ -11,6 +11,7 @@ seo:
   datePublished: date
 image: /assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg
 intro_paragraph: ''
+tags: Netlify Web-design 2019
 ---
 {% assign path = 'assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg' %}
 {% assign alt = 'Noise (Mon cher Mondrian) interactive acrylic painting made with Ar.js by Walter Perdan.' %}
