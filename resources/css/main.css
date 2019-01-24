@@ -1,7 +1,13 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin : 0px auto;
+    overflow: hidden;
+    font-family: Monospace;
 }
+
+.title-artwork {
+    text-align: center;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;

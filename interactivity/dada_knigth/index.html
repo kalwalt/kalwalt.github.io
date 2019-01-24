@@ -67,7 +67,8 @@ meta-name: true
 
 	// create atToolkitContext
 	var arToolkitContext = new THREEx.ArToolkitContext({
-		cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat',
+		//cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat',
+		cameraParametersUrl: '../../resources/data/camera_para.dat',
 		detectionMode: 'mono',
 	})
 	// initialize it
@@ -94,7 +95,8 @@ meta-name: true
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
 		type : 'pattern',
 
-		 patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pattern_dada_knigth.patt',
+		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pattern_dada_knigth.patt',
+		patternUrl : '../../resources/data/pattern_dada_knigth.patt',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix'
 	})

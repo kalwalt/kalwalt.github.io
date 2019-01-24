@@ -1,7 +1,7 @@
 <head>
 	<title>{{ page.title }}</title>
 	<!-- link to main stylesheet -->
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../../resources/css/main.css">
 {% include cookieconsent.html %}
   <script src='../../resources/three.min.js'></script>
   {% case page.title %}
@@ -33,7 +33,7 @@
       <script src="../../resources/js/renderers/Projector.js"></script>
     {% else %}
   {% endcase %}
-  <script>THREEx.ArToolkitContext.baseURL = '../'</script>
+  <!-- <script>THREEx.ArToolkitContext.baseURL = '../'</script> -->
   {%if meta-name %}
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   {% endif %}

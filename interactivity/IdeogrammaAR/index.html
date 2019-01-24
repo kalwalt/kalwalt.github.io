@@ -97,7 +97,8 @@ meta-name: false
 
   // set patternRatio
   artoolkitProfile.contextParameters.patternRatio = 0.785
-  artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
+  //artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
+	artoolkitProfile.contextParameters.cameraParametersUrl = '../../resources/data/camera_para.dat'
   artoolkitProfile.contextParameters.detectionMode = 'mono'
 
   var arToolkitContext = new THREEx.ArToolkitContext(artoolkitProfile.contextParameters)
@@ -125,6 +126,7 @@ meta-name: false
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
 		type : 'pattern',
 		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/ideoAr.patt',
+		patternUrl : '../../resources/data/ideoAr.patt',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix',
 	})

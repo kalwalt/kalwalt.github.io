@@ -85,7 +85,8 @@ meta-name: false
 
   // set patternRatio
   artoolkitProfile.contextParameters.patternRatio = 0.9
-  artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
+  //artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
+	artoolkitProfile.contextParameters.cameraParametersUrl = '../../resources/data/camera_para.dat'
   artoolkitProfile.contextParameters.detectionMode = 'mono'
 
   var arToolkitContext = new THREEx.ArToolkitContext(artoolkitProfile.contextParameters)
@@ -115,7 +116,8 @@ meta-name: false
 	// init controls for camera
   var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerGroupSX, {
 		type : 'pattern',
-		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-sx.patt',
+		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-sx.patt',
+		patternUrl : '../resources/data/pois-sx.patt',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix',
 	})
@@ -132,7 +134,8 @@ meta-name: false
 
   var markerControls = new THREEx.ArMarkerControls(arToolkitContext, markerGroupDX, {
 		type : 'pattern',
-		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-dx.patt',
+		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pois-dx.patt',
+		patternUrl : '../../resources/data/pois-dx.patt',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix',
 	})
