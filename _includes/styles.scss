@@ -2,12 +2,7 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
-/*
-@font-face {
-    font-family: 'FontAwesome';
-    src: url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
-}
-*/
+
 .icon {
 
     > svg {
@@ -49,7 +44,11 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 main {
   display: block;
 }
-html {overflow-x: hidden;}
+
+html {
+  overflow-x: hidden!important;
+}
+
 body {
   background-color: #fff;
   font-family: $font-sans;
