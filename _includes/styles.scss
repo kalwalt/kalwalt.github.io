@@ -2,6 +2,10 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
+$hairline-color: rgb(230,230,230);
+$text-color: rgb(40,40,40);
+$text-color-negative: white;
+$link-color: rgb(0,114,154);
 
 .icon {
 
@@ -42,7 +46,8 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 main {
-  display: block;
+  /*display: block;*/
+  display: grid;
 }
 
 html {
@@ -593,12 +598,65 @@ amp-user-notification > div {
   text-align: center;
 }
 
-.container-form-data{
-  display:block;
-  width:30%;
+.container-form{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 #subject{
   width:80%;
+}
+form{
+  	vertical-align: baseline;
+}
+input,
+textarea {
+	border: 0.05em solid $hairline-color;
+	&:focus {
+		border: 0.05em solid $text-color;
+  width: auto;
+	}
+}
+
+textarea {
+  vertical-align: top;
+	resize: vertical;
+	max-width: none;
+}
+
+button {
+	@include button($link-color, $text-color-negative);
+}
+
+// contact form
+html[data-current="contact"] main > form {
+  display: grid;
+  label {
+    display: none;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  button {
+    width: 100%;
+  }
+}
+
+// reset CSS Grid fallbacks when they aren't required
+@supports (display: grid) {
+  html[data-current="contact"] main > form {
+    input,
+    textarea,
+    button {
+      width: auto;
+      max-width: none;
+    }
+  }
 }
 
 .interactivity-thumb{
