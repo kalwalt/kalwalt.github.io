@@ -1,5 +1,6 @@
 ---
 layout: page
+id: 06
 title: Biography about Kalwalt alias Walter Perdan visual artist.
 permalink: /about/
 section: about

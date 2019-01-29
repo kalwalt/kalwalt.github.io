@@ -1,5 +1,6 @@
 ---
 layout: contact
+id: 07
 title: Contacts
 permalink: /contacts/
 section: contact

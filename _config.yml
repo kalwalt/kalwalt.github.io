@@ -54,11 +54,10 @@ compress_html:
 responsive_image:
   template: _includes/responsive-image.html
   sizes:
-   - width: 1200
-   - width: 720
-   - width: 600
-   - width: 480
    - width: 320
+   - width: 480
+   - width: 600
+   - width: 720
 
 plugins:
   - jekyll-seo-tag
