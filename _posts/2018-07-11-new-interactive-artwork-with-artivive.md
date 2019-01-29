@@ -12,7 +12,7 @@ image: /assets/images/uploads/suono_di superficie_artivive_acrylic_painting_inte
 ---
 ## Suono di superficie my new interactive artwork with Artivive.
 
-{% assign path = 'assets/images/uploads/suono_di superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg' %}
+{% assign path = 'assets/images/uploads/suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg' %}
 {% assign alt = 'Suono di superficie interactive acrylic painting made with Artivive by Walter Perdan' %}
 {% assign title = 'Suono di superficie' %}
 {% assign caption = "Suono di superficie, acrylic color on canvas, 70x50 cm, 2018."%}
@@ -21,11 +21,11 @@ image: /assets/images/uploads/suono_di superficie_artivive_acrylic_painting_inte
   path: {{ path }}
   alt: {{ alt }}
   sizes:
-   - width: 1200
-   - width: 720
-   - width: 600
-   - width: 480
    - width: 320
+   - width: 480
+   - width: 600
+   - width: 720
+
   {% if title %}
   title: {{ title }}
   {% endif %}
