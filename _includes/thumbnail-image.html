@@ -1,0 +1,15 @@
+{% capture srcset %}
+{% for i in resized %}
+    /{{ i.path }} {{ i.width }}w,
+{% endfor %}
+{% endcapture %}
+
+<amp-img width="{{ original.width }}px" height="{{ original.height }}px" src="/{{ original.path }}" alt="{{ alt }}" title="{{ title }}" srcset="{{ srcset | strip_newlines }} {{ original.path }} {{ original.width }}w" sizes="(min-width: 1200px) 720px, 90vw" layout="responsive" lightbox-thumbnail-id="my-thumbnail-img">>
+</amp-img>
+
+<amp-img id="my-thumbnail-img"
+  width="200"
+  height="200"
+  layout="nodisplay"
+  src="/assets/images/thumb/{{basename}}">
+</amp-img>
