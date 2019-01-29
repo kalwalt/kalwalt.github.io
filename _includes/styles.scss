@@ -2,6 +2,10 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
+$hairline-color: rgb(230,230,230);
+$text-color: rgb(40,40,40);
+$text-color-negative: white;
+$link-color: rgb(0,114,154);
 
 .icon {
 
@@ -42,9 +46,14 @@ $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 main {
-  display: block;
+  /*display: block;*/
+  display: grid;
 }
-html {overflow-x: hidden;}
+
+html {
+/*  overflow-x: hidden!important;*/
+}
+
 body {
   background-color: #fff;
   font-family: $font-sans;
@@ -589,12 +598,65 @@ amp-user-notification > div {
   text-align: center;
 }
 
-.container-form-data{
-  display:block;
-  width:30%;
+.container-form{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 #subject{
   width:80%;
+}
+form{
+  	vertical-align: baseline;
+}
+input,
+textarea {
+	border: 0.05em solid $hairline-color;
+	&:focus {
+		border: 0.05em solid $text-color;
+  width: auto;
+	}
+}
+
+textarea {
+  vertical-align: top;
+	resize: vertical;
+	max-width: none;
+}
+
+button {
+	@include button($link-color, $text-color-negative);
+}
+
+// contact form
+html[data-current="contact"] main > form {
+  display: grid;
+  label {
+    display: none;
+  }
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  button {
+    width: 100%;
+  }
+}
+
+// reset CSS Grid fallbacks when they aren't required
+@supports (display: grid) {
+  html[data-current="contact"] main > form {
+    input,
+    textarea,
+    button {
+      width: auto;
+      max-width: none;
+    }
+  }
 }
 
 .interactivity-thumb{
@@ -615,4 +677,89 @@ amp-user-notification > div {
   outline: 0;
   z-index: 300;
   text-align: center;
+}
+
+.tag-cloud {
+  background: white;
+  padding: 10px  0px 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #1397ea;
+  font-size: 90%;
+  display: block;
+  height: 120px;
+  a{
+    color: white;
+    background: #1397ea;
+    border-radius: 4px;
+    padding: 1px 2px 1px 2px;
+    margin: 4px 2px 4px 2px;
+    font-family: $font-sans;
+    text-decoration: none;
+    display: inline-block;
+}
+}
+
+.tag-cloud > a:hover{
+  text-decoration: none;
+  background: grey;
+  color: white;
+}
+
+.tag-cloud > a:visited{
+  color: #114ab8;
+}
+
+.post-content > .tag-cloud > a {
+
+    color: white;
+    background: #1397ea;
+    border-radius: 4px;
+    padding: 1px 2px 1px 2px;
+    margin: 4px 2px 4px 2px;
+    font-family: $font-sans;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.post-content > .tag-cloud > a:hover{
+  text-decoration: none;
+  background: grey;
+  color: white;
+}
+
+.tag-list{
+  color: #1397ea;
+  text-decoration: none;
+}
+
+.tag-list:hover{
+  color: grey;
+}
+
+.tag-list:visited{
+  color: #114ab8;
+}
+
+.tag-list-sum > a[rel="tag"]{
+
+    color: white;
+    background: #1397ea;
+    border-radius: 4px;
+    padding: 1px 2px 1px 2px;
+    margin: 2px 2px 2px 2px;
+    font-family: $font-sans;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.tag-list-sum > a[rel="tag"]:hover{
+  text-decoration: none;
+  background: grey;
+  color: white;
+}
+
+.tag-list-sum > a[rel="tag"]:visited{
+  background: #114ab8;
 }

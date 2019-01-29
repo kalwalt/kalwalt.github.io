@@ -9,13 +9,14 @@ seo:
   author: Walter Perdan
   datePublished: date
 image: /assets/images/Art_Is_a_joke_interactive_slice.jpg
+tags: Interactive-art AR 2018
 ---
 ## Interactive art: future personal development.
 
 {% assign path = 'assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg' %}
 {% assign alt = 'Art is a joke interactive art with augmented reality by Walter Perdan' %}
 {% assign title = 'Art is a joke' %}
-{% assign caption = "Art is a joke, acrylic color on canvas, 70x50 cm, 2011."%}
+{% assign caption = "a slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2011."%}
 
 
 {% responsive_image_block %}

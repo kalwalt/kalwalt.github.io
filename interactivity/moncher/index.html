@@ -1,18 +1,8 @@
 ---
 layout: interactivity
 title: Mon cher Mondrian
+meta-name: false
 ---
-<!--
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<!-- three.js library -->
-<script src='../../resources/three.min.js'></script>
-<script src="../../resources/ar.js"></script>
-<script src="../../resources/js/loaders/GLTF2Loader.js"></script>
-<script src="../../resources/js/loaders/OBJLoader.js"></script>
-<div style="text-align: center"><h2><p>Mon cher Mondrian</p></h2></div>
-<script>THREEx.ArToolkitContext.baseURL = '../'</script>
-
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 <script>
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
@@ -76,7 +66,8 @@ title: Mon cher Mondrian
 
 	// create atToolkitContext
 	var arToolkitContext = new THREEx.ArToolkitContext({
-		cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat',
+		//cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat',
+		cameraParametersUrl: '../../resources/data/camera_para.dat',
 		detectionMode: 'mono',
 	})
 	// initialize it
@@ -102,8 +93,8 @@ title: Mon cher Mondrian
 	// init controls for camera
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
 		type : 'pattern',
-		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/patt.hiro',
-		 patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/barcode_5.patt',
+		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/barcode_5.patt',
+		patternUrl : '../../resources/data/barcode_5.patt',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix'
 	})
@@ -129,38 +120,6 @@ title: Mon cher Mondrian
 
 	var mat = new THREE.MeshPhongMaterial({color: 0xbbbbff});
 
-	//loader = new THREE.GLTF2Loader();
-/*
-	var loader = new THREE.OBJLoader( manager );
-	loader.load( '../../resources/data/moncher.obj', function ( object ) {
-		object.traverse( function ( child ) {
-			if ( child instanceof THREE.Mesh ) {
-				//child.material.map = texture;
-				child.material = mat;
-			}
-		} );
-		//object.position.y = - 95;
-		scene.add( object );
-	} );
-
-	loader.load( '../../resources/data/moncher.gltf', function ( gltf ) {
-
-		gltf.scene.traverse( function ( child ) {
-
-			if ( child.isMesh ) {
-
-				//child.material.envMap = envMap;
-				//child.material = mat;
-
-			}
-			gltf.scene.scale.set(0.5, 0.5, 0.5);
-
-		} );
-
-		scene.add( gltf.scene );
-
-	} );
-	*/
 	var loader = new THREE.FontLoader();
 	loader.load( '../../resources/fonts/helvetiker_regular.typeface.json', function ( font ) {
 
@@ -202,8 +161,6 @@ title: Mon cher Mondrian
 		text.scale.x=0.1;
 		text.scale.y=0.1;
 		text.scale.z=0.1;
-		//text.position.z = - 150;
-		//text.position.z = - 10;
 		scene.add( text );
 
 		// make line shape ( N.B. edge view remains visible )
@@ -227,25 +184,7 @@ title: Mon cher Mondrian
 
 		}
 
-		shapes.push.apply( shapes, holeShapes );
-
-		//var lineText = new THREE.Object3D();
-
-		//for ( var i = 0; i < shapes.length; i ++ ) {
-
-		//	var shape = shapes[ i ];
-
-		//	var points = shape.getPoints();
-		//	var geometry = new THREE.BufferGeometry().setFromPoints( points );
-
-		//	geometry.translate( xMid, 0, 0 );
-
-		//	var lineMesh = new THREE.Line( geometry, matDark );
-		//	lineText.add( lineMesh );
-
-		//}
-
-		//scene.add( lineText );
+		shapes.push.apply( shapes, holeShapes )
 
 	} ); //end load function
 
@@ -272,4 +211,4 @@ title: Mon cher Mondrian
 			onRenderFct(deltaMsec/1000, nowMsec/1000)
 		})
 	})
-</script></body>
+</script>

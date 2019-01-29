@@ -1,18 +1,8 @@
 ---
 layout: interactivity
 title: Glitch
+meta-name: true
 ---
-
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<!-- three.js library -->
-<script src='../../resources/three.min.js'></script>
-<script src="../../resources/ar.js"></script>
-<script src="../../resources/js/renderers/CanvasRenderer.js"></script>
-<script src="../../resources/js/renderers/WebGL.js"></script>
-<div style="text-align: center"><h2>Glitch</h2></div>
-<script>THREEx.ArToolkitContext.baseURL = '../'</script>
-
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 <video id="video" autoplay loop crossOrigin="anonymous" webkit-playsinline style="display:none">
 			<source src="../../resources/textures/glitch.ogv" type='video/ogg; codecs="theora, vorbis"'>
 			<source src="../../resources/textures/glitch.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
@@ -86,7 +76,8 @@ title: Glitch
 
 	// create atToolkitContext
 	var arToolkitContext = new THREEx.ArToolkitContext({
-		cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat',
+		//cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat',
+		cameraParametersUrl: '../../resources/data/camera_para.dat',
 		detectionMode: 'mono',
 	})
 	// initialize it
@@ -113,7 +104,8 @@ title: Glitch
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
 		type : 'pattern',
 
-		 patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pattern-glitch.patt',
+		//patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/pattern-glitch.patt',
+		patternUrl : '../../resources/data/pattern-glitch.patt',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix'
 	})
@@ -214,4 +206,4 @@ title: Glitch
 			onRenderFct(deltaMsec/1000, nowMsec/1000)
 		})
 	})
-</script></body>
+</script>

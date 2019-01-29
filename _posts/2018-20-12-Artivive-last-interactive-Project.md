@@ -9,6 +9,7 @@ seo:
   author: Walter Perdan
   datePublished: date
 image: /assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg
+tags: Artivive AR Interactive-art Kaleidastudio 2018
 ---
 
 ## What is happened? News about my interactive projects.

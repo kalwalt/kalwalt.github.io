@@ -4,7 +4,7 @@ id: 05
 title: Walter Perdan's Blog
 description: Kalwalt's Blog page. Here you can find some articles on interactivity and various news of the artist.
 lang: en
-date: 2019-01-14
+date: 2017-03-19
 seo:
    type: BlogPosting
    author: Walter Perdan
@@ -55,6 +55,9 @@ image: /assets/images/Eterno_dilemma_abstract_painting_kalwalt.jpg
       <a class="older-posts disabled">Newer posts &rarr;</a>
     {% endif %}
   </nav>
+  <div class="tag-cloud fas fa-tags">
+    {{ site | tag_cloud }}
+  </div>
 {% include social.html %}
 </main>
 

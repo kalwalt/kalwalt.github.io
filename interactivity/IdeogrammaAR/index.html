@@ -1,19 +1,8 @@
 ---
 layout: interactivity
 title: Ideogramma AR01
+meta-name: false
 ---
-<!--
-<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-<!-- three.js library -->
-<script src='../../resources/three.js'></script>
-<script src="../../resources/js/ar-new.js"></script>
-<script src="../../resources/js/renderers/CanvasRenderer.js"></script>
-<script src="../../resources/js/renderers/Projector.js"></script>
-<script src="../../resources/js/loaders/OBJLoader.js"></script>
-<div style="text-align: center"><h2><p>Ideogramma AR01</p></h2></div>
-<script>THREEx.ArToolkitContext.baseURL = '../'</script>
-
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
 <script>
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
@@ -66,12 +55,9 @@ title: Ideogramma AR01
 				child.material = mat;
 			}
 		} );
-		//object.position.y = - 95;
-		//object.rotation.x=-0.5*Math.PI;
 		object.scale.x = .5;
     object.scale.y = .5;
 		object.scale.z = .5;
-		//object.rotation.z = 10;
 
 		scene.add( object );
 	} );
@@ -111,7 +97,8 @@ title: Ideogramma AR01
 
   // set patternRatio
   artoolkitProfile.contextParameters.patternRatio = 0.785
-  artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
+  //artoolkitProfile.contextParameters.cameraParametersUrl = THREEx.ArToolkitContext.baseURL + '../resources/data/camera_para.dat'
+	artoolkitProfile.contextParameters.cameraParametersUrl = '../../resources/data/camera_para.dat'
   artoolkitProfile.contextParameters.detectionMode = 'mono'
 
   var arToolkitContext = new THREEx.ArToolkitContext(artoolkitProfile.contextParameters)
@@ -139,6 +126,7 @@ title: Ideogramma AR01
 	var markerControls = new THREEx.ArMarkerControls(arToolkitContext, camera, {
 		type : 'pattern',
 		patternUrl : THREEx.ArToolkitContext.baseURL + '../resources/data/ideoAr.patt',
+		patternUrl : '../../resources/data/ideoAr.patt',
 		// as we controls the camera, set changeMatrixMode: 'cameraTransformMatrix'
 		changeMatrixMode: 'cameraTransformMatrix',
 	})
@@ -164,10 +152,9 @@ onRenderFcts.push(function(){
 		lastTimeMsec	= nowMsec
 		var time = Date.now() * 0.00005;
 		var h = ( 360 * ( 1.0 + time ) % 360 ) / 360;
-		//material.color.setHSL( h, 0.5, 0.5 );
 		// call each update function
 		onRenderFcts.forEach(function(onRenderFct){
 			onRenderFct(deltaMsec/1000, nowMsec/1000)
 		})
 	})
-</script></body>
+</script>

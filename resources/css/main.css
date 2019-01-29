@@ -1,0 +1,9 @@
+body {
+    margin : 0px auto;
+    overflow: hidden;
+    font-family: Monospace;
+}
+
+.title-artwork {
+    text-align: center;
+}
