@@ -18,7 +18,27 @@ intro_paragraph: >-
 categories: Interactive-art
 tags: Interactive-art AR Artivive Kaleidastudio 2019
 ---
-!["Cubist dragon" interactive art with Artivive app by kalwalt](/assets/images/uploads/cubist-dragon.jpg)
+{% assign path = 'assets/images/uploads/cubist-dragon.jpg' %}
+{% assign alt = 'Cubist dragon interactive art with Artivive app by Walter Perdan' %}
+{% assign title = 'Cubist dragon' %}
+{% assign caption = "Cubist dragon, digital artwork for free, 2019." %}
+
+
+{% responsive_image_block %}
+  path: {{ path }}
+  alt: {{ alt }}
+  sizes:
+   - width: 720
+   - width: 600
+   - width: 480
+   - width: 320
+  {% if title %}
+  title: {{ title }}
+  {% endif %}
+  {% if caption %}
+  caption: {{ caption }}
+  {% endif %}
+{% endresponsive_image_block %}
 
 ## Artivive - interactive art for free
 
