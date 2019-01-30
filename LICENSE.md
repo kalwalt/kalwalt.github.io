@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Note:
+
+I am the owner of all images, video and graphics, all copyrights are reserved; 
+you can't sell the image or the video or other artistic product,nor any modified part.
+You can store the file on you computer and you can distribute the file
+for a not commercial use including with the distribution this license.
