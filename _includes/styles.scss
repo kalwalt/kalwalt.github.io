@@ -763,3 +763,21 @@ html[data-current="contact"] main > form {
 .tag-list-sum > a[rel="tag"]:visited{
   background: #114ab8;
 }
+
+.interactivity-nav{
+  background-color: #bbbbbb;
+}
+
+.interactivity-ul{
+  list-style: none;
+}
+
+.interactivity-inside-div{
+  margin: 4px;
+  border: 2px;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 4px 4px 8px 4px;
+  padding: 6px;
+  background-color: white;
+}
