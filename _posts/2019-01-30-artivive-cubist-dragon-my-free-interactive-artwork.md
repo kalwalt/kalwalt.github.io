@@ -28,4 +28,4 @@ First you need to install the Artivive app: [go to google play and catch it!](ht
 
 ## Note on the license
 
-I grant the image with these conditions, i am the owner of the image, all copyrights are reserved; you can't sell the image or the video,  nor any modified part.  You can store the file on you computer and you can distribute the file for a not commercial use Including with the distribution [this license](https://github.com/kalwalt/kalwalt.github.io/blob/master/LICENSE.md).
+I grant the image with these conditions, i am the owner of the image, all copyrights are reserved; you can't sell the image or the video,  nor any modified part.  You can store the file on you computer and you can distribute the file for a not commercial use including with the distribution [this license](https://github.com/kalwalt/kalwalt.github.io/blob/master/LICENSE.md).
