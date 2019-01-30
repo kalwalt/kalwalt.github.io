@@ -12,4 +12,4 @@
     role="button"
     tabindex="0"
     src="/{{ original.path }}"
-    width="120" height="80"></amp-img>
+    width="{{ original.height | divided_by: 10 }}" height="{{ original.height | divided_by: 10 }}"></amp-img>
