@@ -24,7 +24,7 @@ tags: Interactive-art AR Artivive Kaleidastudio 2019
 
 I made this interactive work for the Kaleidastudio open call "Push the boundaries". The project did not pass the selection and i decided to release for personal use of my followers. What does it means? You can download the image from this [link](/assets/images/uploads/cubist-dragon.jpg), print it and start to enjoy the **A**ugmented **R**eality.
 
-First you need to install the Artivive app: [go to google play and catch it!](https://play.google.com/store/apps/details?id=com.artivive&hl=en) After installed, launch the app and point the camera of your smarphone to the picture. In few seconds the animation will start!
+First you need to install the Artivive app: [go to google play and catch it!](https://play.google.com/store/apps/details?id=com.artivive&hl=en) After installed, launch the app and point the camera of your smarphone to the picture. In few seconds the animation will start! You need a good internet connection to download the video data. If you can send me a message on twitter or instagram with a sceenshot!
 
 ## Note on the license
 
