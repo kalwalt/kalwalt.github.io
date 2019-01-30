@@ -20,8 +20,12 @@ tags: Interactive-art AR Artivive Kaleidastudio 2019
 ---
 !["Cubist dragon" interactive art with Artivive app by kalwalt](/assets/images/uploads/cubist-dragon.jpg)
 
-I did an interactive work for the Kaleidastudio open call "Push the boundaries". The project did not pass the selection and i decided to release for personal use of my followers. What does it means? You can download the image, print it and start to enjoy the **A**ugmented **R**eality.
+## Artivive - interactive art for free
+
+I made this interactive work for the Kaleidastudio open call "Push the boundaries". The project did not pass the selection and i decided to release for personal use of my followers. What does it means? You can download the image from this [link](/assets/images/uploads/cubist-dragon.jpg), print it and start to enjoy the **A**ugmented **R**eality.
 
 First you need to install the Artivive app: [go to google play and catch it!](https://play.google.com/store/apps/details?id=com.artivive&hl=en) After installed, launch the app and point the camera of your smarphone to the picture. In few seconds the animation will start!
 
-Note on the license:
+## Note on the license
+
+ I grant the image with these conditions, i am the owner of the image, all copyrights are reserved; you can't sell the image or the video,  nor any modified part.  You can store the file on you computer and you can distribute the file for a not commercial use Including with the distribution [this license](https://github.com/kalwalt/kalwalt.github.io/blob/master/LICENSE.md).
