@@ -176,6 +176,21 @@ body {
         &:hover {
           text-decoration: underline;
         }
+
+      }
+      .tag-post{
+          background: #1397ea;
+          color: white;
+          text-decoration: none;
+          border-radius: 4px;
+          padding: 1px 2px 1px 2px;
+      }
+      .tag-post:hover{
+        color: grey;
+      }
+
+      .tag-post:visited{
+        color: #114ab8;
       }
     }
   }
