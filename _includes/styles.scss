@@ -782,6 +782,13 @@ html[data-current="contact"] main > form {
   background-color: white;
   a{
     color: #1397ea;
+    width: 200px;
+    align-items: center;
+    align-content: baseline;
+    display: flex;
+    h4{
+      margin-left: 8px;
+    }
   }
   a:visited{
     color: #114ab8;
