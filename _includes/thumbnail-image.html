@@ -11,5 +11,7 @@
 <amp-img on="tap:lightbox1"
     role="button"
     tabindex="0"
+    alt="{{ alt }}"
     src="/{{ original.path }}"
-    width="120" height="80"></amp-img>
+    srcset="{{ srcset | strip_newlines }} {{ original.path }} {{ original.width }}w"
+    width="{{ original.width | divided_by: 10 }}" height="{{ original.height | divided_by: 10 }}"></amp-img>

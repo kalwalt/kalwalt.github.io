@@ -15,99 +15,118 @@ carousel: true
 	<article>
 	<p>My interactive art - works are listed here. Most of theme are paintings with
 		augmented reality, go to my <a href="../artworks" title="visit this page!">artworks</a> page to discover more.</p>
-		<p>I work with open source project like <a href="https://github.com/jeromeetienne/AR.js">AR.js</a>,
+		<p>I work with open source projects like <a href="https://github.com/jeromeetienne/AR.js">AR.js</a>,
 			<a href="https://threejs.org/">Three.js</a> and other. All the
 			app are based on Html and Javascript programming languages. All you need is a smartphone
 			or a tablet and... the Artwork! Yes you can not do so much with them. But i plan to realize some
 			applications that you can download and print an artwork and interact with it! Stay tuned!
 		<p>Try some of them... go to:</p>
 </article>
-<nav>
-	<ul>
+<nav class="interactivity-nav">
+	<ul class="interactivity-ul">
 	<li>
-		<a href="/interactivity/test/">Simple test</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/test/"><h4>Simple test</h4></a>
 		<p>
 			Just a simple test to check if three.js works on your phone...
 		</p>
+		</div>
 	</li>
 	<li>
-		<a href="/interactivity/moncher">Mon cher Mondrian</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/moncher/" class="fas fa-mobile-alt"><h4>Mon cher Mondrian</h4></a>
 		<div class="interactivity-thumb">
-		{% responsive_image path: assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg template: _includes/thumbnail-image.html %}
+		{% responsive_image path: assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg
+			alt: "Noise(Mon cher Mondrian) abstract painting with augmented reality by kalwalt" template: _includes/thumbnail-image.html %}
 		<p>
 			An abstract painting in honour of Mondrian, the founder of neoplasticism,
 		</p><a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/noise-abstract-art">read more...</a>
 		</div>
+		</div>
 	</li>
 	<li>
-		<a href="/interactivity/art_is_a_joke/">Art is a Joke</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/art_is_a_joke/" class="fas fa-mobile-alt"><h4>Art is a Joke</h4></a>
 		<div class="interactivity-thumb" >
-		<amp-img class="interactivity-thumb" src="/assets/images/thumb/Art_Is_a_joke_interactive_augmented_reality_walter_perdan_kalwalt.jpg" alt="Art is a joke - Interactive art -
-		Abstract painting with augmented reality by Walter Perdan"  width="120px" height="120px"></amp-img>
+			{% responsive_image path: assets/images/uploads/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg
+				alt: "Art is a joke - Interactive art - Abstract painting with augmented reality by Walter Perdan" template: _includes/thumbnail-image.html %}
 		<p>
 			"Art is a joke" is an abstract painting that play with AR markers,
 		</p><a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting">read more...</a>
-	</div>
+	  </div>
+   </div>
 	</li>
 	<li>
-		<a href="/interactivity/flower_power/">FloW-er PoW-er</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/flower_power/" class="fas fa-mobile-alt"><h4>FloW-er PoW-er</h4></a>
 		<div class="interactivity-thumb" >
-		<amp-img class="interactivity-thumb" src="/assets/images/thumb/flower_power_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg" alt="FloW-er PoW-er - Interactive art -
-		Abstract painting with augmented reality by Walter Perdan"  width="120px" height="120px"></amp-img>
+		{% responsive_image path: assets/images/uploads/flower_power_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg
+			alt: "FloW-er PoW-er - Interactive art - Abstract painting with augmented reality by Walter Perdan" template: _includes/thumbnail-image.html %}
 		<p>
 			"FloW-er PoW-er" is an abstract painting with an encrypted text,
 		</p><a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/flower-power-abstract-painting">read more...</a>
 	  </div>
+	</div>
 	</li>
 	<li>
-		<a href="/interactivity/parole_perse/">Parole perse</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/parole_perse/" class="fas fa-mobile-alt"><h4>Parole perse</h4></a>
 		<div class="interactivity-thumb" >
-		<amp-img src="/assets/images/thumb/parole_perse_abstract_painting_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg" alt="Parole perse - Interactive art -
-		Abstract painting with augmented reality by Walter Perdan"  width="120px" height="120px"></amp-img>
+		{% responsive_image path: assets/images/uploads/parole_perse_abstract_painting_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg
+			alt: "Parole perse - Interactive art - Abstract painting with augmented reality by Walter Perdan" template: _includes/thumbnail-image.html %}
 		<p>
 			Acrylic abstract painting with a particle effect,
 		</p><a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/parole-perse-abstract-painting">read more...</a>
 	  </div>
+	  </div>
 	</li>
 	<li>
-		<a href="/interactivity/tiger/">The Tiger never follows the Square</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/tiger/" class="fas fa-mobile-alt"><h4>The Tiger never follows the Square</h4></a>
 		<div class="interactivity-thumb" >
-		<amp-img src="/assets/images/thumb/tiger_acrylic_abstract_painting_interactive_art_AR_walter_perdan_kalwalt.jpg" alt="The Tiger never
-			follows the Square - Interactive art -
-		Abstract painting with augmented reality by Walter Perdan"  width="120px" height="120px"></amp-img>
+		{% responsive_image path: assets/images/uploads/tiger_acrylic_abstract_painting_interactive_art_AR_walter_perdan_kalwalt.jpg
+			alt: "The Tiger never follows the Square - Interactive art - Abstract painting with augmented reality by Walter Perdan"
+			 template: _includes/thumbnail-image.html %}
 		<p>
 			"The Tiger never follows the square" is an abstract painting with a 3d augmented reality sculpture,
 		</p><a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/tiger-abstract-painting">read more...</a>
 	  </div>
+	</div>
 	</li>
 	<li>
-		<a href="/interactivity/IdeogrammaAR/">Ideogramma AR01</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/IdeogrammaAR/" class="fas fa-mobile-alt"><h4>Ideogramma AR01</h4></a>
 		<div class="interactivity-thumb" >
-		<amp-img src="/assets/images/thumb/ideogram_AR01_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg" alt="Ideogramma AR01 - Interactive art -
-		Abstract painting with augmented reality by Walter Perdan"  width="120px" height="120px"></amp-img>
+			{% responsive_image path: assets/images/uploads/ideogram_AR01_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg
+				alt: "Ideogramma AR01 - Interactive art - Abstract painting with augmented reality by Walter Perdan" template: _includes/thumbnail-image.html %}
 		<p>
 			"Ideogramma AR01" is an acrylic abstract painting with an ideogram as marker,
 		</p><a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/ideogramma-ar01-abstract-painting">read more...</a>
 	  </div>
+	</div>
 	</li>
 	<li>
-		<a href="/interactivity/dada_knigth/">Dada Knight</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/dada_knigth/" class="fas fa-mobile-alt"><h4>Dada Knight</h4></a>
 		<div class="interactivity-thumb" >
-		<amp-img src="/assets/images/thumb/dada_knight_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg" alt="Dada Knight - Interactive art -
-		Abstract painting with augmented reality by Walter Perdan"  width="120px" height="120px"></amp-img>
+			{% responsive_image path: assets/images/uploads/dada_knight_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg
+				alt: "Dada Knight - Interactive art - Abstract painting with augmented reality by Walter Perdan" template: _includes/thumbnail-image.html %}
 		<p>
 			"Dada Knight" is an exclusive artwork for d|a|c,
 		</p><a href="https://www.artsy.net/artwork/walter-perdan-dada-knight">read more...</a>
 	  </div>
+	  </div>
 	</li>
 	<li>
-		<a href="/interactivity/glitch/">Glitch</a>
+		<div class="interactivity-inside-div">
+		<a href="/interactivity/glitch/" class="fas fa-mobile-alt"><h4>Glitch</h4></a>
 		<div class="interactivity-thumb" >
-		<amp-img src="/assets/images/thumb/glitch_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg" alt="Glitch - Interactive art -
-		Abstract painting with augmented reality by Walter Perdan"  width="120px" height="120px"></amp-img>
+		{% responsive_image path: assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.jpg
+			alt: "Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan" template: _includes/thumbnail-image.html %}
 		<p>
 			"Glitch" is an exclusive artwork for d|a|c,
 		</p><a href="https://www.artsy.net/artwork/walter-perdan-glitch">read more...</a>
+	  </div>
 	  </div>
 	</li>
 </ul>
