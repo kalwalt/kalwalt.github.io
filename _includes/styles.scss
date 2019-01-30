@@ -659,10 +659,6 @@ html[data-current="contact"] main > form {
   }
 }
 
-.interactivity-thumb{
-  width: 100%;
-}
-
 .figure-amp-img{
   margin: 0;
   padding: 0 0 30px;
@@ -754,6 +750,7 @@ html[data-current="contact"] main > form {
     display: inline-block;
 
 }
+
 .tag-list-sum > a[rel="tag"]:hover{
   text-decoration: none;
   background: grey;
@@ -770,14 +767,28 @@ html[data-current="contact"] main > form {
 
 .interactivity-ul{
   list-style: none;
+  align-content: center;
+  padding-inline-start: 4px;
+  padding-right: 4px;
 }
 
 .interactivity-inside-div{
   margin: 4px;
   border: 2px;
   border-style: solid;
-  border-color: blue;
+  border-color: #1397ea;
   border-radius: 4px 4px 8px 4px;
   padding: 6px;
   background-color: white;
+  a{
+    color: #1397ea;
+  }
+  a:visited{
+    color: #114ab8;
+  }
+}
+
+.interactivity-thumb{
+  width: 100%;
+  margin-top: 8px;
 }
