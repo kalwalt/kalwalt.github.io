@@ -814,3 +814,72 @@ html[data-current="contact"] main > form {
   width: 100%;
   margin-top: 8px;
 }
+
+/*fontawesome-menu styles*/
+
+.bg-primary{
+  color:white;
+  background-color: #337ab7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.services {
+    padding: 10px 0;
+    border-radius: 6px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.container-fw{
+  display: inline-block;
+  height: auto;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-lg-10{
+  display: inline-block;
+  height: auto;
+}
+
+.row{
+  display: inline-flex;
+  height: auto;
+}
+
+.fontaws-item{
+  display: inline-block;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.text-primary{
+  color: #337ab7;
+}
+
+.bg-primary{
+  color:white;
+  background-color: #337ab7;
+  padding-top: 10px;
+}
+
+.btn-light {
+    border-radius: 4px;
+    color: #333;
+    background-color: rgb(255,255,255);
+    padding: 4px;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(250,250,250,0.7);
+}
+
+/*end of fontawesome-menu styles*/

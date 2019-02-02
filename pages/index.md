@@ -38,6 +38,8 @@ I am Kalwalt alias Walter Perdan, i am an italian visual artist specialized in i
 I like to mix different languages and search connections between innovative media and traditional one. I love abstract and surreal art and some aspect of psicadelyc art. I believe in experimentation and this is a daily practice.
 In this website you can find all my applications used for my interactive artworks [Read more about my life...](/about)
 
+{% include fontawesome-menu.html %}
+
 ## Introduction to my artistic research
 
 <amp-youtube data-videoid="moG_76T_Jv0" layout="responsive" width="480" height="270"></amp-youtube>
