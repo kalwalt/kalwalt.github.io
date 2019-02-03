@@ -814,3 +814,101 @@ html[data-current="contact"] main > form {
   width: 100%;
   margin-top: 8px;
 }
+
+/*fontawesome-menu styles*/
+
+.bg-primary{
+  color:white;
+  background-color: #1397ea;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.services {
+  padding: 10% 0;
+  border-radius: 6px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.container-fw{
+  height: auto;
+  width: 100%;
+}
+
+.text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.col-md-3{
+  align-items: center;
+  text-align: -webkit-center;
+}
+.col-lg-10{
+  width: 100%;
+  align-items: center;
+}
+.small-line{
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .row {
+    display: inline-flex;
+    //justify-content: space-between;
+    height: auto;
+  }
+  .col-md-3{
+      width: 25%;
+  }
+}
+
+.fontaws-item{
+  width: 90%;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  .icon-btn{
+    color:white;
+    background-color: #1397ea;
+  }
+}
+
+.text-primary{
+  color: #1397ea;
+}
+
+.bg-primary{
+  color:white;
+  background-color: #1397ea;
+  padding-top: 10px;
+}
+
+.btn-light {
+    border-radius: 4px;
+    color: #333;
+    background-color: rgb(255,255,255);
+    padding: 4px;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(250,250,250,0.7);
+}
+
+/*end of fontawesome-menu styles*/
+
+/* fb-comments*/
+
+.fb-comments{
+  width: 700px;
+}
+
+.fb-likes{
+  display: block;
+  text-align: left;
+}
