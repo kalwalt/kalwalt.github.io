@@ -820,42 +820,56 @@ html[data-current="contact"] main > form {
 .bg-primary{
   color:white;
   background-color: #337ab7;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 .services {
-    padding: 10px 0;
-    border-radius: 6px;
-    margin-top: auto;
-    margin-bottom: auto;
+  padding: 10% 0;
+  border-radius: 6px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .container-fw{
-  display: inline-block;
   height: auto;
+  width: 100%;
 }
 
 .text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
+.col-md-3{
+  align-items: center;
+  text-align: -webkit-center;
+}
 .col-lg-10{
-  display: inline-block;
-  height: auto;
+  width: 100%;
+  align-items: center;
+}
+.small-line{
+  width: 100%;
 }
 
-.row{
-  display: inline-flex;
-  height: auto;
+@media only screen and (min-width: 800px) {
+  .row {
+    display: inline-flex;
+    //justify-content: space-between;
+    height: auto;
+  }
+  .col-md-3{
+      width: 25%;
+  }
 }
 
 .fontaws-item{
-  display: inline-block;
+  width: 90%;
   color: white;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .text-primary{
