@@ -828,7 +828,7 @@ html[data-current="contact"] main > form {
   padding: 10% 0;
   border-radius: 6px;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 5%;
 }
 
 .container-fw{
@@ -922,4 +922,60 @@ html[data-current="contact"] main > form {
 .fb-likes{
   display: block;
   text-align: left;
+}
+
+/*
+* Parallax image window styles
+*/
+.container-parallax{
+  margin-bottom: 20%;
+}
+
+.parallax-image-window {
+  overflow: hidden;
+}
+
+.parallax-image-window amp-img {
+  margin-bottom: -30%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  background-color: rgba(19, 151, 234, .7);
+  position: relative;
+  top: 40%;
+  left: 5%;
+  text-align: center;
+  border-radius: 6px;
+  z-index: 100;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 768px){
+  .text {
+    opacity: 1.0;
+    color: black;
+    font-size: 0.8em;
+    padding: 14px 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024){
+  .text {
+    opacity: 1.0;
+    color: black;
+    font-size: 1.2em;
+    padding: 14px 30px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .text {
+    opacity: 1.0;
+    color: black;
+    font-size: 1.8em;
+    padding: 14px 30px;
+  }
 }

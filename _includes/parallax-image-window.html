@@ -1,0 +1,35 @@
+<div class="container-parallax">
+  <div class="middle">
+    <div class="text">Discover my Interactive artworks</div>
+  </div>
+<amp-animation id="parallaxTransition"
+  layout="nodisplay">
+  <script type="application/json">
+    {
+      "duration": "1",
+      "fill": "both",
+      "direction": "reverse",
+      "animations": [{
+        "selector": "#parallaxImage",
+        "keyframes": [{
+          "transform": "translateY(-30%)"
+        }]
+      }]
+    }
+  </script>
+</amp-animation>
+<div class="parallax-image-window">
+
+  <amp-position-observer on="scroll:parallaxTransition.seekTo(percent=event.percent)"
+    intersection-ratios="0"
+    layout="nodisplay">
+  </amp-position-observer>
+
+  <amp-img id="parallaxImage"
+    width="1200"
+    height="873"
+    layout="responsive"
+    src="/assets/images/uploads/dada_knight_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg"
+    alt="Dada knight"></amp-img>
+</div>
+</div>
