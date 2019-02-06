@@ -9,18 +9,18 @@ Simple page with website structure.
 
 ### Website structure
 
-[Home](https://kalwalt.github.io/)
-[Artworks](https://kalwalt.github.io/artworks/)
-[Interactivity](https://kalwalt.github.io/interactivity/)
-[CV](https://kalwalt.github.io/cv/)
-[Blog](https://kalwalt.github.io/blog/)
-[About](https://kalwalt.github.io/about/)
-[Contact me](https://kalwalt.github.io/contacts/)
+[Home](https://www.kalwaltart.it/)
+[Artworks](https://www.kalwaltart.it/artworks/)
+[Interactivity](https://www.kalwaltart.it/interactivity/)
+[CV](https://www.kalwaltart.it/cv/)
+[Blog](https://www.kalwaltart.it/blog/)
+[About](https://www.kalwaltart.it/about/)
+[Contact me](https://www.kalwaltart.it/contacts/)
 
 
 ### Support or Contact
 
-If you need support or if you want to ask something, go to my [contact](https://kalwalt.github.io/contacts) page
+If you need support or if you want to ask something, go to my [contact](https://www.kalwaltart.it/contacts/) page
 
 ## www.kalwaltart.it
 
@@ -30,7 +30,7 @@ This repository contains the source code and content for the www.kalwaltart.it w
 
 ### Post and Page Content
 
-The post and page content - articles and all the images - in this repository is under copyright and is not available under any Creative Commons license. For usage permission, please raise a GitHub issue on this repository or contact me.
+The post and page content - articles and all the images - in this repository is under copyright and is not available under any Creative Commons license. For usage permission, please raise a GitHub issue on this repository or [contact me](https://www.kalwaltart.it/contacts/).
 
 ## Code
 The code in this repository is licensed under The MIT License.
