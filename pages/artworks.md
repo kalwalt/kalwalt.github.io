@@ -2,6 +2,7 @@
 layout: page
 id: 02
 title: Abstract art | Artworks about Kalwalt alias Walter Perdan visual artist.
+crumbtitle: Artworks
 permalink: /artworks/
 section: artworks
 description: "Some Kalwalt's alias Walter Perdan Artworks. His works is mainly focused on abstract art. For an exaustive list of artworks go to the attached link."

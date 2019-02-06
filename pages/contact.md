@@ -2,6 +2,7 @@
 layout: contact
 id: 07
 title: Contacts
+crumbtitle: Contacts
 permalink: /contacts/
 section: contact
 description: This is the page where you can find contacts information about kalwalt alias Walter Perdan.

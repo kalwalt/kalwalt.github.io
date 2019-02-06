@@ -2,6 +2,7 @@
 layout: page
 id: 04
 title: Cv by Walter Perdan, visual artist.
+crumbtitle: Cv
 permalink: /cv/
 section: cv
 description:  A short introduction on Walter Perdan formation and activities. For more go to the official page.
