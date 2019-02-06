@@ -2,6 +2,7 @@
 layout: home
 id: 01
 title: Interactive art | Kalwalt official website for AR apps
+crumbtitle: Home
 permalink: /
 section: home
 description: Original website of Kalwalt alias Walter Perdan. In this website are stored all my augmented reality applications for interactive art.
