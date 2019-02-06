@@ -15,8 +15,8 @@ intro_paragraph: ''
 
 {% assign path = 'assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.jpg' %}
 {% assign alt = 'Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan' %}
-{% assign title = 'Art is a joke' %}
-{% assign caption = 'Art is a joke, acrylic color on canvas, 70x50 cm, 2018.'%}
+{% assign title = 'Glitch' %}
+{% assign caption = 'Glitch, acrylic color on canvas, 70x50 cm, 2018.'%}
 
 {% responsive_image_block %}
   path: {{ path }}
@@ -40,6 +40,7 @@ I like to mix different languages and search connections between innovative medi
 In this website you can find all my applications used for my interactive artworks [Read more about my life...](/about)
 
 {% include fontawesome-menu.html %}
+{% include parallax-image-window.html %}
 
 ## Introduction to my artistic research
 

@@ -3,6 +3,7 @@ layout: default
 title: Readme page of Kalwalt website
 description: Simple Readme.md page with website structure to offer a simple description of the portal.
 ---
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9ffe85a1-5bcc-4286-ae8c-0dd9a5b7d8c1/deploy-status)](https://app.netlify.com/sites/kalwaltart/deploys)
 
 ## Welcome to my website
 Simple page with website structure.
