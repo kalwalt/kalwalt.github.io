@@ -14,7 +14,7 @@ tags: Interactive-art AR Artivive Kaleidastudio 2018
 ---
 ## Upcoming projects with Augmented Reality.
 
-{% assign path = 'assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg' %}
+{% assign path = 'assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.webp' %}
 {% assign alt = 'Noise (Mon cher Mondrian) interactive acrylic painting made with Ar.js by Walter Perdan.' %}
 {% assign title = 'Noise (Mon cher Mondrian)' %}
 {% assign caption = "Noise (Mon cher Mondrian), acrylic color on canvas, 100x70 cm, 2018."%}
