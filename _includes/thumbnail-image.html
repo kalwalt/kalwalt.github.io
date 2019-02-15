@@ -7,11 +7,18 @@
 
 <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
 
-</amp-img>
+
 <amp-img on="tap:lightbox1"
     role="button"
     tabindex="0"
     alt="{{ alt }}"
     src="/{{ original.path }}"
     srcset="{{ srcset | strip_newlines }} {{ original.path }} {{ original.width }}w"
-    width="{{ original.width | divided_by: 10 }}" height="{{ original.height | divided_by: 10 }}"></amp-img>
+    width="{{ original.width | divided_by: 10 }}" height="{{ original.height | divided_by: 10 }}">
+    <amp-img alt="{{ alt }}"
+       fallback
+       width="{{ original.width }}px"
+       height="{{ original.height }}px"
+       src="/assets/{{ original.dirname }}/{{ original.filename }}.jpg"></amp-img>
+  </amp-img>
+    </amp-img>
