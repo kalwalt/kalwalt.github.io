@@ -8,4 +8,10 @@
   width="{{ original.width }}px" height="{{ original.height }}px"
   src="/{{ original.path }}" alt="{{ alt }}"
   srcset="{{ srcset | strip_newlines }} {{ original.path }} {{ original.width }}w"
-  sizes="(min-width: 1200px) 720px, 90vw" layout="responsive"></amp-img>
+  sizes="(min-width: 1200px) 720px, 90vw" layout="responsive">
+  <amp-img alt="{{ alt }}"
+     fallback
+     width="{{ original.width }}px"
+     height="{{ original.height }}px"
+     src="/assets/{{ original.dirname }}/{{ original.filename }}.jpg"></amp-img>
+  </amp-img>
