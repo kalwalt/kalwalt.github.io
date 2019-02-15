@@ -17,8 +17,7 @@
     width="{{ original.width | divided_by: 10 }}" height="{{ original.height | divided_by: 10 }}">
     <amp-img alt="{{ alt }}"
        fallback
-       width="{{ original.width }}px"
-       height="{{ original.height }}px"
+       width="{{ original.width | divided_by: 10 }}px"
+       height="{{ original.height | divided_by: 10 }}px"
        src="/assets/{{ original.dirname }}/{{ original.filename }}.jpg"></amp-img>
-  </amp-img>
     </amp-img>
