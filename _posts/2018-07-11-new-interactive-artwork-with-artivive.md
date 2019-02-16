@@ -13,7 +13,7 @@ tags: Interactive-art Artivive AR Glitch Animation 2018
 ---
 ## Suono di superficie my new interactive artwork with Artivive.
 
-{% assign path = 'assets/images/uploads/suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg' %}
+{% assign path = 'assets/images/uploads/suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.webp' %}
 {% assign alt = 'Suono di superficie interactive acrylic painting made with Artivive by Walter Perdan' %}
 {% assign title = 'Suono di superficie' %}
 {% assign caption = "Suono di superficie, acrylic color on canvas, 70x50 cm, 2018."%}
