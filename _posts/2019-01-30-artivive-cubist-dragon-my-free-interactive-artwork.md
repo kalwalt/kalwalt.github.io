@@ -23,7 +23,6 @@ tags: Interactive-art AR Artivive Kaleidastudio 2019
 {% assign title = 'Cubist dragon' %}
 {% assign caption = "Cubist dragon, digital artwork for free, 2019." %}
 
-
 {% responsive_image_block %}
   path: {{ path }}
   alt: {{ alt }}
