@@ -76,7 +76,7 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
 
 ## Interactive artworks
 
-{% assign path = 'assets/images/uploads/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.webp' %}
+{% assign path = 'assets/images/uploads/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg' %}
 {% assign alt = "Art is a joke - abstract painting with augmented reality by Kalwalt" %}
 {% assign title = "Art is a joke" %}
 {% assign caption = "Art is a joke, acrylic color on canvas, 70x50 cm, 2011."%}
