@@ -14,7 +14,7 @@ intro_paragraph: '## Introduction
 ---
 ## Painting
 
-{% assign path = 'assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.webp' %}
+{% assign path = 'assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.jpg' %}
 {% assign alt = 'Eterno dilemma - abstract painting by Kalwalt' %}
 {% assign title = "L'Eterno dilemma" %}
 {% assign caption = "L'Eterno dilemma, acrylic color on canvas, 30x30 cm, 2018."%}
@@ -45,7 +45,7 @@ Got to [my website for more...](https://www.walterperdan.com/en/artworks/paintin
 
 ## Sculpture
 
-{% assign path = 'assets/images/uploads/Respiro_cosmico_abstract_sculpture_kalwalt.webp' %}
+{% assign path = 'assets/images/uploads/Respiro_cosmico_abstract_sculpture_kalwalt.jpg' %}
 {% assign alt = "Respiro cosmico abstract sculpture by Kalwalt" %}
 {% assign title = "Respiro cosmico" %}
 {% assign caption = "Respiro cosmico, Carrara marble, 55x30x30 cm, 2011."%}

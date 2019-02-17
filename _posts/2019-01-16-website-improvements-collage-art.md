@@ -20,7 +20,7 @@ intro_paragraph: >-
 categories: ' '
 tags: Web-design AMP WPA Sculpture Collage-art 2019
 ---
-{% assign path = 'assets/images/uploads/Art_Is_a_joke_interactive_slice.webp' %}
+{% assign path = 'assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg' %}
 {% assign alt = 'Art is a joke interactive art with augmented reality by Walter Perdan' %}
 {% assign title = 'Art is a joke' %}
 {% assign caption = "a slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2018."%}
