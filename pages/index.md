@@ -13,7 +13,7 @@ intro_paragraph: ''
 
 ## Painting, sculpture, drawing, interactive art and more...
 
-{% assign path = 'assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.webp' %}
+{% assign path = 'assets/images/uploads/glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan.jpg' %}
 {% assign alt = 'Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan' %}
 {% assign title = 'Glitch' %}
 {% assign caption = 'Glitch, acrylic color on canvas, 70x50 cm, 2018.'%}
