@@ -41,7 +41,7 @@ CMS.registerEditorComponent({
   // Visible label
   label: "Amp-img",
   // Fields the user need to fill out when adding an instance of the component
-  fields: [{name: 'id_a', label: 'Webp image id', widget: 'string'}],
+  fields: [{label: "Image", name: "webp_image", widget: "image"}],
   // Pattern to identify a block as being an instance of this component
   pattern: /^amp-img (\S+)$/,
   // Function to extract data elements from the regexp match
@@ -53,13 +53,13 @@ CMS.registerEditorComponent({
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
     return ('<figure class="figure-amp-img">'+
-      '<amp-img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id_b +'sizes="(min-width: 1200px) 720px, 90vw" layout="responsive"></amp-img><figcaption class="image-responsive-caption">Art is a joke, 70x50 cm, acrylic color on canvas with AR, 2018.</figcaption></figure>');
+      '<amp-img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.webp_image +'sizes="(min-width: 1200px) 720px, 90vw" layout="responsive"></amp-img><figcaption class="image-responsive-caption">Art is a joke, 70x50 cm, acrylic color on canvas with AR, 2018.</figcaption></figure>');
   },
   // Preview output for this component. Can either be a string or a React component
   // (component gives better render performance)
   toPreview: function(obj) {
     return (
-      '<figure class="figure-amp-img">'+'<amp-img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id_b +'sizes="(min-width: 1200px) 720px, 90vw" layout="responsive"></amp-img><figcaption class="image-responsive-caption">Art is a joke, 70x50 cm, acrylic color on canvas with AR, 2018.</figcaption></figure>'
+      '<figure class="figure-amp-img">'+'<amp-img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.webp_image +'sizes="(min-width: 1200px) 720px, 90vw" layout="responsive"></amp-img><figcaption class="image-responsive-caption">Art is a joke, 70x50 cm, acrylic color on canvas with AR, 2018.</figcaption></figure>'
     );
   }
 });
