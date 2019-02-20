@@ -2,8 +2,8 @@
 layout: post
 title: Interactive art improvements and news
 description: >-
-  Some news on interactive art, web design and programming by kalwalt alias
-  Walter Perdan.
+  Some news on interactive art, web design and programming related to my
+  websites and my works, article by kalwalt alias Walter Perdan.
 author: Walter Perdan
 date: '2019-02-20 14:02:55'
 lang: en
