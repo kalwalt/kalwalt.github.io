@@ -25,4 +25,6 @@ The benefit of this approach is:
 * less stress for the hosting server (at least with jekyll and imagemagick)
 * the github repository will be lighter, because you will not store anymore any images.
 
-I will use this service also for my other website, but, for this, i slowly migrating to a "Gatsbyjs" system. [Gatsby.js](https://www.gatsbyjs.org) is an plugin ecosystem based primarly on React. I am learning both, but it seems very promising. [React](https://reactjs.org) main characteristic is the use of Virtual DOM and the Component architecture.
+I will use this service also for my other website, but, for this, i slowly migrating to a "Gatsbyjs" system. [Gatsby.js](https://www.gatsbyjs.org) is an plugin ecosystem based primarly on React. I am learning both, but it seems very promising. [React](https://reactjs.org) main characteristic is the use of Virtual DOM and the Component architecture. I will inform you of my progress...
+
+In these days i spent also my time to improve the [Jsartoolkit5](https://github.com/artoolkitx/jsartoolkit5) library. I would add the NFT ( Natural Feature Tracking ) , that is a markerless approach for the augmented reality applications. To be honest there is already a [NFT branch](https://github.com/artoolkitx/jsartoolkit5/tree/nft) but the problem is the slow performances in fps terms and it is very old it require an update.
