@@ -17,13 +17,14 @@ categories: Interactive-art
 tags: Interactive-art AR Artoolitx NFT Gatsbyjs React Uploadcare 2019
 ---
 <figure class="figure-amp-img">
-  <amp-img width="1200px" height="859px" src="https://ucarecdn.com/70146e27-890d-498c-af4f-7000cf842210/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.webp" alt="Art is a joke - interactive art by Walter Perdan" title="Art is a joke acrylic color on canvas with AR" srcset="https://ucarecdn.com/70146e27-890d-498c-af4f-7000cf842210/-/resize/640x/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.webp 640w,
+  <amp-img width="1200px" height="859px" src="https://ucarecdn.com/70146e27-890d-498c-af4f-7000cf842210/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.webp" alt="Art is a joke - interactive art by Walter Perdan" title="Art is a joke acrylic color on canvas with AR" srcset="https://ucarecdn.com/70146e27-890d-498c-af4f-7000cf842210/-/resize/480x/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.webp 480w,
+  https://ucarecdn.com/70146e27-890d-498c-af4f-7000cf842210/-/resize/640x/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.webp 640w,
   https://ucarecdn.com/70146e27-890d-498c-af4f-7000cf842210/-/resize/720x/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.webp 720w,
   https://ucarecdn.com/70146e27-890d-498c-af4f-7000cf842210/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.webp 1200w" sizes="(min-width: 1200px) 720px, 90vw" layout="responsive">
     <amp-img alt="{{ alt }}"
        fallback
        width="1200px"
-       height="{{ original.height }}px"
+       height="859px"
        src="https://ucarecdn.com/20796a85-7afc-4634-8e87-f66201205163/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg"></amp-img>
   </amp-img>
   <figcaption class="image-responsive-caption">"Art is a joke", 70x50 cm, acrylic color on canvas with AR, 2018.</figcaption>
