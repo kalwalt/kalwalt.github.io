@@ -51,7 +51,6 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Date_Published", name: "datePublished", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Image_path", name: "image", widget: "file"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
-      - {label: "IMAGE", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
       - {label: "Tags", name: "tags", widget: "string", required: false}
