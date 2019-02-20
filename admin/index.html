@@ -34,15 +34,15 @@ var CategoriesPreview = createClass({
 });
 
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview);
-//CMS.registerPreviewTemplate("posts", CategoriesPreview);
+
 CMS.registerEditorComponent({
   // Internal id of the component
   id: "amp-img",
   // Visible label
   label: "Amp-img",
   // Fields the user need to fill out when adding an instance of the component
-  fields: [{name: 'id_a', label: 'Webp image id', widget: 'string'}],
-          [{name: 'id_b', label: 'Jpg image id', widget: 'string'}],
+  fields: - {name: 'id_a', label: 'Webp image id', widget: 'string'}
+          - {name: 'id_b', label: 'Jpeg image id', widget: 'string'},
   // Pattern to identify a block as being an instance of this component
   pattern: /^amp-img (\S+)$/,
   // Function to extract data elements from the regexp match
@@ -53,8 +53,6 @@ CMS.registerEditorComponent({
   },
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
-    //return 'youtube ' + obj.id;
-    //return '{{< youtube ' + obj.id + ' >}}';
     return ('<figure class="figure-amp-img">'+
       '<amp-img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id_b +'sizes="(min-width: 1200px) 720px, 90vw" layout="responsive"></amp-img><figcaption class="image-responsive-caption">Art is a joke, 70x50 cm, acrylic color on canvas with AR, 2018.</figcaption></figure>');
   },
