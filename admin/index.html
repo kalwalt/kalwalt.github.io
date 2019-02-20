@@ -34,7 +34,7 @@ var CategoriesPreview = createClass({
 });
 
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview);
-//CMS.registerPreviewTemplate("posts", CategoriesPreview);
+
 CMS.registerEditorComponent({
   // Internal id of the component
   id: "amp-img",
@@ -53,8 +53,6 @@ CMS.registerEditorComponent({
   },
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
-    //return 'youtube ' + obj.id;
-    //return '{{< youtube ' + obj.id + ' >}}';
     return ('<figure class="figure-amp-img">'+
       '<amp-img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id_b +'sizes="(min-width: 1200px) 720px, 90vw" layout="responsive"></amp-img><figcaption class="image-responsive-caption">Art is a joke, 70x50 cm, acrylic color on canvas with AR, 2018.</figcaption></figure>');
   },
