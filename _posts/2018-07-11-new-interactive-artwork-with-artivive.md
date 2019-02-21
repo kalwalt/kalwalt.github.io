@@ -8,7 +8,7 @@ seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
-image: https://ucarecdn.com/cb9f79fd-d999-4ddd-8532-4655bcc3d756/suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg
+image: 'https://ucarecdn.com/cb9f79fd-d999-4ddd-8532-4655bcc3d756/suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg'
 tags: Interactive-art Artivive AR Glitch Animation 2018
 ---
 ## Suono di superficie my new interactive artwork with Artivive.

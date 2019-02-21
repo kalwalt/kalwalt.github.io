@@ -9,7 +9,7 @@ seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
-image: /assets/images/uploads/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg
+image: 'https://ucarecdn.com/44f9a356-38cc-4aa7-8732-8812a6548cfc/Noise_abstract_painting_augmented_reality_Walter_Perdan.jpg'
 tags: Interactive-art AR Artivive Kaleidastudio 2018
 ---
 ## Upcoming projects with Augmented Reality.

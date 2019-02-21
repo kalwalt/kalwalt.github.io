@@ -11,7 +11,7 @@ seo:
   author: Walter Perdan
   datePublished: '2019-01-30'
   type: BlogPosting
-image: /assets/images/uploads/cubist-dragon.jpg
+image: 'https://ucarecdn.com/c4ac6055-1edb-44de-af97-5e7363814ee4/cubist_dragon.jpg'
 intro_paragraph: >-
   As promised in my post some time ago, I release for free my project created
   with Artivive. More information below.
