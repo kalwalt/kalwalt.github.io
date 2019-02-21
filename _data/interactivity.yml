@@ -1,16 +1,20 @@
 - id: 0
   name: art_is_a_joke_augmented_reality_walter_perdan_kalwalt
+  up_id: d0043167-4e3e-42da-86b2-1a69b70c2a18
   alt: 'Art is a joke abstract painting with augmented reality by Walter Perdan, kalwalt'
   caption: '"Art is a joke", acrylic colors on canvas and AR, 70 x 50 cm, 2018.'
 - id: 1
   name: glitch_augmented_reality_walter_perdan_kalwalt
+  up_id: 0581cbed-8e51-4a0e-aab1-77b96ed2806b
   alt: 'Glitch abstract painting with augmented reality by Walter Perdan, kalwalt'
   caption: '"Glitch", acrylic colors on canvas and AR, 70 x 50 cm, 2018.'
 - id: 2
   name: suono_superficie_augmented_reality_walter_perdan_kalwalt
+  up_id: e534a6b0-ed3d-4c94-991e-e8c65f905e46
   alt: 'Suono di superficie abstract painting with augmented reality by Walter Perdan, kalwalt'
   caption: '"Suono di superficie", acrylic colors on canvas and AR, 70 x 50 cm, 2018.'
 - id: 3
   name: tiger_square_augmented_reality_walter_perdan_kalwalt
+  up_id: b818de60-8630-4dad-bd1b-b528f1870c59
   alt: 'The Tiger never follows the Square abstract painting with augmented reality by Walter Perdan, kalwalt'
   caption: '"The Tiger never follows the Square" acrylic colors on plywood and AR, 70 x 50 cm, 2018.'
