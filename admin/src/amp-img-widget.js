@@ -1,4 +1,4 @@
-export var init = () => {
+function init() {
 var CategoriesControl = createClass({
 handleChange: function(e) {
 this.props.onChange(e.target.value.split(',').map((e) => e.trim()));
@@ -50,4 +50,6 @@ toPreview: function(obj) {
   );
 }
 });
-};
+}
+
+export ampImg(){ init(); }

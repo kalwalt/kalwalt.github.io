@@ -1,2 +1,2 @@
-import init from './amp-img-widget';
-init();
+import { ampImg } from 'amp-img-widget';
+ampImg();
