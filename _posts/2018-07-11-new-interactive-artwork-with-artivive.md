@@ -8,32 +8,21 @@ seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
-image: /assets/images/uploads/suono_di superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg
+image: 'https://ucarecdn.com/cb9f79fd-d999-4ddd-8532-4655bcc3d756/suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg'
 tags: Interactive-art Artivive AR Glitch Animation 2018
 ---
 ## Suono di superficie my new interactive artwork with Artivive.
 
-{% assign path = 'assets/images/uploads/suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg' %}
+{% assign width = "1200" %}
+{% assign height = "844" %}
+{% assign jpg_id = "cb9f79fd-d999-4ddd-8532-4655bcc3d756" %}
+{% assign webp_id = "67b0703f-a242-496a-98c3-30e5b4243007" %}
+{% assign name = "suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan" %}
 {% assign alt = 'Suono di superficie interactive acrylic painting made with Artivive by Walter Perdan' %}
 {% assign title = 'Suono di superficie' %}
 {% assign caption = "Suono di superficie, acrylic color on canvas, 70x50 cm, 2018."%}
 
-{% responsive_image_block %}
-  path: {{ path }}
-  alt: {{ alt }}
-  sizes:
-   - width: 320
-   - width: 480
-   - width: 600
-   - width: 720
-
-  {% if title %}
-  title: {{ title }}
-  {% endif %}
-  {% if caption %}
-  caption: {{ caption }}
-  {% endif %}
-{% endresponsive_image_block %}
+{% include figure-amp-img.html %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/sound-surface-artivive">Read more on "Suono di superficie"...</a>
 

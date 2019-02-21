@@ -8,7 +8,7 @@ seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
-image: /assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg
+image: 'https://ucarecdn.com/1255ace3-6fe7-4579-a9df-4545c59b3333/Art_Is_a_joke_interactive_slice.jpg'
 tags: Artivive AR Interactive-art Kaleidastudio 2018
 ---
 
