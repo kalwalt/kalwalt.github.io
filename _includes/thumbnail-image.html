@@ -1,23 +1,20 @@
-<!-- a simple thumbnail image with lightbox -->
-{% capture srcset %}
-{% for i in resized %}
-    /{{ i.path }} {{ i.width }}w,
-{% endfor %}
-{% endcapture %}
-
 <amp-image-lightbox id="lightbox1" layout="nodisplay"></amp-image-lightbox>
-
-
-<amp-img on="tap:lightbox1"
-    role="button"
-    tabindex="0"
-    alt="{{ alt }}"
-    src="/{{ original.path }}"
-    srcset="{{ srcset | strip_newlines }} {{ original.path }} {{ original.width }}w"
-    width="{{ original.width | divided_by: 10 }}" height="{{ original.height | divided_by: 10 }}">
-    <amp-img fallback
-       alt="{{ alt }}"
-       width="{{ original.width | divided_by: 10 }}px"
-       height="{{ original.height | divided_by: 10 }}px"
-       src="/assets/{{ original.dirname }}/{{ original.filename }}.jpg"></amp-img>
-</amp-img>
+  <amp-img on="tap:lightbox1"
+      role="button"
+      tabindex="0"
+      width="{{ width | divided_by: 10 }}px" height="{{ height | divided_by: 10 }}px"
+      src="https://ucarecdn.com/{{ jpg_id }}/{{ name }}.jpg" alt="{{ alt }}" title="{{ title }}"
+      srcset="https://ucarecdn.com/{{ webp_id }}/-/resize/320x/{{ name }}.webp 320w,
+             https://ucarecdn.com/{{ webp_id }}/-/resize/450x/{{ name }}.webp 450w,
+             https://ucarecdn.com/{{ webp_id }}/-/resize/640x/{{ name }}.webp 640w,
+             https://ucarecdn.com/{{ webp_id }}/-/resize/750x/{{ name }}.webp 750w,
+             https://ucarecdn.com/{{ webp_id }}/-/resize/800x/{{ name }}.webp 800w,
+             https://ucarecdn.com/{{ webp_id }}/-/resize/900x/{{ name }}.webp 900w,
+             https://ucarecdn.com/{{ webp_id }}/-/resize/1000x/{{ name }}.webp 1000w,
+             https://ucarecdn.com/{{ webp_id }}/{{ name }}.webp 1200w,">
+    <amp-img alt="{{ alt }}"
+       fallback
+       width="{{ width | divided_by: 10 }}px"
+       height="{{ height | divided_by: 10 }}px"
+       src="https://ucarecdn.com/{{ jpg_id }}/{{ name }}.jpg"></amp-img>
+  </amp-img>
