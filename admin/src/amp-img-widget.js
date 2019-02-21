@@ -50,4 +50,4 @@ toPreview: function(obj) {
   );
 }
 });
-}
+};
