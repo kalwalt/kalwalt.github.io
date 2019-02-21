@@ -5,6 +5,7 @@ title: Abstract art | Artworks about Kalwalt alias Walter Perdan visual artist.
 crumbtitle: Artworks
 permalink: /artworks/
 section: artworks
+image: 'https://ucarecdn.com/20796a85-7afc-4634-8e87-f66201205163/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg'
 description: "Some Kalwalt's alias Walter Perdan Artworks. His works is mainly focused on abstract art. For an exaustive list of artworks go to the attached link."
 lang: en
 intro_paragraph: '## Introduction
