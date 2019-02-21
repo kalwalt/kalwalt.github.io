@@ -1,3 +1,4 @@
+var init = init(() => {
 var CategoriesControl = createClass({
 handleChange: function(e) {
 this.props.onChange(e.target.value.split(',').map((e) => e.trim()));
@@ -48,4 +49,5 @@ toPreview: function(obj) {
     '<img width="1200px" height="859px" src="' + obj.webp_image +'" sizes="(min-width: 1200px) 720px, 90vw"></img><figcaption class="image-responsive-caption">'
   );
 }
+});
 });
