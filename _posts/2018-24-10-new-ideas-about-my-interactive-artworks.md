@@ -13,28 +13,16 @@ tags: Interactive-art AR 2018
 ---
 ## Interactive art: future personal development.
 
-{% assign path = 'assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg' %}
+{% assign width = "1200" %}
+{% assign height = "300" %}
+{% assign jpg_id = "1255ace3-6fe7-4579-a9df-4545c59b3333" %}
+{% assign webp_id = "da955990-33a8-45df-9971-ccd83eaefdae" %}
+{% assign name = "Art_Is_a_joke_interactive_slice" %}
 {% assign alt = 'Art is a joke interactive art with augmented reality by Walter Perdan' %}
 {% assign title = 'Art is a joke' %}
-{% assign caption = "a slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2011."%}
+{% assign caption = "A slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2011."%}
 
-
-{% responsive_image_block %}
-  path: {{ path }}
-  alt: {{ alt }}
-  sizes:
-   - width: 1200
-   - width: 720
-   - width: 600
-   - width: 480
-   - width: 320
-  {% if title %}
-  title: {{ title }}
-  {% endif %}
-  {% if caption %}
-  caption: {{ caption }}
-  {% endif %}
-{% endresponsive_image_block %}
+{% include figure-amp-img.html %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/artisajoke-abstract-painting">Read more on "Art is a joke"...</a>
 
