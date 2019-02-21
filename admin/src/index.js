@@ -1,2 +1,2 @@
-import init from './amp-img-widget.js';
+import init from './amp-img-widget';
 init();
