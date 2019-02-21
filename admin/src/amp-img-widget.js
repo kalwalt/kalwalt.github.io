@@ -50,6 +50,6 @@ toPreview: function(obj) {
   );
 }
 });
-}
+};
 
-export ampImg() { init(); }
+export ampImg() { init(); };
