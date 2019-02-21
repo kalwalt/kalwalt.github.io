@@ -19,7 +19,6 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-amp-pwa-plugin'
-  gem 'jekyll-responsive-image'
   gem 'jekyll-tagging'
 
 end

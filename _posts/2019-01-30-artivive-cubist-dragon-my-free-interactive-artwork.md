@@ -11,37 +11,27 @@ seo:
   author: Walter Perdan
   datePublished: '2019-01-30'
   type: BlogPosting
-image: /assets/images/uploads/cubist-dragon.jpg
+image: 'https://ucarecdn.com/c4ac6055-1edb-44de-af97-5e7363814ee4/cubist_dragon.jpg'
 intro_paragraph: >-
   As promised in my post some time ago, I release for free my project created
   with Artivive. More information below.
 categories: Interactive-art
 tags: Interactive-art AR Artivive Kaleidastudio 2019
 ---
-{% assign path = 'assets/images/uploads/cubist-dragon.jpg' %}
+{% assign width = "1080" %}
+{% assign height = "760" %}
+{% assign jpg_id = "c4ac6055-1edb-44de-af97-5e7363814ee4" %}
+{% assign webp_id = "3ab8b8b5-4a65-421a-9b3b-171c97c6fa61" %}
+{% assign name = "cubist_dragon" %}
 {% assign alt = 'Cubist dragon interactive art with Artivive app by Walter Perdan' %}
 {% assign title = 'Cubist dragon' %}
 {% assign caption = "Cubist dragon, digital artwork for free, 2019." %}
 
-{% responsive_image_block %}
-  path: {{ path }}
-  alt: {{ alt }}
-  sizes:
-   - width: 720
-   - width: 600
-   - width: 480
-   - width: 320
-  {% if title %}
-  title: {{ title }}
-  {% endif %}
-  {% if caption %}
-  caption: {{ caption }}
-  {% endif %}
-{% endresponsive_image_block %}
+{% include figure-amp-img.html %}
 
 ## Artivive - interactive art for free
 
-I made this interactive work for the Kaleidastudio open call "Push the boundaries". The project did not pass the selection and i decided to release for personal use of my followers. What does it means? You can download the image from this <a href="/assets/images/uploads/cubist-dragon.jpg" download>link</a>, print it and start to enjoy the **A**ugmented **R**eality.
+I made this interactive work for the Kaleidastudio open call "Push the boundaries". The project did not pass the selection and i decided to release for personal use of my followers. What does it means? You can download the image from this <a href="/assets/images/uploads/cubist_dragon.jpg" download>link</a>, print it and start to enjoy the **A**ugmented **R**eality.
 
 First you need to install the Artivive app: [go to google play and catch it!](https://play.google.com/store/apps/details?id=com.artivive&hl=en) After installed, launch the app and point the camera of your smarphone to the picture. In few seconds the animation will start! You need a good internet connection to download the video data. If you can send me a message on twitter or instagram with a sceenshot!
 

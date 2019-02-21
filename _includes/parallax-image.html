@@ -1,18 +1,19 @@
-{% capture srcset %}
-{% for i in resized %}
-    /{{ i.path }} {{ i.width }}w,
-{% endfor %}
-{% endcapture %}
-
 <amp-img id="parallaxImage"
-  width="{{ original.width }}px" height="{{ original.height }}px"
-  src="/{{ original.path }}" alt="{{ alt }}"
-  srcset="{{ srcset | strip_newlines }} {{ original.path }} {{ original.width }}w"
+  width="{{ width }}px" height="{{ height }}px"
+  src="https://ucarecdn.com/{{ webp_id }}/{{ name }}.webp" alt="{{ alt }}"
+  srcset="https://ucarecdn.com/{{ webp_id }}/-/resize/320x/{{ name }}.webp 320w,
+  https://ucarecdn.com/{{ webp_id }}/-/resize/450x/{{ name }}.webp 450w,
+  https://ucarecdn.com/{{ webp_id }}/-/resize/640x/{{ name }}.webp 640w,
+  https://ucarecdn.com/{{ webp_id }}/-/resize/750x/{{ name }}.webp 750w,
+  https://ucarecdn.com/{{ webp_id }}/-/resize/800x/{{ name }}.webp 800w,
+  https://ucarecdn.com/{{ webp_id }}/-/resize/900x/{{ name }}.webp 900w,
+  https://ucarecdn.com/{{ webp_id }}/-/resize/1000x/{{ name }}.webp 1000w,
+  https://ucarecdn.com/{{ webp_id }}/{{ name }}.webp 1200w,"
   sizes="(min-width: 1200px) 720px, 90vw" layout="responsive">
   <amp-img alt="{{ alt }}"
      fallback
-     width="{{ original.width }}px"
-     height="{{ original.height }}px"
-     src="/assets/{{ original.dirname }}/{{ original.filename }}.jpg">
+     width="{{ width }}px"
+     height="{{ height }}px"
+     src="https://ucarecdn.com/{{ jpg_id }}/{{ name }}.jpg">
   </amp-img>
 </amp-img>
