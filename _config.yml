@@ -9,11 +9,16 @@ atom:
 #  postDirs:
 #    - _newsletters
 #  defaultPostDir: _drafts
+
+# set some common post defaults
 defaults:
   - scope:
       path: "assets/images"
+      type: "posts" # previously `post` in Jekyll 2.2.
     values:
       image: true
+      layout: "post" # set the correct default template for a post
+      section: "post" # set the root section name
 
 encoding: utf-8
 title: Interactive art by Kalwalt
@@ -70,16 +75,6 @@ plugins:
   - jekyll-paginate
   - jekyll-amp-pwa-plugin
   - jekyll-responsive-image
-
-# set some common post defaults
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "post" # set the correct default template for a post
-      section: "post" # set the root section name
 
 # jekyll-tagging variables
 tag_page_layout: tag_page
