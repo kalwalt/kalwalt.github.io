@@ -1,3 +1,4 @@
+/*
 var CategoriesControl = createClass({
 handleChange: function(e) {
 this.props.onChange(e.target.value.split(',').map((e) => e.trim()));
@@ -20,7 +21,7 @@ render: function() {
 });
 
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview);
-
+*/
 CMS.registerEditorComponent({
 // Internal id of the component
 id: "amp-img",
