@@ -45,7 +45,6 @@ toBlock: function(obj) {
 // (component gives better render performance)
 toPreview: function(obj) {
   return (
-    '<img width="1200px" height="859px" src="' + obj.webp_image +'" sizes="(min-width: 1200px) 720px, 90vw"></img><figcaption class="image-responsive-caption">'
-  );
+    '<img width="1200px" height="859px" src="' + obj.webp_image +'></img><figcaption class="image-responsive-caption">');
 }
 });
