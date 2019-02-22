@@ -1,4 +1,4 @@
-import init from '/amp-img-widget.js';
+import init from 'test';
 
 console.log('From Widget: you are in!');
 init();
