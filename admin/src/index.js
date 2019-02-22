@@ -1,4 +1,4 @@
-import init from './test';
+import { init } from './test';
 
 console.log('From Widget: you are in!');
 init();
