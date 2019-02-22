@@ -27,7 +27,9 @@ id: "amp-img",
 // Visible label
 label: "Amp-img",
 // Fields the user need to fill out when adding an instance of the component
-fields: [{label: "Image_id", name: "id", widget: "string"}],
+fields:
+    - {label: "Image_id", name: "id", widget: "string"}
+      {label: "Image_name", name: "name", widget: "string"},
 // Pattern to identify a block as being an instance of this component
 pattern: /^amp-img (\S+)$/,
 // Function to extract data elements from the regexp match
@@ -44,6 +46,6 @@ toBlock: function(obj) {
 // (component gives better render performance)
 toPreview: function(obj) {
   return (
-    '<img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id +'/flower_power_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg"/>');
+    '<img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id +'/' + obj.name '"/>');
 }
 });
