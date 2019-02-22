@@ -101,7 +101,7 @@ CMS.registerEditorComponent({
       <figure>
         <h3>${obj.title || ''}</h3>
         <a href="${obj.link || ''}" rel="${obj.rel || ''}" target="${obj.target || ''}">
-        <img src="${obj.src}" alt="${obj.alt || ''}" width="${obj.width}" height="${obj.height}" />
+        <amp-img src="${obj.src}" alt="${obj.alt || ''}" width="${obj.width}" height="${obj.height}" /></amp-img>
         </a>
         <figcaption>
           <h4 class="${obj.className}">${obj.caption || ''}</h4>
