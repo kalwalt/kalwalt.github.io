@@ -74,7 +74,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-amp-pwa-plugin
-  - jekyll-responsive-image
 
 # jekyll-tagging variables
 tag_page_layout: tag_page

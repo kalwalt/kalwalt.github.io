@@ -5,6 +5,7 @@ title: Abstract art | Artworks about Kalwalt alias Walter Perdan visual artist.
 crumbtitle: Artworks
 permalink: /artworks/
 section: artworks
+image: 'https://ucarecdn.com/20796a85-7afc-4634-8e87-f66201205163/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg'
 description: "Some Kalwalt's alias Walter Perdan Artworks. His works is mainly focused on abstract art. For an exaustive list of artworks go to the attached link."
 lang: en
 intro_paragraph: '## Introduction
@@ -14,27 +15,16 @@ intro_paragraph: '## Introduction
 ---
 ## Painting
 
-{% assign path = 'assets/images/uploads/Eterno_dilemma_abstract_painting_kalwalt.jpg' %}
+{% assign width = "1200" %}
+{% assign height = "1200" %}
+{% assign jpg_id = "b3d69125-251f-4203-a8ce-0f00e2c7d7de" %}
+{% assign webp_id = "f1bdffc0-1dc4-4122-98fa-9489499c3dc7" %}
+{% assign name = "Eterno_dilemma_abstract_painting_kalwalt" %}
 {% assign alt = 'Eterno dilemma - abstract painting by Kalwalt' %}
 {% assign title = "L'Eterno dilemma" %}
 {% assign caption = "L'Eterno dilemma, acrylic color on canvas, 30x30 cm, 2018."%}
 
-{% responsive_image_block %}
-  path: {{ path }}
-  alt: {{ alt }}
-  sizes:
-   - width: 1200
-   - width: 720
-   - width: 600
-   - width: 480
-   - width: 320
-  {% if title %}
-  title: {{ title }}
-  {% endif %}
-  {% if caption %}
-  caption: {{ caption }}
-  {% endif %}
-{% endresponsive_image_block %}
+{% include figure-amp-img.html %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" >Read more on "L'Eterno dilemma"...</a>
 
@@ -45,27 +35,16 @@ Got to [my website for more...](https://www.walterperdan.com/en/artworks/paintin
 
 ## Sculpture
 
-{% assign path = 'assets/images/uploads/Respiro_cosmico_abstract_sculpture_kalwalt.jpg' %}
+{% assign width = "1200" %}
+{% assign height = "797" %}
+{% assign jpg_id = "b5bc2bbd-0c56-44fe-bbce-467c017fc427" %}
+{% assign webp_id = "f3b88842-f8b3-47b6-a829-43c158e5d47e" %}
+{% assign name = "Respiro_cosmico_abstract_sculpture_kalwalt" %}
 {% assign alt = "Respiro cosmico abstract sculpture by Kalwalt" %}
 {% assign title = "Respiro cosmico" %}
 {% assign caption = "Respiro cosmico, Carrara marble, 55x30x30 cm, 2011."%}
 
-{% responsive_image_block %}
-  path: {{ path }}
-  alt: {{ alt }}
-  sizes:
-   - width: 1200
-   - width: 720
-   - width: 600
-   - width: 480
-   - width: 320
-  {% if title %}
-  title: {{ title }}
-  {% endif %}
-  {% if caption %}
-  caption: {{ caption }}
-  {% endif %}
-{% endresponsive_image_block %}
+{% include figure-amp-img.html %}
 
 <a href="https://www.walterperdan.com/en/artworks/sculpture/marble/respiro-cosmico-abstract-sculpture" >Read more on "Respiro cosmico"...</a>
 
@@ -76,27 +55,16 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
 
 ## Interactive artworks
 
-{% assign path = 'assets/images/uploads/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg' %}
+{% assign width = "1200" %}
+{% assign height = "895" %}
+{% assign jpg_id = "20796a85-7afc-4634-8e87-f66201205163" %}
+{% assign webp_id = "70146e27-890d-498c-af4f-7000cf842210" %}
+{% assign name = "Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" %}
 {% assign alt = "Art is a joke - abstract painting with augmented reality by Kalwalt" %}
 {% assign title = "Art is a joke" %}
 {% assign caption = "Art is a joke, acrylic color on canvas, 70x50 cm, 2011."%}
 
-{% responsive_image_block %}
-  path: {{ path }}
-  alt: {{ alt }}
-  sizes:
-   - width: 1200
-   - width: 720
-   - width: 600
-   - width: 480
-   - width: 320
-  {% if title %}
-  title: {{ title }}
-  {% endif %}
-  {% if caption %}
-  caption: {{ caption }}
-  {% endif %}
-{% endresponsive_image_block %}
+{% include figure-amp-img.html %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" >Read more on "Art is a joke"...</a>
 

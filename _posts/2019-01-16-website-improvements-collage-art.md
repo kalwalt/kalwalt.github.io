@@ -12,7 +12,7 @@ seo:
   author: Walter Perdan
   datePublished: '2019-01-23'
   type: BlogPosting
-image: /assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg
+image: 'https://ucarecdn.com/1255ace3-6fe7-4579-a9df-4545c59b3333/Art_Is_a_joke_interactive_slice.jpg'
 intro_paragraph: >-
   I added some new functionality to the website: **Jekyll-responsive-image**
   plugin and **P**rogressive **W**eb** A**pp functionality. Some collage art and
@@ -20,28 +20,16 @@ intro_paragraph: >-
 categories: ' '
 tags: Web-design AMP WPA Sculpture Collage-art 2019
 ---
-{% assign path = 'assets/images/uploads/Art_Is_a_joke_interactive_slice.jpg' %}
+{% assign width = "1200" %}
+{% assign height = "300" %}
+{% assign jpg_id = "1255ace3-6fe7-4579-a9df-4545c59b3333" %}
+{% assign webp_id = "da955990-33a8-45df-9971-ccd83eaefdae" %}
+{% assign name = "Art_Is_a_joke_interactive_slice" %}
 {% assign alt = 'Art is a joke interactive art with augmented reality by Walter Perdan' %}
 {% assign title = 'Art is a joke' %}
-{% assign caption = "a slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2018."%}
+{% assign caption = "A slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2011."%}
 
-
-{% responsive_image_block %}
-  path: {{ path }}
-  alt: {{ alt }}
-  sizes:
-   - width: 1200
-   - width: 720
-   - width: 600
-   - width: 480
-   - width: 320
-  {% if title %}
-  title: {{ title }}
-  {% endif %}
-  {% if caption %}
-  caption: {{ caption }}
-  {% endif %}
-{% endresponsive_image_block %}
+{% include figure-amp-img.html %}
 
 Lately I worked a lot on my [kalwaltart.it](https://www.kalwaltart.it) website, because i would add the responsive feature to all my images in the pages, basically with `srcset`attribute you can switch a corresponding image size for every different screen device. This increase the performances of the site and make a better user experience. I used the [**jekyll-responsive-image** ](https://github.com/wildlyinaccurate/jekyll-responsive-image)plugin and i am very satisfyied.
 
