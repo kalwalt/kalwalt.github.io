@@ -103,7 +103,7 @@ CMS.registerEditorComponent({
         <a href="${obj.link || ''}" rel="${obj.rel || ''}" target="${obj.target || ''}">
         <amp-img src="${obj.src}" alt="${obj.alt || ''}" width="${obj.width}" height="${obj.height}" />
         <noscript>
-         <img src="${obj.src}" width="${obj.width}" height="${obj.height}" alt="${obj.alt || ''}"> 
+         <img src="${obj.src}" width="${obj.width}" height="${obj.height}" alt="${obj.alt || ''}"/> 
         </noscript></amp-img>
         </a>
         <figcaption>
