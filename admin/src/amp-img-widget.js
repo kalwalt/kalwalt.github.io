@@ -102,9 +102,7 @@ CMS.registerEditorComponent({
         <h3>${obj.title || ''}</h3>
         <a href="${obj.link || ''}" rel="${obj.rel || ''}" target="${obj.target || ''}">
         <amp-img src="${obj.src}" alt="${obj.alt || ''}" width="${obj.width}" height="${obj.height}" />
-        <noscript>
-         <img src="${obj.src}" width="${obj.width}" height="${obj.height}" alt="${obj.alt || ''}"/> 
-        </noscript></amp-img>
+        <noscript><img src="${obj.src}" width="${obj.width}" height="${obj.height}" alt="${obj.alt || ''}"/></noscript></amp-img>
         </a>
         <figcaption>
           <h4 class="${obj.className}">${obj.caption || ''}</h4>
