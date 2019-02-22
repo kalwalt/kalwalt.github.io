@@ -38,13 +38,12 @@ fromBlock: function(match) {
 },
 // Function to create a text block from an instance of this component
 toBlock: function(obj) {
-  return ('<figure class="figure-amp-img">'+
-    '<amp-img width="1200px" height="859px" src="' + obj.webp_image +'" sizes="(min-width: 1200px) 720px, 90vw" layout="responsive"></amp-img><figcaption class="image-responsive-caption">Art is a joke, 70x50 cm, acrylic color on canvas with AR, 2018.</figcaption></figure>');
+  return ( 'amp-image ' + obj.id );
 },
 // Preview output for this component. Can either be a string or a React component
 // (component gives better render performance)
 toPreview: function(obj) {
   return (
-    '<img width="1200px" height="859px" src="' + obj.webp_image +'></img><figcaption class="image-responsive-caption">');
+    '<img width="1200px" height="859px" src="' + obj.webp_image +'"></img><figcaption class="image-responsive-caption">');
 }
 });
