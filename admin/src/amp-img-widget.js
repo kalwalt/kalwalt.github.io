@@ -52,4 +52,4 @@ toPreview: function(obj) {
 });
 };
 
-export ampImg() { init(); };
+export { init };
