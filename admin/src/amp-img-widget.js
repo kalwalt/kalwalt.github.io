@@ -38,12 +38,12 @@ fromBlock: function(match) {
 },
 // Function to create a text block from an instance of this component
 toBlock: function(obj) {
-  return ( 'amp-img ' + obj.id );
+  return ( 'amp-img ' + obj.webp_image );
 },
 // Preview output for this component. Can either be a string or a React component
 // (component gives better render performance)
 toPreview: function(obj) {
   return (
-    '<img width="1200px" height="859px" src="' + obj.webp_image +'"></img><figcaption class="image-responsive-caption">');
+    '<img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.webp_image +'"></img><figcaption class="image-responsive-caption">');
 }
 });
