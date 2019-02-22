@@ -59,7 +59,7 @@ CMS.registerEditorComponent({
   label: "Figure",
   // Fields the user need to fill out when adding an instance of the component
   fields: [
-    {name: 'src', label: 'Image', widget: 'image'},
+    {name: 'src', label: 'Image', widget: 'string'},
     {name: 'link', label: 'Link', widget: 'string'},
     {name: 'target', label: 'Target window', widget: 'string'},
     {name: 'rel', label: 'Rel (optional if link set)', widget: 'string'},
