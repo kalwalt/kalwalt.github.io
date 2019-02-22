@@ -44,6 +44,6 @@ toBlock: function(obj) {
 // (component gives better render performance)
 toPreview: function(obj) {
   return (
-    '<img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id +'"/>');
+    '<img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id +'/flower_power_interactive_art_augmented_reality_walter_perdan_kalwalt.jpg"/>');
 }
 });
