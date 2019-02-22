@@ -27,7 +27,7 @@ id: "amp-img",
 // Visible label
 label: "Amp-img",
 // Fields the user need to fill out when adding an instance of the component
-fields: [{label: "Image", name: "webp_image", widget: "string"}],
+fields: [{label: "Image_id", name: "id", widget: "string"}],
 // Pattern to identify a block as being an instance of this component
 pattern: /^amp-img (\S+)$/,
 // Function to extract data elements from the regexp match
@@ -38,12 +38,12 @@ fromBlock: function(match) {
 },
 // Function to create a text block from an instance of this component
 toBlock: function(obj) {
-  return ( 'amp-img ' + obj.webp_image );
+  return ( 'amp-img ' + obj.id );
 },
 // Preview output for this component. Can either be a string or a React component
 // (component gives better render performance)
 toPreview: function(obj) {
   return (
-    '<img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.webp_image +'"></img><figcaption class="image-responsive-caption">');
+    '<img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id +'"/>');
 }
 });
