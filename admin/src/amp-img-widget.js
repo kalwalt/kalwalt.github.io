@@ -27,8 +27,8 @@ id: "amp-img",
 // Visible label
 label: "Amp-img",
 // Fields the user need to fill out when adding an instance of the component
-fields: [{label: "Image_id", name: "id", widget: "string"}]
-        [{label: "Image_name", name: "name", widget: "string"}],
+fields: [{label: "Image_id", name: "id", widget: "string"},
+        {label: "Image_name", name: "name", widget: "string"}],
 // Pattern to identify a block as being an instance of this component
 pattern: /^amp-img (\S+)$/,
 // Function to extract data elements from the regexp match
