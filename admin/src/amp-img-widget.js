@@ -23,7 +23,7 @@ CMS.registerWidget('categories', CategoriesControl, CategoriesPreview);
 
 CMS.registerEditorComponent({
 // Internal id of the component
-id: "amp-img",
+id: ">amp-img<",
 // Visible label
 label: "Amp-img",
 // Fields the user need to fill out when adding an instance of the component
