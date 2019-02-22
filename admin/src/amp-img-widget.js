@@ -38,7 +38,7 @@ fromBlock: function(match) {
 },
 // Function to create a text block from an instance of this component
 toBlock: function(obj) {
-  return ( 'amp-image ' + obj.id );
+  return ( 'amp-img ' + obj.id );
 },
 // Preview output for this component. Can either be a string or a React component
 // (component gives better render performance)
