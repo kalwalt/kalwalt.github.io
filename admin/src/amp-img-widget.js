@@ -21,7 +21,7 @@ render: function() {
 });
 
 CMS.registerWidget('categories', CategoriesControl, CategoriesPreview);
-*/
+
 CMS.registerEditorComponent({
 // Internal id of the component
 id: "amp-img",
@@ -51,7 +51,7 @@ toPreview: function(obj) {
     '<img width="1200px" height="859px" src="https://ucarecdn.com/' + obj.id +'/' + obj.fileName '"/>');
 }
 });
-
+*/
 CMS.registerEditorComponent({
   // Internal id of the component
   id: "figure",
