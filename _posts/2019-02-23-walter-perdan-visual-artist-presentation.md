@@ -5,7 +5,7 @@ description: >-
   A little presentation: I am a visual artist working on different fields, check
   www.kalwaltart.it or www.walterperdan.com for more.
 author: Walter Perdan
-date: '2019-02-23 20:02:92'
+date: '2019-02-23'
 lang: en
 seo:
   author: Walter Perdan
