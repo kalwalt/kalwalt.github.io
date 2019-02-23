@@ -13,7 +13,7 @@ CMS.registerEditorComponent({
     options: {label: 'blank', value: '_blank'},
              {label: 'self', value: '_self'},
              {label: 'parent', value: '_parent'},
-             {label: 'top', value: '_top'},
+             {label: 'top', value: '_top'}
     },
     {name: 'rel', label: 'Rel (optional if link set)', widget: 'string', default: 'author'},
     {name: 'alt', label: 'Image alternate text', widget: 'string'},
