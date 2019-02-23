@@ -1,5 +1,6 @@
 <figure class="figure-amp-img">
   <h3>{{ include.title }}</h3>
+  <a href="{{ include.link }}" rel="{{ include.rel }}" target="{{ include.target }}">
   <amp-img width="{{ include.width }}px" height="{{ include.height }}px"
              src="https://ucarecdn.com/{{ include.webp_id }}/{{ include.name }}.webp" alt="{{ include.alt }}" title="{{ include.title }}"
              srcset="https://ucarecdn.com/{{ include.webp_id }}/-/resize/320x/{{ include.name }}.webp 320w,
@@ -16,5 +17,6 @@
        height="{{ include.height }}px"
        src="https://ucarecdn.com/{{ include.jpg_id }}/{{ include.name }}.jpg"></amp-img>
   </amp-img>
+  </a>
   <figcaption class="image-responsive-caption">{{ include.caption }}</figcaption>
 </figure>
