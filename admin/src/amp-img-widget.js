@@ -86,11 +86,11 @@ CMS.registerEditorComponent({
   },
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
-    let results = '{{< figure ';
+    let results = '{{ figure.html ';
     Object.keys(obj).forEach((e) => {
       results += `${e}="${obj[e]}" `;
     });
-    results += '>}}';
+    results += '}}';
     return results;
   },
   // Preview output for this component. Can either be a string or a React component
