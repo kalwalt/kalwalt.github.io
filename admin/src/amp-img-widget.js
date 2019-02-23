@@ -10,10 +10,10 @@ CMS.registerEditorComponent({
     {name: 'jpg_id', label: 'Jpg_id', widget: 'string'},
     {name: 'link', label: 'Link', widget: 'string'},
     {name: 'target', label: 'Target window', widget: 'select',
-    options: {label: 'blank', value: '_blank'},
+    options: [{label: 'blank', value: '_blank'},
              {label: 'self', value: '_self'},
              {label: 'parent', value: '_parent'},
-             {label: 'top', value: '_top'}
+             {label: 'top', value: '_top'}]
     },
     {name: 'rel', label: 'Rel (optional if link set)', widget: 'string', default: 'author'},
     {name: 'alt', label: 'Image alternate text', widget: 'string'},
