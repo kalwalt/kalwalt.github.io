@@ -73,7 +73,7 @@ CMS.registerEditorComponent({
     {name: 'attrlink', label: 'Figure attribution link', widget: 'string'}
   ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /^{{< figure (.*?) >}}$/,
+  pattern: /^{{ figure.html (.*?) }}$/,
   // Function to extract data elements from the regexp match
   fromBlock: function(matchIn) {
     var match = matchIn[1].match(/(?:(\b\w+\b)\s*=\s*("[^"]*"|'[^']*'|[^"'<>\s]+)\s*)/g);
@@ -101,7 +101,7 @@ CMS.registerEditorComponent({
       <figure>
         <h3>${obj.title || ''}</h3>
         <a href="${obj.link || ''}" rel="${obj.rel || ''}" target="${obj.target || ''}">
-        <amp-img src="${obj.src}" alt="${obj.alt || ''}" width="${obj.width}" height="${obj.height}" /></amp-img>
+        <img src="${obj.src}" alt="${obj.alt || ''}" width="${obj.width}" height="${obj.height}" /></img>
         </a>
         <figcaption>
           <h4 class="${obj.className}">${obj.caption || ''}</h4>
