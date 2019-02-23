@@ -73,7 +73,7 @@ CMS.registerEditorComponent({
     {name: 'attrlink', label: 'Figure attribution link', widget: 'string'}
   ],
   // Pattern to identify a block as being an instance of this component
-  pattern: /^{{ figure.html (.*?) }}$/,
+  pattern: /^{% include figure.html (.*?) %}$/,
   // Function to extract data elements from the regexp match
   fromBlock: function(matchIn) {
     var match = matchIn[1].match(/(?:(\b\w+\b)\s*=\s*("[^"]*"|'[^']*'|[^"'<>\s]+)\s*)/g);
@@ -86,11 +86,11 @@ CMS.registerEditorComponent({
   },
   // Function to create a text block from an instance of this component
   toBlock: function(obj) {
-    let results = '{{ figure.html ';
+    let results = '{% include figure.html ';
     Object.keys(obj).forEach((e) => {
       results += `${e}="${obj[e]}" `;
     });
-    results += '}}';
+    results += '%}';
     return results;
   },
   // Preview output for this component. Can either be a string or a React component
