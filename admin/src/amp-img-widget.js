@@ -49,7 +49,7 @@ CMS.registerEditorComponent({
       <figure>
         <h3>${obj.title || ''}</h3>
         <a href="${obj.link || ''}" rel="${obj.rel || ''}" target="${obj.target || ''}">
-        <img src="${obj.src}" alt="${obj.alt || ''}" width="${obj.width}" height="${obj.height}" /></img>
+        <img src="https://ucarecdn.com/${obj.jpg_id}/${obj.name}.jpg" alt="${obj.alt || ''}" width="${obj.width}" height="${obj.height}" /></img>
         </a>
         <figcaption>
           <h4 class="${obj.className}">${obj.caption || ''}</h4>
