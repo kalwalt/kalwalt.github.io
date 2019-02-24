@@ -60,15 +60,6 @@ breadcrumbs:
     hide: false  # show breadcrumbs on root/home page
     image: false # Show image or title text
 
-# options for responsive_image plugin
-responsive_image:
-  template: _includes/responsive-image.html
-  sizes:
-   - width: 320
-   - width: 480
-   - width: 600
-   - width: 720
-
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
