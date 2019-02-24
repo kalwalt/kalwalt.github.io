@@ -28,13 +28,25 @@ description: >
 name: Walter Perdan
 author: Walter Perdan
 logo: "/assets/images/logo_kalwalt_600x60.png"
-paginate:	5 # The number of posts to show per page on your homepage
-paginate_path: "/blog/page:num/"
+#paginate:	5 # The number of posts to show per page on your homepage
+#paginate_path: "/blog/page:num/"
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  offset: 2
+  #permalink: '/page/:num/'
+  permalink: /blog/:title/
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 google_site_verification: cC3276h9Hn4i0CmY109jtXIAAv8edaU7XJRkBLUOjLM
-url: https://www.kalwaltart.it
 baseurl: ""
+url: https://www.kalwaltart.it
 # Permalink format (/blog/ is ignored for pages)
-permalink: /blog/:title/
+#permalink: /blog/:title/
 
 # Enable section IDs in frontmatter, useful for identifying current page
 # (used as a hook for styling etc)
@@ -63,7 +75,7 @@ breadcrumbs:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-amp-pwa-plugin
 
 # jekyll-tagging variables
