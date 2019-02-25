@@ -21,6 +21,9 @@ pagination:
       <h2 class="blog-description">{{ site.description }}</h2>
       <h3> <small>{{ page.title }}</small></h3>
       <h4><small>{{ page.date }} </small></h4>
+      <p>
+        Number of blog posts: {{ paginator.total_posts }}
+      </p>
   </header>
 
   <div class="cf frame">
