@@ -35,7 +35,6 @@ pagination:
   enabled: true
   per_page: 5
   offset: 0
-  permalink: /blog/:year/:month/:day/:title/
   title: ':title - page :num of :max'
   limit: 0
   sort_field: 'date'
