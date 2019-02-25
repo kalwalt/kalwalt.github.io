@@ -34,7 +34,7 @@ pagination:
             <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
           </header>
           <section class="post-excerpt" itemprop="description">
-            <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            <p>{{ post.intro_paragraph |  markdownify | truncatewords: 50 }}</p>
           </section>
           <div class="post-meta">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
