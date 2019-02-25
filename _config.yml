@@ -33,8 +33,8 @@ logo: "/assets/images/logo_kalwalt_600x60.png"
 # Pagination Settings
 pagination:
   enabled: true
-  per_page: 3
-  offset: 2
+  per_page: 5
+  offset: 0
   permalink: '/page/:num/'
   #permalink: /blog/:title/
   title: ':title - page :num of :max'
