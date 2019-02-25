@@ -9,6 +9,8 @@ seo:
   author: Walter Perdan
   datePublished: date
 image: /assets/images/uploads/logo_kalwalt_600x60.png
+intro_paragraph: "First post ever!"
+categories: Interactive-art
 tags: 2017
 ---
 

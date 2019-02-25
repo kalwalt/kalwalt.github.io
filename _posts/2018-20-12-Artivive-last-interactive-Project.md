@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Artivive | my last interactive project"
-description: "In this article i explain my last project with Artivive technology. project initially developed for Kaleida studio open call."
+description: "In this article i explain my last project with Artivive technology. Project initially developed for Kaleida studio open call."
 date: 2018-12-20
 lang: en
 seo:
@@ -9,6 +9,8 @@ seo:
   author: Walter Perdan
   datePublished: date
 image: 'https://ucarecdn.com/1255ace3-6fe7-4579-a9df-4545c59b3333/Art_Is_a_joke_interactive_slice.jpg'
+intro_paragraph: My last project with Artivive technology. Project initially developed for Kaleida studio open call. My plans for this.
+categories: Interactive-art
 tags: Artivive AR Interactive-art Kaleidastudio 2018
 ---
 

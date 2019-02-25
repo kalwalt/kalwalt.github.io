@@ -1040,3 +1040,15 @@ nav.breadcrumbs.bootstrap .breadcrumb .icon svg {
    height: 0.8rem;
    width: 0.8rem;
 }
+//style for older an newer posts in blog page
+ul.pager {
+  text-align: center;
+  list-style: none;
+}
+ul.pager li {
+  display: inline;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+}
