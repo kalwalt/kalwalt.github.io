@@ -14,9 +14,9 @@ intro_paragraph: 'I switched my website to Netlify services: read the article to
 categories: Web-design
 tags: Netlify Web-design 2019
 ---
-# New host service: better speed performance and services.
+## New host service: better speed performance and services.
 
-{% include figure.html width="1200" caption="A slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2011." height="824" alt="Noise (Mon cher Mondrian) interactive acrylic painting made with Ar.js by Walter Perdan." attrlink="https://www.walterperdan.com" name="Noise_abstract_painting_augmented_reality_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Noise (Mon cher Mondrian)" rel="author" jpg_id="44f9a356-38cc-4aa7-8732-8812a6548cfc" link="https://www.walterperdan.com" webp_id="82cf761c-8803-4a9f-a14d-8bb2711f8bcd" %}
+{% include figure.html width="1200" caption="Noise (Mon cher Mondrian), acrylic color on canvas, 100x70 cm, 2018." height="824" alt="Noise (Mon cher Mondrian) interactive acrylic painting made with Ar.js by Walter Perdan." attrlink="https://www.walterperdan.com" name="Noise_abstract_painting_augmented_reality_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Noise (Mon cher Mondrian)" rel="author" jpg_id="44f9a356-38cc-4aa7-8732-8812a6548cfc" link="https://www.walterperdan.com" webp_id="82cf761c-8803-4a9f-a14d-8bb2711f8bcd" %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/noise-abstract-art">Noise (Mon cher Mondrian)</a>
 
