@@ -22,7 +22,7 @@ tags: Web-design AMP WPA Sculpture Collage-art 2019
 ---
 ## Responsive image with a jekyll plugin and collage art.
 
-{% include figure.html width="1200" caption="A slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2011." height="300" alt="Art is a joke interactive art with augmented reality by Walter Perdan" attrlink="https://www.walterperdan.com" name="Art_Is_a_joke_interactive_slice" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="1255ace3-6fe7-4579-a9df-4545c59b3333" link="https://www.walterperdan.com" webp_id="da955990-33a8-45df-9971-ccd83eaefdae" %}
+{% include figure.html width="1200" caption="A slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2018." height="300" alt="Art is a joke interactive art with augmented reality by Walter Perdan" attrlink="https://www.walterperdan.com" name="Art_Is_a_joke_interactive_slice" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="1255ace3-6fe7-4579-a9df-4545c59b3333" link="https://www.walterperdan.com" webp_id="da955990-33a8-45df-9971-ccd83eaefdae" %}
 
 Lately I worked a lot on my [kalwaltart.it](https://www.kalwaltart.it) website, because i would add the responsive feature to all my images in the pages, basically with `srcset`attribute you can switch a corresponding image size for every different screen device. This increase the performances of the site and make a better user experience. I used the [**jekyll-responsive-image** ](https://github.com/wildlyinaccurate/jekyll-responsive-image)plugin and i am very satisfyied.
 
