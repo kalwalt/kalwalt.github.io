@@ -13,16 +13,7 @@ intro_paragraph: ''
 
 ## Painting, sculpture, drawing, interactive art and more...
 
-{% assign width = "1200" %}
-{% assign height = "847" %}
-{% assign jpg_id = "ace616d9-bb66-437f-954e-825615e46eb6" %}
-{% assign webp_id = "fb0bbdd7-8cbb-4910-ba1e-0daf8d6c5bcd" %}
-{% assign name = "glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan" %}
-{% assign alt = 'Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan' %}
-{% assign title = 'Glitch' %}
-{% assign caption = 'Glitch, acrylic color on canvas, 70x50 cm, 2018.'%}
-
-{% include figure-amp-img.html %}
+{% include figure.html width="1200" caption="Glitch, acrylic color on canvas, 70x50 cm, 2018." height="847" alt="Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan" attrlink="https://www.walterperdan.com" name="glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Glitch" rel="author" jpg_id="ace616d9-bb66-437f-954e-825615e46eb6" link="https://www.walterperdan.com" webp_id="fb0bbdd7-8cbb-4910-ba1e-0daf8d6c5bcd" %}
 
 I am Kalwalt alias Walter Perdan, i am an italian visual artist specialized in interactive art. My artistic research has a wide range, from painting, sculpture, drawing and, of course, interactive art.
 I like to mix different languages and search connections between innovative media and traditional one. I love abstract and surreal art and some aspect of psicadelyc art. I believe in experimentation and this is a daily practice.
