@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Netlify CDN Changing service for the website'
+title: 'Netlify CDN changing service for the website'
 description: "In this post i explain why i switched to Netlify for my website www.kalwaltart.it, for his CDN and other services. Article by Kalwalt alias Walter Perdan."
 author: walter_perdan
 date: '2019-01-14 18:01:58'
@@ -14,15 +14,9 @@ intro_paragraph: 'I switched my website to Netlify services: read the article to
 categories: Web-design
 tags: Netlify Web-design 2019
 ---
-{% assign width = "1200" %}
-{% assign height = "824" %}
-{% assign jpg_id = "44f9a356-38cc-4aa7-8732-8812a6548cfc" %}
-{% assign webp_id = "82cf761c-8803-4a9f-a14d-8bb2711f8bcd" %}
-{% assign name = "Noise_abstract_painting_augmented_reality_Walter_Perdan" %}
-{% assign alt = 'Noise (Mon cher Mondrian) interactive acrylic painting made with Ar.js by Walter Perdan.' %}
-{% assign title = 'Noise (Mon cher Mondrian)' %}
+# New host service: better speed performance and services.
 
-{% include figure-amp-img.html %}
+{% include figure.html width="1200" caption="A slice of 'Art is a joke', acrylic color on canvas, 70x50 cm, 2011." height="824" alt="Noise (Mon cher Mondrian) interactive acrylic painting made with Ar.js by Walter Perdan." attrlink="https://www.walterperdan.com" name="Noise_abstract_painting_augmented_reality_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Noise (Mon cher Mondrian)" rel="author" jpg_id="44f9a356-38cc-4aa7-8732-8812a6548cfc" link="https://www.walterperdan.com" webp_id="82cf761c-8803-4a9f-a14d-8bb2711f8bcd" %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/noise-abstract-art">Noise (Mon cher Mondrian)</a>
 
