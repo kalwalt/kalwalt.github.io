@@ -37,7 +37,7 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
 
 ## Interactive artworks
 
-{% include figure.html width="1200" caption="Art is a joke, acrylic color on canvas, 70x50 cm, 2018." height="895" alt="Art is a joke - abstract painting with augmented reality by Kalwalt" attrlink="https://www.walterperdan.com" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" attr="Walter Perdan" title="Respiro cosmico" rel="author" jpg_id="20796a85-7afc-4634-8e87-f66201205163" link="https://www.walterperdan.com" webp_id="70146e27-890d-498c-af4f-7000cf842210" %}
+{% include figure.html width="1200" caption="Art is a joke, acrylic color on canvas, 70x50 cm, 2018." height="895" alt="Art is a joke - abstract painting with augmented reality by Kalwalt" attrlink="https://www.walterperdan.com" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="20796a85-7afc-4634-8e87-f66201205163" link="https://www.walterperdan.com" webp_id="70146e27-890d-498c-af4f-7000cf842210" %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" >Read more on "Art is a joke"...</a>
 
