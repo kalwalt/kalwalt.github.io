@@ -18,18 +18,9 @@ intro_paragraph: >-
 categories: Interactive-art
 tags: Interactive-art AR Artivive Kaleidastudio 2019
 ---
-{% assign width = "1080" %}
-{% assign height = "760" %}
-{% assign jpg_id = "c4ac6055-1edb-44de-af97-5e7363814ee4" %}
-{% assign webp_id = "3ab8b8b5-4a65-421a-9b3b-171c97c6fa61" %}
-{% assign name = "cubist_dragon" %}
-{% assign alt = 'Cubist dragon interactive art with Artivive app by Walter Perdan' %}
-{% assign title = 'Cubist dragon' %}
-{% assign caption = "Cubist dragon, digital artwork for free, 2019." %}
-
-{% include figure-amp-img.html %}
-
 ## Artivive - interactive art for free
+
+{% include figure.html width="1080" caption="Cubist dragon, digital artwork for free, 2019." height="760" alt="Cubist dragon interactive art with Artivive app by Walter Perdan" attrlink="https://www.walterperdan.com" name="cubist_dragon" target="_blank" attr="Walter Perdan" title="Cubist dragon" rel="author" jpg_id="c4ac6055-1edb-44de-af97-5e7363814ee4" link="https://www.walterperdan.com" webp_id="3ab8b8b5-4a65-421a-9b3b-171c97c6fa61" %}
 
 I made this interactive work for the Kaleidastudio open call "Push the boundaries". The project did not pass the selection and i decided to release for personal use of my followers. What does it means? You can download the image from this <a href="/assets/images/uploads/cubist_dragon.jpg" download>link</a>, print it and start to enjoy the **A**ugmented **R**eality.
 

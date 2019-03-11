@@ -13,6 +13,8 @@ intro_paragraph: "News about my Website and the changes made. Why I'm using AMP 
 categories: Interactive-art Art
 tags: AMP Web-design 2018
 ---
+## Migrating plans for the website.
+
 I'm planning to migrate my [www.kalwaltart.it](https://www.kalwaltart.it) site to this location. There are several reasons for this: Mainly because i have my new personal and official website [www.walterperdan.com](https://www.walterperdan.com), i don't want to have duplicate content and, most important, this is my website for interactive art. So I will transfer my hosting to github, maintaining my hostname **kalwaltart.it**. Actually my improvements to the site consist in "amplyfing" it. That's means adding **[AMP](https://www.ampproject.org/it/)** technology. I red that should be faster on mobile dispositives, and in fact it is. Many advantages using this tech, but maybe other bad aspects that i'm not sure. An expert html javascript developer probably would be capable to do better things and realize at the end a website with equal performances.
 
 I hope only that someone can use my website with a reasonable speed and maybe enjoy or take note of some interesting artworks.

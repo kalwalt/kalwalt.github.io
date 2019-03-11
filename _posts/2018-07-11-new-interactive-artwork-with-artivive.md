@@ -15,20 +15,12 @@ tags: Interactive-art Artivive AR Glitch Animation 2018
 ---
 ## Suono di superficie my new interactive artwork with Artivive.
 
-{% assign width = "1200" %}
-{% assign height = "844" %}
-{% assign jpg_id = "cb9f79fd-d999-4ddd-8532-4655bcc3d756" %}
-{% assign webp_id = "67b0703f-a242-496a-98c3-30e5b4243007" %}
-{% assign name = "suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan" %}
-{% assign alt = 'Suono di superficie interactive acrylic painting made with Artivive by Walter Perdan' %}
-{% assign title = 'Suono di superficie' %}
-{% assign caption = "Suono di superficie, acrylic color on canvas, 70x50 cm, 2018."%}
-
-{% include figure-amp-img.html %}
+{% include figure.html width="1200" caption="Suono di superficie, acrylic color on canvas, 70x50 cm, 2018." height="844" alt="Suono di superficie interactive acrylic painting made with Artivive by Walter Perdan" attrlink="https://www.walterperdan.com" name="suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Suono di superficie" rel="author" jpg_id="cb9f79fd-d999-4ddd-8532-4655bcc3d756" link="https://www.walterperdan.com" webp_id="67b0703f-a242-496a-98c3-30e5b4243007" %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/sound-surface-artivive">Read more on "Suono di superficie"...</a>
 
 ### What is Artivive technology?
+
 This is a new technology for developing augmented reality applications. It is very simple,
 if you are an artist you can register for free and you have 5 projects slot ready to be engaged.
 Artivive use a markerless approach, in theory you can use every image you can imagine for your art.
@@ -39,6 +31,7 @@ You can upload your image in one of your project slot and upload a simple video 
  after some minutes you will get the response: in the worste case zero or one star, in the best case 4-5 stars.
 
 ### What i have done with Artivive?
+
 My experience with Artivive begin with artwork "Suono di superficie" (English: Sound surface).
 It is an acrylic painting on canvas recently added to my production. I thought that simple shapes with rounded corners
  was ideal for Artivive, but i was wrong. Initially i get only one star, and after some improvements
