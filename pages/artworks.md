@@ -15,16 +15,7 @@ intro_paragraph: '## Introduction
 ---
 ## Painting
 
-{% assign width = "1200" %}
-{% assign height = "1200" %}
-{% assign jpg_id = "b3d69125-251f-4203-a8ce-0f00e2c7d7de" %}
-{% assign webp_id = "f1bdffc0-1dc4-4122-98fa-9489499c3dc7" %}
-{% assign name = "Eterno_dilemma_abstract_painting_kalwalt" %}
-{% assign alt = 'Eterno dilemma - abstract painting by Kalwalt' %}
-{% assign title = "L'Eterno dilemma" %}
-{% assign caption = "L'Eterno dilemma, acrylic color on canvas, 30x30 cm, 2018."%}
-
-{% include figure-amp-img.html %}
+{% include figure.html width="1200" caption="L'Eterno dilemma, acrylic color on canvas, 30x30 cm, 2018." height="1200" alt="Eterno dilemma - abstract painting by Kalwalt" attrlink="https://www.walterperdan.com" name="Eterno_dilemma_abstract_painting_kalwalt" target="_blank" attr="Walter Perdan" title="L'Eterno dilemma" rel="author" jpg_id="b3d69125-251f-4203-a8ce-0f00e2c7d7de" link="https://www.walterperdan.com" webp_id="f1bdffc0-1dc4-4122-98fa-9489499c3dc7" %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" >Read more on "L'Eterno dilemma"...</a>
 
@@ -35,16 +26,7 @@ Got to [my website for more...](https://www.walterperdan.com/en/artworks/paintin
 
 ## Sculpture
 
-{% assign width = "1200" %}
-{% assign height = "797" %}
-{% assign jpg_id = "b5bc2bbd-0c56-44fe-bbce-467c017fc427" %}
-{% assign webp_id = "f3b88842-f8b3-47b6-a829-43c158e5d47e" %}
-{% assign name = "Respiro_cosmico_abstract_sculpture_kalwalt" %}
-{% assign alt = "Respiro cosmico abstract sculpture by Kalwalt" %}
-{% assign title = "Respiro cosmico" %}
-{% assign caption = "Respiro cosmico, Carrara marble, 55x30x30 cm, 2011."%}
-
-{% include figure-amp-img.html %}
+{% include figure.html width="1200" caption="Respiro cosmico, Carrara marble, 55x30x30 cm, 2011." height="797" alt="Respiro cosmico abstract sculpture by Kalwalt" attrlink="https://www.walterperdan.com" name="Respiro_cosmico_abstract_sculpture_kalwalt" target="_blank" attr="Walter Perdan" title="Respiro cosmico" rel="author" jpg_id="b5bc2bbd-0c56-44fe-bbce-467c017fc427" link="https://www.walterperdan.com" webp_id="f3b88842-f8b3-47b6-a829-43c158e5d47e" %}
 
 <a href="https://www.walterperdan.com/en/artworks/sculpture/marble/respiro-cosmico-abstract-sculpture" >Read more on "Respiro cosmico"...</a>
 
@@ -55,16 +37,7 @@ Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/
 
 ## Interactive artworks
 
-{% assign width = "1200" %}
-{% assign height = "895" %}
-{% assign jpg_id = "20796a85-7afc-4634-8e87-f66201205163" %}
-{% assign webp_id = "70146e27-890d-498c-af4f-7000cf842210" %}
-{% assign name = "Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" %}
-{% assign alt = "Art is a joke - abstract painting with augmented reality by Kalwalt" %}
-{% assign title = "Art is a joke" %}
-{% assign caption = "Art is a joke, acrylic color on canvas, 70x50 cm, 2011."%}
-
-{% include figure-amp-img.html %}
+{% include figure.html width="1200" caption="Art is a joke, acrylic color on canvas, 70x50 cm, 2018." height="895" alt="Art is a joke - abstract painting with augmented reality by Kalwalt" attrlink="https://www.walterperdan.com" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" attr="Walter Perdan" title="Respiro cosmico" rel="author" jpg_id="20796a85-7afc-4634-8e87-f66201205163" link="https://www.walterperdan.com" webp_id="70146e27-890d-498c-af4f-7000cf842210" %}
 
 <a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" >Read more on "Art is a joke"...</a>
 
