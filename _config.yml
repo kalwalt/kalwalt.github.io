@@ -40,7 +40,7 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-google_site_verification: 
+google_site_verification:
 baseurl: ""
 url: https://www.kalwaltart.com
 # Permalink format (/blog/ is ignored for pages)
@@ -102,7 +102,7 @@ twitter:
   username: kalwalt
 github_username: kalwalt
 # Google Analytics
-analytics_id: "UA-114030597-1"
+analytics_id: ""
 markdown: kramdown
 #permalink: /blog/:year/:month/:day/:title
 github: [metadata]
