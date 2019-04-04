@@ -42,7 +42,7 @@ pagination:
 
 google_site_verification:
 baseurl: ""
-url: https://www.kalwaltart.com
+url: https://www.kalwaltart.it
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:year/:month/:day/:title/
 
