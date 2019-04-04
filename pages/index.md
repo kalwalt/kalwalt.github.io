@@ -1,19 +1,19 @@
 ---
 layout: home
 id: 01
-title: Interactive art | Kalwalt official website for AR apps
+title: Arte Interattiva | Pagina web ufficiale di Kalwalt per AR apps
 crumbtitle: Home
 permalink: /
 section: home
-description: Original website of Kalwalt alias Walter Perdan. In this website are stored all my augmented reality applications for interactive art.
+description: Sito web ufficiale di Kalwalt alias Walter Perdan. In questo sito si trovano tutte le mie applicazioni web per l'arte interattiva.
 lang: it
 google_site_verification:
 intro_paragraph: ''
 ---
 
-## Painting, sculpture, drawing, interactive art and more...
+## Pittura, scultura, disegno, arte interattiva e altro...
 
-{% include figure.html width="1200" caption="Glitch, acrylic color on canvas, 70x50 cm, 2018." height="847" alt="Glitch - Interactive art - Abstract painting with augmented reality by Walter Perdan" attrlink="https://www.walterperdan.com" name="glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Glitch" rel="author" jpg_id="ace616d9-bb66-437f-954e-825615e46eb6" link="https://www.walterperdan.com" webp_id="fb0bbdd7-8cbb-4910-ba1e-0daf8d6c5bcd" %}
+{% include figure.html width="1200" caption="Glitch, colore acrilico su tela, 70x50 cm, 2018." height="847" alt="Glitch - Interactive art - dipinto astratto con realtà aumentata di Walter Perdan" attrlink="https://www.walterperdan.com" name="glitch_abstract_painting_interactive_art_augmented_reality_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Glitch" rel="author" jpg_id="ace616d9-bb66-437f-954e-825615e46eb6" link="https://www.walterperdan.com" webp_id="fb0bbdd7-8cbb-4910-ba1e-0daf8d6c5bcd" %}
 
 Sono Kalwalt alias Walter Perdan, sono un artista visivo italiano specializzato in arte interattiva. La mia ricerca artistica ha una vasta gamma, dalla pittura, scultura, disegno e, naturalmente, l'arte interattiva.
 Mi piace mescolare linguaggi diversi e stabilire connessioni tra media innovativi e tradizionali. Amo l'arte astratta e surreale e alcuni aspetti dell'arte psicadelica. Credo nella sperimentazione e questa è, per me, una pratica quotidiana.
