@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "Artivive | my last interactive project"
-description: "In this article i explain my last project with Artivive technology. Project initially developed for Kaleida studio open call."
+title: "Artivive | Il mio ultimo progetto interattivo"
+description: "In questo articolo spiego il mio ultimo progetto con tecnologia Artivive. Progetto inizialmente sviluppato per Kaleida studio open call."
 date: 2018-12-20
-lang: en
+lang: it
 seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
 image: 'https://ucarecdn.com/1255ace3-6fe7-4579-a9df-4545c59b3333/Art_Is_a_joke_interactive_slice.jpg'
-intro_paragraph: My last project with Artivive technology. Project initially developed for Kaleida studio open call. My plans for this.
+intro_paragraph: Il mio ultimo progetto con tecnologia Artivive.  Progetto inizialmente sviluppato per la open call di Kaleida studio. I miei piani per questo.
 categories: Interactive-art
 tags: Artivive AR Interactive-art Kaleidastudio 2018
 ---
-## What is happened? News about my interactive projects.
+## Che cosa è successo? Notizie sui miei progetti interattivi.
 
-What is happened with my Artivive projects? As i said in a previuos post i was working for the Kaleida studio open call "Push the boundaries". I submitted my project to the curator but unfortunately even if they liked my project was not accepted for the show. Sad for this but i want in any case to finish it. For this reason i decided that when it will be finished i release a free version for everybody. What does it means in specific? I will left a downloadable picture not at the maximum resolution but that can be printed in a postcard format for a personal use: You can print for you but not sell it. More infos when the work will be ready. Stay tuned!
+Cosa è successo con i miei progetti Artivive? Come ho detto in un post precedente, stavo lavorando per la open call dello studio Kaleida "Push the boundaries". Ho presentato il mio progetto al curatore ma sfortunatamente, anche se a loro piacesse, il mio progetto non è stato accettato per la esibizione. Triste per questo, ma voglio in ogni caso finirlo. Per questo motivo ho deciso che quando sarà finito rilascerò una versione gratuita per tutti. Cosa significa in specifico? Avrò lasciato un'immagine scaricabile non alla massima risoluzione ma che può essere stampata in formato cartolina per uso personale: puoi stampare per te ma non venderla. Più informazioni quando il lavoro sarà pronto. Rimanete sintonizzati!
