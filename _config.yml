@@ -21,7 +21,7 @@ defaults:
       section: "post" # set the root section name
 
 encoding: utf-8
-title: Interactive art by Kalwalt
+title: Arte Interattiva by Kalwalt
 email: info@kalwaltart.it
 description: >
   Pagina web ufficiale per applicazioni interattive di Kalwalt.
@@ -40,7 +40,7 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
-google_site_verification:
+google_site_verification: cC3276h9Hn4i0CmY109jtXIAAv8edaU7XJRkBLUOjLM
 baseurl: ""
 url: https://www.kalwaltart.it
 # Permalink format (/blog/ is ignored for pages)
@@ -102,7 +102,7 @@ twitter:
   username: kalwalt
 github_username: kalwalt
 # Google Analytics
-analytics_id: ""
+analytics_id: "UA-114030597-1"
 markdown: kramdown
 #permalink: /blog/:year/:month/:day/:title
 github: [metadata]

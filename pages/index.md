@@ -7,7 +7,7 @@ permalink: /
 section: home
 description: Sito web ufficiale di Kalwalt alias Walter Perdan. In questo sito si trovano tutte le mie applicazioni web per l'arte interattiva.
 lang: it
-google_site_verification:
+google_site_verification: j0ERzKxg-XSHmYaPullKXtZYYqOssFy-_e2SEjgpyhU
 intro_paragraph: ''
 ---
 
@@ -17,7 +17,7 @@ intro_paragraph: ''
 
 Sono Kalwalt alias Walter Perdan, sono un artista visivo italiano specializzato in arte interattiva. La mia ricerca artistica ha una vasta gamma, dalla pittura, scultura, disegno e, naturalmente, l'arte interattiva.
 Mi piace mescolare linguaggi diversi e stabilire connessioni tra media innovativi e tradizionali. Amo l'arte astratta e surreale e alcuni aspetti dell'arte psicadelica. Credo nella sperimentazione e questa è, per me, una pratica quotidiana.
-In questo sito potete trovare tutte le mie applicazioni utilizzate per le mie opere interattive[Leggi di più su di mè...](/about)
+In questo sito potete trovare tutte le mie applicazioni utilizzate per le mie opere interattive [Leggi di più su di me...](/about)
 
 {% include fontawesome-menu.html %}
 {% include parallax-image-window.html %}
