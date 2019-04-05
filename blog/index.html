@@ -1,10 +1,10 @@
 ---
 layout: default
 id: 05
-title: Walter Perdan's Blog
+title: Blog di Kalwalt, Walter Perdan
 crumbtitle: Blog
-description: Kalwalt's Blog page. Here you can find some articles on interactivity and various news of the artist.
-lang: en
+description: Pagina Blog di Kalwalt. Qui puoi trovare alcuni articoli sull'interattività e varie notizie dell'artista.
+lang: it
 date: 2017-03-19
 seo:
    type: BlogPosting
@@ -22,7 +22,7 @@ pagination:
       <h3> <small>{{ page.title }}</small></h3>
       <h4><small>{{ page.date }} </small></h4>
       <p>
-        Number of blog posts: {{ paginator.total_posts }}
+        Numero totale di blog posts: {{ paginator.total_posts }}
       </p>
   </header>
 
@@ -49,12 +49,12 @@ pagination:
       <ul class="pager">
           {% if paginator.previous_page %}
           <li class="previous">
-              <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+              <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;Posts più recenti</a>
           </li>
           {% endif %}
           {% if paginator.next_page %}
           <li class="next">
-              <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+              <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Posts più vecchi &rarr;</a>
           </li>
           {% endif %}
       </ul>
