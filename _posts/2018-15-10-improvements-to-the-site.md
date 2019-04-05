@@ -1,21 +1,22 @@
 ---
 layout: post
-title: "Some Improvements to the site by Walter Perdan | Kalwalt"
-description: "Some news about my site and future development, migrating hosting and other stuff. Switch to AMP and new plans for the future of www.kalwaltart.it Walter perdan old website."
+title: "Alcuni miglioramenti al sito di Walter Perdan | Kalwalt"
+description: "Alcune notizie sul mio sito e sugli sviluppi futuri, migrazione dell'hosting e altre cose. Passare ad AMP e nuovi piani per il futuro di www.kalwaltart.it vecchio sito web di Walter Perdan."
 date: 2018-10-15
-lang: en
+lang: it
 seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
 image: 'https://ucarecdn.com/b3d69125-251f-4203-a8ce-0f00e2c7d7de/Eterno_dilemma_abstract_painting_kalwalt.jpg'
-intro_paragraph: "News about my Website and the changes made. Why I'm using AMP technology..."
+intro_paragraph: >-
+  Notizie sul mio sito Web e le modifiche apportate. Perché sto usando la tecnologia AMP ...
 categories: Interactive-art Art
 tags: AMP Web-design 2018
 ---
-## Migrating plans for the website.
+## Migrazione pianificata per il sito Web.
 
-I'm planning to migrate my [www.kalwaltart.it](https://www.kalwaltart.it) site to this location. There are several reasons for this: Mainly because i have my new personal and official website [www.walterperdan.com](https://www.walterperdan.com), i don't want to have duplicate content and, most important, this is my website for interactive art. So I will transfer my hosting to github, maintaining my hostname **kalwaltart.it**. Actually my improvements to the site consist in "amplyfing" it. That's means adding **[AMP](https://www.ampproject.org/it/)** technology. I red that should be faster on mobile dispositives, and in fact it is. Many advantages using this tech, but maybe other bad aspects that i'm not sure. An expert html javascript developer probably would be capable to do better things and realize at the end a website with equal performances.
+Sto pianificando di migrare il mio sito web [www.kalwaltart.it](https://www.kalwaltart.it) su github. Ci sono diversi motivi per questo: Principalmente perché ho il mio nuovo sito web personale e ufficiale [www.walterperdan.com](https://www.walterperdan.com),Non voglio avere contenuti duplicati e, cosa più importante, questo è il mio sito web per l'arte interattiva. Quindi trasferirò il mio hosting su github, mantenendo il mio hostname **kalwaltart.it**. In realtà i miei miglioramenti al sito consistono in "amplificarli". Questo significa aggiungere la tecnologia **[AMP](https://www.ampproject.org/it/)**. Ho letto che dovrebbe essere più veloce sui dispositivi mobili, e infatti lo è. Molti vantaggi con questa tecnologia, ma forse altri aspetti negativi che non sono sicuro. Uno sviluppatore javascript esperto di html probabilmente sarebbe in grado di fare cose migliori e realizzare alla fine un sito web con prestazioni uguali.
 
-I hope only that someone can use my website with a reasonable speed and maybe enjoy or take note of some interesting artworks.
-I would do some regular post on this blog, I haven't a clear idea with which frequency and arguments, but it's an idea that I _must_ continue and cultivate.
+Spero solo che qualcuno possa usufruire del mio sito web ad una velocità ragionevole e magari apprezzare o prendere nota di alcune opere interessanti.
+Vorrei creare dei post in maniera regolare su questo blog, non ho un'idea chiara su quale frequenza e argomenti, ma è un'idea che _devo_ continuare a coltivare.

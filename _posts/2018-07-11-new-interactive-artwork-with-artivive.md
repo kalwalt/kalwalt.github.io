@@ -1,49 +1,41 @@
 ---
 layout: post
-title: "Artivive Interactive art| New interactive artwork with an emerging technology by Walter Perdan"
-description: "In this article i describe my experience and new artwork 'Suono di superifcie' (En: Sound surface) made with Artivive technology. This is an emerging technology for augmented reality."
+title: "Artivive arte interattiva | Nuova opera interattiva con una tecnologia emergente, di Walter Perdan"
+description: "In questo articolo descrivo la mia esperienza e la nuova opera d'arte 'Suono di superifcie' realizzata con la tecnologia Artivive. Questa è una tecnologia emergente per la realtà aumentata."
 date: 2018-11-07
-lang: en
+lang: it
 seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
 image: 'https://ucarecdn.com/cb9f79fd-d999-4ddd-8532-4655bcc3d756/suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan.jpg'
-intro_paragraph: I describe my artwork "Suono di superficie", made with Artivive technology for Augmented Reality
+intro_paragraph: >-
+  Descrivo la mia opera "Suono di superficie", realizzata con la tecnologia Artivive per la realtà aumentata
 categories: Interactive-art Art
 tags: Interactive-art Artivive AR Glitch Animation 2018
 ---
-## Suono di superficie my new interactive artwork with Artivive.
+## Suono di superficie la mia nuova opera interattiva con Artivive.
 
-{% include figure.html width="1200" caption="Suono di superficie, acrylic color on canvas, 70x50 cm, 2018." height="844" alt="Suono di superficie interactive acrylic painting made with Artivive by Walter Perdan" attrlink="https://www.walterperdan.com" name="suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Suono di superficie" rel="author" jpg_id="cb9f79fd-d999-4ddd-8532-4655bcc3d756" link="https://www.walterperdan.com" webp_id="67b0703f-a242-496a-98c3-30e5b4243007" %}
+{% include figure.html width="1200" caption="Suono di superficie, colore acrilico su tela, 70x50 cm, 2018." height="844" alt="Suono di superficie dipinto acrilico interattivo con Artivive by Walter Perdan" attrlink="https://www.walterperdan.com" name="suono_di_superficie_artivive_acrylic_painting_interactive_art_Walter_Perdan" target="_blank" attr="Walter Perdan" title="Suono di superficie" rel="author" jpg_id="cb9f79fd-d999-4ddd-8532-4655bcc3d756" link="https://www.walterperdan.com" webp_id="67b0703f-a242-496a-98c3-30e5b4243007" %}
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018/painting/sound-surface-artivive">Read more on "Suono di superficie"...</a>
+<a href="https://www.walterperdan.com/it/opere/pittura/suono-superficie-artivive">Leggi di più su "Suono di superficie"...</a>
 
-### What is Artivive technology?
+### Che cos'è la tecnologia Artivive ?
 
-This is a new technology for developing augmented reality applications. It is very simple,
-if you are an artist you can register for free and you have 5 projects slot ready to be engaged.
-Artivive use a markerless approach, in theory you can use every image you can imagine for your art.
-This as said in theory, there are images that are recognized better than other. Pictures with a high contrast in color,
-with a good amount of detail are well suited; instead a blurish image and one with too rounded shape will get some issue.
-It is better to check before to start to make any animation or video for the interactive artwork.
-You can upload your image in one of your project slot and upload a simple video for testing pourpose,
- after some minutes you will get the response: in the worste case zero or one star, in the best case 4-5 stars.
+Questa è una nuova tecnologia per lo sviluppo di applicazioni di realtà aumentata. È molto semplice, se sei un artista puoi registrarti gratuitamente e hai 5 slot per i progetti pronti per essere sviluppati.
+Artivive usa un approccio senza marker, in teoria puoi usare ogni immagine che puoi immaginare per la tua arte.
+Come ho detto questo accade solo in teoria, ci sono immagini che sono riconosciute meglio di altre. Immagini con un contrasto elevato a colori, con una buona quantità di dettagli sono adatti; invece un'immagine sfocata e una con una forma troppo arrotondata avrà qualche problema.
+È meglio controllare prima di iniziare a creare animazioni o video per la grafica interattiva.
+Puoi caricare la tua immagine in uno degli slot del tuo progetto e caricare un semplice video per testare lo scopo, dopo alcuni minuti si otterrà la risposta: nel caso peggiore zero o una stella, nel migliore dei casi 4-5 stelle.
 
-### What i have done with Artivive?
+### Cosa ho fatto con Artivive?
 
-My experience with Artivive begin with artwork "Suono di superficie" (English: Sound surface).
-It is an acrylic painting on canvas recently added to my production. I thought that simple shapes with rounded corners
- was ideal for Artivive, but i was wrong. Initially i get only one star, and after some improvements
-enhanching the image brightness and contrast i get finally three star. As i said before i suggest to check if the image is good or bad
- in speed terms. The things changes if you work entirely digitally. You can run a test and in this way frequently
-  verify "the speed of the image".
-I made the animation with Synfig and I used Natron for some post effects ( the glitch and noise part). You can see below a short video
-taken directly by Artivive. In fact in your smartphone (Android or Ios), when you lanch the app and the animation
- start, you can choice to share a short video with different options.
-My future development with Artivive, it will almost certainly involve the new 3D video feature.
-But this is another story to tell in a future article on this blog... See you soon!
-
+La mia esperienza con Artivive inizia con l'opera "Suono di superficie".
+È una pittura acrilica su tela recentemente aggiunta alla mia produzione. Ho pensato a forme semplici con angoli arrotondati
+ era l'ideale per Artivive, ma mi sbagliavo. Inizialmente ricevo solo una stella e dopo alcuni miglioramenti aumentando la luminosità e il contrasto dell'immagine ottengo finalmente tre stelle. Come ho detto prima suggerisco di controllare se l'immagine è buona o cattiva in termini di velocità di riconoscimento. Le cose cambiano se lavori interamente in digitale. È possibile eseguire un test e in questo modo frequentemente verificare "la velocità dell'immagine".
+Ho realizzato l'animazione con Synfig e ho usato Natron per alcuni post-effetti (la parte di glitch e noise). Qui sotto puoi vedere un breve video preso direttamente da Artivive. Infatti nel tuo smartphone (Android o Ios), quando lanci l'app e l'animazione inizia, è possibile scegliere di condividere un breve video con diverse opzioni.
+Il mio futuro sviluppo con Artivive riguarderà quasi sicuramente la nuova funzionalità video 3D.
+Ma questa è un'altra storia da raccontare in un prossimo articolo su questo blog ... A presto!
 <amp-youtube data-videoid="ckKJDEf58qA" layout="responsive" width="560" height="315"></amp-youtube>
 
 Useful links:
