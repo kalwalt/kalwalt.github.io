@@ -1,50 +1,49 @@
 ---
 layout: page
 id: 02
-title: Abstract art | Artworks about Kalwalt alias Walter Perdan visual artist.
-crumbtitle: Artworks
+title: Arte astratta | Opere di Kalwalt alias Walter Perdan, artista visivo.
+crumbtitle: Opere
 permalink: /artworks/
 section: artworks
 image: 'https://ucarecdn.com/20796a85-7afc-4634-8e87-f66201205163/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg'
-description: "Some Kalwalt's alias Walter Perdan Artworks. His works is mainly focused on abstract art. For an exaustive list of artworks go to the attached link."
-lang: en
-intro_paragraph: '## Introduction
+description: "Qualche opera artistica di Kalwalt, Walter Perdan. Le sue opere si concentrano principalmente sull'arte astratta. Per un elenco esaustivo di opere d'arte vai al link allegato."
+lang: it
+intro_paragraph: '## Introduzione
 
-  In this page briefly i will introduce you to my artistic research and i will explain some fields in which i like to express with. It does not want to be an exhaustive explanation but rather a quick review of my main fields of expression.
-  For a deeper understanding of my artworks and a better fruition of them, i suggest a visit to my official artistic website.'
+In questa pagina brevemente vi presenterò la mia ricerca artistica e illustrerò alcuni campi in cui mi piace esprimermi. Non vuole essere una spiegazione esauriente, ma piuttosto una rapida rassegna dei miei principali campi di espressione.
+   Per una comprensione più profonda delle mie opere e una migliore fruizione di esse, suggerisco una visita al mio sito web ufficiale.'
 ---
-## Painting
+## Pittura
 
-{% include figure.html width="1200" caption="L'Eterno dilemma, acrylic color on canvas, 30x30 cm, 2018." height="1200" alt="Eterno dilemma - abstract painting by Kalwalt" attrlink="https://www.walterperdan.com" name="Eterno_dilemma_abstract_painting_kalwalt" target="_blank" attr="Walter Perdan" title="L'Eterno dilemma" rel="author" jpg_id="b3d69125-251f-4203-a8ce-0f00e2c7d7de" link="https://www.walterperdan.com" webp_id="f1bdffc0-1dc4-4122-98fa-9489499c3dc7" %}
+{% include figure.html width="1200" caption="L'Eterno dilemma, colore acrilico su tela, 30x30 cm, 2018." height="1200" alt="Eterno dilemma - pittura astratta di Kalwalt" attrlink="https://www.walterperdan.com" name="Eterno_dilemma_abstract_painting_kalwalt" target="_blank" attr="Walter Perdan" title="L'Eterno dilemma" rel="author" jpg_id="b3d69125-251f-4203-a8ce-0f00e2c7d7de" link="https://www.walterperdan.com" webp_id="f1bdffc0-1dc4-4122-98fa-9489499c3dc7" %}
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/eterno-dilemma-en" >Read more on "L'Eterno dilemma"...</a>
+<a href="https://www.walterperdan.com/it/opere/pittura/eterno-dilemma-pittura-astratta" >Leggi di pù su "L'Eterno dilemma"...</a>
 
-I like the abstract art and the surreal art, my paintings reflect this my enjoyment.
-I usually paint with acrylic colors, watercolors and other techniques. I create forms that represent state of mind rather imitate Nature. In my paintings, i try to find a balance between expression and abstraction, innovation and tradition.
+Mi piace l'arte astratta e l'arte surreale, i miei quadri riflettono questa mia predisposzione.
+Di solito dipingo con colori acrilici, acquerelli e altre tecniche. Creo forme che rappresentano lo stato della mente piuttosto che imitare la natura. Nei miei dipinti cerco di trovare un equilibrio tra espressione e astrazione, innovazione e tradizione.
 
-Got to [my website for more...](https://www.walterperdan.com/en/artworks/painting/painting-intro)
+Visita il mio sito [per maggiori info...](https://www.walterperdan.com/it/opere/pittura/pittura-intro)
 
-## Sculpture
+## Scultura
 
-{% include figure.html width="1200" caption="Respiro cosmico, Carrara marble, 55x30x30 cm, 2011." height="797" alt="Respiro cosmico abstract sculpture by Kalwalt" attrlink="https://www.walterperdan.com" name="Respiro_cosmico_abstract_sculpture_kalwalt" target="_blank" attr="Walter Perdan" title="Respiro cosmico" rel="author" jpg_id="b5bc2bbd-0c56-44fe-bbce-467c017fc427" link="https://www.walterperdan.com" webp_id="f3b88842-f8b3-47b6-a829-43c158e5d47e" %}
+{% include figure.html width="1200" caption="Respiro cosmico, Carrara marble, 55x30x30 cm, 2011." height="797" alt="Respiro cosmico scultura astratta di Kalwalt" attrlink="https://www.walterperdan.com" name="Respiro_cosmico_abstract_sculpture_kalwalt" target="_blank" attr="Walter Perdan" title="Respiro cosmico" rel="author" jpg_id="b5bc2bbd-0c56-44fe-bbce-467c017fc427" link="https://www.walterperdan.com" webp_id="f3b88842-f8b3-47b6-a829-43c158e5d47e" %}
 
-<a href="https://www.walterperdan.com/en/artworks/sculpture/marble/respiro-cosmico-abstract-sculpture" >Read more on "Respiro cosmico"...</a>
+<a href="https://www.walterperdan.com/it/opere/scultura/marmo/respiro-cosmico-scultura-astratta" >Leggi di più su "Respiro cosmico"...</a>
 
-I create abstract sculptures with different materials: Marble, stone, wood, bronze, acrylic and epoxy resyns.
-I like to feel the material under my fingers and express my emotions of Form and of Nature. A part of my research wants to represent the concepts of time and space and the change of our being in a "liquid" society: The reflection of our way of living and thinking in the contemporary world.
+Creo sculture astratte con materiali diversi: marmo, pietra, legno, bronzo, acrilico e resine epossidiche.
+Mi piace sentire la materia sotto le mie dita ed esprimere le mie emozioni sulla Forma e la Natura. Una parte della mia ricerca vuole rappresentare i concetti di tempo e spazio e il cambiamento del nostro essere in una società "liquida": una riflessione sul nostro modo di vivere e pensare nel mondo contemporaneo.
 
-Visit the dedicated [page for more...](https://www.walterperdan.com/en/artworks/sculpture/sculpture-intro)
+Visita la pagina dedicata [per saperne di più...](https://www.walterperdan.com/it/opere/scultura/scultura-intro)
 
-## Interactive artworks
+## Opere interattive
 
-{% include figure.html width="1200" caption="Art is a joke, acrylic color on canvas, 70x50 cm, 2018." height="895" alt="Art is a joke - abstract painting with augmented reality by Kalwalt" attrlink="https://www.walterperdan.com" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="20796a85-7afc-4634-8e87-f66201205163" link="https://www.walterperdan.com" webp_id="70146e27-890d-498c-af4f-7000cf842210" %}
+{% include figure.html width="1200" caption="Art is a joke, acrylic color on canvas, 70x50 cm, 2018." height="895" alt="Art is a joke - pittura astratta con realtà aumentata di Kalwalt" attrlink="https://www.walterperdan.com" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="20796a85-7afc-4634-8e87-f66201205163" link="https://www.walterperdan.com" webp_id="70146e27-890d-498c-af4f-7000cf842210" %}
 
-<a href="https://www.walterperdan.com/en/artworks/painting/2018-painting/artisajoke-abstract-painting" >Read more on "Art is a joke"...</a>
+<a href="https://www.walterperdan.com/it/opere/pittura/artisajoke-pittura-astratta" >Leggi di più su "Art is a joke"...</a>
 
-The majority of interactive artworks consist of acrylic paintings with markers for augmented reality.
-My research consists in finding an agreement between the abstract forms of the markers and
-the abstract organic forms of my paintings. Above the markers you can see text appearing, particle animations, 3d objects or videos. My effort is to continuously find new ways to make art and move the limit of language ...
+La maggior parte delle opere interattive è costituita da dipinti acrilici con marcatori (markers) per realtà aumentata.
+La mia ricerca consiste nel trovare un accordo tra le forme astratte dei marcatori e le forme organiche astratte dei miei dipinti. Sopra i marcatori si puo vedere apparire del testo, animazioni particellari, oggetti 3d o video. Il mio sforzo è quello di trovare continuamente nuovi modi per fare arte e spostare il limite del linguaggio ...
 
-For a complete description of my interactive artworks i suggest to you to go to my website in my [augmented reality section.](https://www.walterperdan.com/en/artworks/new-media/augmented-reality)
+Per una descrizione completa delle mie opere interattive ti suggerisco di andare al mio sito web nella sezione dedicata alla [realtà aumentata.](https://www.walterperdan.com/it/opere/nuovi-media/realta-aumentata)
 
-If you want to see some my artworks and to have more exaustive informations, i invite you to my official page: visit my [portfolio.](https://www.walterperdan.com/en/artworks/contemporary-art-portfolio)
+Se vuoi vedere alcuni miei lavori e avere informazioni più esaustive, ti invito alla mia pagina ufficiale: visita il mio [portfolio.](https://www.walterperdan.com/it/opere/portfolio-arte-contemporanea)

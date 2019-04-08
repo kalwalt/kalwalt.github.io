@@ -1,19 +1,19 @@
 ---
 layout: page
 id: 04
-title: Cv by Walter Perdan, visual artist.
+title: Cv di Walter Perdan, artista visivo.
 crumbtitle: Cv
 permalink: /cv/
 section: cv
-description:  A short introduction on Walter Perdan formation and activities. For more go to the official page.
-lang: en
+description:  Una breve introduzione sulla formazione e le attività di Walter Perdan. Per maggiori informazioni andate alla pagina ufficiale.
+lang: it
 intro_paragraph: >-
-  I'm a visual artist, my media fields are: sculpture, painting, drawing, 3d, coding and interactivity
+  Sono un artista visivo, i miei campi di espressione sono: scultura, pittura, disegno, 3d, programmazione e interattività
 
 
 
 ---
-I graduated in painting at the Academy of Fine Arts in Bologna in 2009  (Bachelor's Degree) and after
-i graduated in sculpture in the same school in 2014 (Master's Degree).
+Mi sono diplomato in pittura all'Accademia di Belle Arti di Bologna nel 2009 (laurea triennale) e poi mi sono laureato in scultura nella stessa scuola nel 2014 (biennio specialistico).
 
-If you want to see my detailed cv go to: [Biography](https://www.walterperdan.com/en/biography)
+
+Se volete vedere il mio cv dettagliato : [Biografia](https://www.walterperdan.com/it/biografia)

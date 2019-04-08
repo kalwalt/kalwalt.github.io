@@ -1,11 +1,12 @@
 ---
 layout: contact
 id: 07
-title: Contacts
-crumbtitle: Contacts
+title: Contatti
+crumbtitle: Contatti
 permalink: /contacts/
 section: contact
-description: This is the page where you can find contacts information about kalwalt alias Walter Perdan.
-lang: en
-intro_paragraph: 'In this page you can send me an email for any questions regarding my art, my applications and other info you require.'
+description: Questa è la pagina in cui è possibile trovare informazioni di contatto su Kalwalt alias Walter Perdan.
+lang: it
+intro_paragraph: >-
+  In questa pagina potete inviarmi un'e-mail per qualsiasi domanda riguardante l'arte, le mie applicazioni e altre informazioni di cui avete bisogno.
 ---

@@ -21,10 +21,10 @@ defaults:
       section: "post" # set the root section name
 
 encoding: utf-8
-title: Interactive art by Kalwalt
+title: Arte Interattiva by Kalwalt
 email: info@kalwaltart.it
 description: >
-  Official Kalwalt website for interactive applications
+  Pagina web ufficiale per applicazioni interattive di Kalwalt.
 name: Walter Perdan
 author: Walter Perdan
 logo: "/assets/images/logo_kalwalt_600x60.png"
