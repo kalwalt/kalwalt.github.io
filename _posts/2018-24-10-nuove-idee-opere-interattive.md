@@ -23,11 +23,9 @@ tags: Interactive-art AR 2018
 
 ### Introduzione alla questione ...
 
-**Interactive art** è uno dei miei interessi nel fare arte.
+**L'Arte interattiva** è uno dei miei interessi nel fare arte.
 In questo articolo vorrei esprimere un'idea che ho in mente da qualche tempo.
-Il problema principale nel rendere questo tipo di opere d'arte, dal mio punto di vista, resta nel fatto che un utente quando scopre la tua applicazione non può usarla, perché lui o lei non è di fronte
-la tua opera. In primo luogo perché i miei dipinti o sculture sono oggetti fisici e non possono essere "inviati" con una connessione internet, ovviamente, e le mie opere, fino a questo punto
-nel tempo, sono interamente fatti a mano. Quindi qual è la soluzione?
+Il problema principale nel rendere questo tipo di opere d'arte, dal mio punto di vista, resta nel fatto che un utente quando scopre la tua applicazione non può usarla, perché lui o lei non è di fronte la tua opera. In primo luogo perché i miei dipinti o sculture sono oggetti fisici e non possono essere "inviati" con una connessione internet, ovviamente, e le mie opere, fino a questo punto nel tempo, sono interamente fatti a mano. Quindi qual è la soluzione?
 
 ### Nuovo corso alla mia attività artistica interattiva.
 
@@ -36,8 +34,7 @@ Esistono due opzioni a mio parere:
 - Realizzazione di opere d'arte che l'utente può stampare con una macchina da stampa 3D.
 - Scansione di un'immagine o realizzazione diretta di un'immagine digitale.
 
-Credo che la seconda opzione sia la cosa più facile e fattibile. Non tutte le persone hanno l'abitudine di stampare in 3d,
-molto più facile invece di scaricare un'immagine o ordinare un'immagine ad alta risoluzione con un servizio di terze parti.
+Credo che la seconda opzione sia la cosa più facile e fattibile. Non tutte le persone hanno l'abitudine di stampare in 3d, molto più facile invece di scaricare un'immagine o ordinare un'immagine ad alta risoluzione con un servizio di terze parti.
 Voglio farlo perché sono sicuro che molte persone hanno visitato [la mia pagina][962b4ab5] e hanno visto [le mie opere interattive](/interactivity), probabilmente li proverebbero ma non possono per ovvi motivi.
 
 La mia idea è di sviluppare alcune opere di **arte interattiva** con realtà aumentata come al solito, e quindi, nella pagina della descrizione, lasciare un link con un file scaricabile: un pdf o un'immagine jpeg, sarebbe perfetto per essere stampato. Un'immagine con una risoluzione limitata ma completamente gratuita. Nel caso in cui il collezionista sia interessato, dare un'opzione per acquistare una foto migliore o originale. L'unica restrizione per l'immagine gratuita sarà la licenza e la dimensione:

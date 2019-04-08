@@ -23,16 +23,15 @@ tags: Interactive-art Artivive AR Glitch Animation 2018
 ### Che cos'è la tecnologia Artivive ?
 
 Questa è una nuova tecnologia per lo sviluppo di applicazioni di realtà aumentata. È molto semplice, se sei un artista puoi registrarti gratuitamente e hai 5 slot per i progetti pronti per essere sviluppati.
-Artivive usa un approccio senza marker, in teoria puoi usare ogni immagine che puoi immaginare per la tua arte.
-Come ho detto questo accade solo in teoria, ci sono immagini che sono riconosciute meglio di altre. Immagini con un contrasto elevato a colori, con una buona quantità di dettagli sono adatti; invece un'immagine sfocata e una con una forma troppo arrotondata avrà qualche problema.
+Artivive usa un approccio senza marker, in teoria puoi usare quasi ogni immagine che puoi immaginare per la tua arte.
+Come ho detto questo accade solo in teoria, perchè ci sono immagini che sono riconosciute meglio di altre. Immagini con un contrasto elevato a colori, con una buona quantità di dettagli sono adatti; invece un'immagine sfocata e una con una forma troppo arrotondata avrà qualche problema.
 È meglio controllare prima di iniziare a creare animazioni o video per la grafica interattiva.
-Puoi caricare la tua immagine in uno degli slot del tuo progetto e caricare un semplice video per testare lo scopo, dopo alcuni minuti si otterrà la risposta: nel caso peggiore zero o una stella, nel migliore dei casi 4-5 stelle.
+Puoi caricare la tua immagine in uno degli slot del tuo progetto e caricare un semplice video per testare lo scopo. Dopo alcuni minuti si otterrà la risposta: nel caso peggiore zero o una stella, nel migliore dei casi 4-5 stelle.
 
 ### Cosa ho fatto con Artivive?
 
 La mia esperienza con Artivive inizia con l'opera "Suono di superficie".
-È una pittura acrilica su tela recentemente aggiunta alla mia produzione. Ho pensato a forme semplici con angoli arrotondati
- era l'ideale per Artivive, ma mi sbagliavo. Inizialmente ricevo solo una stella e dopo alcuni miglioramenti aumentando la luminosità e il contrasto dell'immagine ottengo finalmente tre stelle. Come ho detto prima suggerisco di controllare se l'immagine è buona o cattiva in termini di velocità di riconoscimento. Le cose cambiano se lavori interamente in digitale. È possibile eseguire un test e in questo modo frequentemente verificare "la velocità dell'immagine".
+È una pittura acrilica su tela recentemente aggiunta alla mia produzione. Ho pensato a forme semplici con angoli arrotondati era l'ideale per Artivive, ma mi sbagliavo. Inizialmente ricevo solo una stella e dopo alcuni miglioramenti aumentando la luminosità e il contrasto dell'immagine ottengo finalmente tre stelle. Come ho detto prima suggerisco di controllare se l'immagine è buona o cattiva in termini di velocità di riconoscimento. Le cose cambiano se lavori interamente in digitale. È possibile eseguire un test e in questo modo frequentemente verificare "la velocità dell'immagine".
 Ho realizzato l'animazione con Synfig e ho usato Natron per alcuni post-effetti (la parte di glitch e noise). Qui sotto puoi vedere un breve video preso direttamente da Artivive. Infatti nel tuo smartphone (Android o Ios), quando lanci l'app e l'animazione inizia, è possibile scegliere di condividere un breve video con diverse opzioni.
 Il mio futuro sviluppo con Artivive riguarderà quasi sicuramente la nuova funzionalità video 3D.
 Ma questa è un'altra storia da raccontare in un prossimo articolo su questo blog ... A presto!
