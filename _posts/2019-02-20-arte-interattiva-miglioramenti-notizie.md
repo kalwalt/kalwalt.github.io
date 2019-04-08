@@ -10,7 +10,7 @@ seo:
   author: Walter Perdan
   datePublished: '2019-02-20'
   type: BlogPosting
-image: 'https://ucarecdn.com/20796a85-7afc-4634-8e87-f66201205163/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg'
+image: 'https://ucarecdn.com/5e541b7f-4561-45b6-9a10-dc432fb350e4/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg'
 intro_paragraph: >-
    Alcune notizie relative all'arte interattiva, al web design e al mondo della programmazione.
 categories: Interactive-art
@@ -18,7 +18,7 @@ tags: Interactive-art AR Artoolitx NFT Gatsbyjs React Uploadcare 2019
 ---
 ## Miglioramenti: migrazione su uploadcare e altre notizie.
 
-{% include figure.html width="1200" caption="Art is a joke, colore acrilico su tela, 70x50 cm, 2018." height="895" alt="Art is a joke - dipinto astratto con realtà aumentata by Kalwalt" attrlink="https://www.walterperdan.com" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="20796a85-7afc-4634-8e87-f66201205163" link="https://www.walterperdan.com" webp_id="70146e27-890d-498c-af4f-7000cf842210" %}
+{% include figure.html width="1200" caption="Art is a joke, colore acrilico su tela, 70x50 cm, 2018." height="895" alt="Art is a joke - dipinto astratto con realtà aumentata by Kalwalt" attrlink="https://www.walterperdan.com" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="5e541b7f-4561-45b6-9a10-dc432fb350e4" link="https://www.walterperdan.com" webp_id="f1715675-7cbf-4dc9-972d-bea39c527b84" %}
 
 In questo ultimo mese mi sono concentrato sullo sviluppo dei miei due siti Web e della libreria javascript [jsartoolkit5](https://github.com/artoolkitx/jsartoolkit5). Mi spiego meglio. Sono un artista visivo ma mi interessa lo sviluppo di applicazioni con realtà aumentata: puoi trovare alcune informazioni sull'arte interattiva [nel sito](www.kalawaltart.it) kalwaltart.it invece tutte le mie opere (non correlato solo all'arte interattiva) sono presentati nel mio sito ufficiale [www.walterperdan.com](https://www.walterperdan.com).Come ho detto ho lavorato per aggiungere la funzionalità di immagini responsive al mio sito kalwaltart.it; all'inizio ho implementato il [jekyll-responsive-image](https://github.com/wildlyinaccurate/jekyll-responsive-image) plugin ( il mio sito è un sito statico basato su [Jekyll](https://jekyllrb.com/)), non male ma come ho iniziato ad aggiungere il formato .webp ho avuto qualche problema con il server perché non ha la libreria imagemagick richiesta che supporta il formato .webp. E anche il mio repository github stava diventando sempre più grande. Per questo motivo ho iniziato a migrare al servizio [**uploadcare**](https://uploadcare.com): È una società di servizi che fornisce una rete **CDN** dove conservare le tue immagini. Carica le tue immagini sul server di uploadcare e posti un link all'interno del tag < img >:
 

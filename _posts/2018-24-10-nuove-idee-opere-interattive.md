@@ -8,7 +8,7 @@ seo:
   type: BlogPosting
   author: Walter Perdan
   datePublished: date
-image: 'https://ucarecdn.com/1255ace3-6fe7-4579-a9df-4545c59b3333/Art_Is_a_joke_interactive_slice.jpg'
+image: 'https://ucarecdn.com/5e541b7f-4561-45b6-9a10-dc432fb350e4/Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt.jpg'
 intro_paragraph: >-
   Idee e piani futuri per lo sviluppo di opere interattive per la realtà aumentata.
 categories: Interactive-art Art
@@ -16,7 +16,7 @@ tags: Interactive-art AR 2018
 ---
 ## Arte interattiva: futuro e suoi sviluppi.
 
-{% include figure.html width="1200" caption="A slice of 'Art is a joke', colore acrilico su tela, 70x50 cm, 2018." height="300" alt="Art is a joke Arte interattiva con realtà aumentata by Walter Perdan" attrlink="https://www.walterperdan.com" name="Art_Is_a_joke_interactive_slice" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="1255ace3-6fe7-4579-a9df-4545c59b3333" link="https://www.walterperdan.com" webp_id="da955990-33a8-45df-9971-ccd83eaefdae" %}
+{% include figure.html width="1200" caption="A slice of 'Art is a joke', colore acrilico su tela, 70x50 cm, 2018." height="300" alt="Art is a joke Arte interattiva con realtà aumentata by Walter Perdan" attrlink="https://www.walterperdan.com" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" attr="Walter Perdan" title="Art is a joke" rel="author" jpg_id="5e541b7f-4561-45b6-9a10-dc432fb350e4" link="https://www.walterperdan.com" webp_id="f1715675-7cbf-4dc9-972d-bea39c527b84" %}
 
 
 <a href="https://www.walterperdan.com/it/opere/pittura/artisajoke-pittura-astratta">Leggi di più su "Art is a joke"...</a>
