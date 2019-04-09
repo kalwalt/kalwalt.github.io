@@ -17,7 +17,7 @@ intro_paragraph: >-
 categories: art
 tags: Interactive-art Jekyll Gatsbyjs Bulma 2019
 ---
-{% include figure.html width="1200" caption="Art is a joke, acrylic on canvas, 70 x 50 cm, 2018." height="900" alt="Art is a joke interactive art with augmented reality by kalwalt" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" title="www.kalwaltart.com" rel="author" jpg_id="/5e541b7f-4561-45b6-9a10-dc432fb350e4" webp_id="f1715675-7cbf-4dc9-972d-bea39c527b84" %}
+{% include figure.html width="1200" caption="Art is a joke, colore acrilico su tela, 70 x 50 cm, 2018." height="900" alt="Art is a joke arte interattiva con realtà aumentata by kalwalt" name="Art_is_a_joke_abstract_painting_augmented_reality_interactive_kalwalt" target="_blank" title="www.kalwaltart.com" rel="author" jpg_id="/5e541b7f-4561-45b6-9a10-dc432fb350e4" webp_id="f1715675-7cbf-4dc9-972d-bea39c527b84" %}
 
 Ho deciso di trasformare il mio sito web www.kalwaltart.it in un sito esclusivamente italiano e di realizzare l'estensione .com solo per la lingua Inglese. Penso che per un utente sia meglio, perché può scegliere la lingua giusta, e per un utente italiano in questo modo può scegliere la propria lingua madre. Il sito web è sempre basato su jekyll come per [www.kalwaltart.it](www.kalwaltart.it) che è la esatta copia.
 
