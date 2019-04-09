@@ -1,0 +1,11 @@
+<div class="switcher">
+  {% if page.idx %}
+  {% assign id = page.idx %}
+  {% endif %}
+  <a href="{{ site.url_en }}/{{ site.data.articleTree[id].name }}">
+    <p>English</p>
+  </a>
+  <a href="{{ site.url }}{{ page.url }}">
+    <p>Italiano</p>
+  </a>
+</div>

@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 11
 title: "Mostra di realtà aumentata | Prossimi progetti di Walter Perdan"
 description: "In questo articolo presento la open call presso Kaleidastudio per progetti con tecnologia Artivive. Il progetto mira a presentare opere d'arte da artisti selezionati che lavorano con la realtà aumentata."
 date: 2018-11-23

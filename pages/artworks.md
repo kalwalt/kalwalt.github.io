@@ -1,6 +1,6 @@
 ---
 layout: page
-id: 02
+idx: 01
 title: Arte astratta | Opere di Kalwalt alias Walter Perdan, artista visivo.
 crumbtitle: Opere
 permalink: /artworks/
