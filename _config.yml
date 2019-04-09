@@ -43,6 +43,7 @@ pagination:
 google_site_verification: cC3276h9Hn4i0CmY109jtXIAAv8edaU7XJRkBLUOjLM
 baseurl: ""
 url: https://www.kalwaltart.it
+url_en: https://www.kalwaltart.com
 # Permalink format (/blog/ is ignored for pages)
 permalink: /blog/:year/:month/:day/:title/
 

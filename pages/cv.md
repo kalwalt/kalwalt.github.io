@@ -1,6 +1,6 @@
 ---
 layout: page
-id: 04
+idx: 04
 title: Cv di Walter Perdan, artista visivo.
 crumbtitle: Cv
 permalink: /cv/

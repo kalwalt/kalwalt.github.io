@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 09
 title: "Alcuni miglioramenti al sito di Walter Perdan | Kalwalt"
 description: "Alcune notizie sul mio sito e sugli sviluppi futuri, migrazione dell'hosting e altre cose. Passare ad AMP e nuovi piani per il futuro di www.kalwaltart.it vecchio sito web di Walter Perdan."
 date: 2018-10-15

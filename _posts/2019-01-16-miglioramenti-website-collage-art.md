@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 14
 title: Miglioramento del sito Web e collage art.
 description: >-
   Ho aggiunto alcune nuove funzionalità al sito web: il plugin jekyll-responsive-image e la funzionalità Progressive Web App. Alcuni collage artistici e una nuova scultura di legno di Kalwalt, Walter Perdan.

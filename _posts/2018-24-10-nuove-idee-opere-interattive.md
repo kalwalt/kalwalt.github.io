@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 12
 title: "Arte interattiva, alcune nuove idee sullo sviluppo delle mie opere interattive by Walter Perdan"
 description: "In questo articolo cerco di esprimere alcune nuove idee per lo sviluppo di nuove opere d'arte interattiva. Leggi di più nel testo scritto."
 date: 2018-10-24

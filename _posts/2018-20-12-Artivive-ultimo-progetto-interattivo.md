@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 10
 title: "Artivive | Il mio ultimo progetto interattivo"
 description: "In questo articolo spiego il mio ultimo progetto con tecnologia Artivive. Progetto inizialmente sviluppato per Kaleida studio open call."
 date: 2018-12-20
