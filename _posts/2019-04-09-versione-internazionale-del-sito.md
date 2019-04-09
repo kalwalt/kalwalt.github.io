@@ -21,7 +21,7 @@ tags: Interactive-art Jekyll Gatsbyjs Bulma 2019
 
 Ho deciso di trasformare il mio sito web www.kalwaltart.it in un sito esclusivamente italiano e di realizzare l'estensione .com solo per la lingua Inglese. Penso che per un utente sia meglio, perché può scegliere la lingua giusta, e perche così un utente italiano può scegliere la propria lingua madre. Il sito web è sempre basato su jekyll come per [www.kalwaltart.it](www.kalwaltart.it) che è la esatta copia.
 
-In questo periodo ho lavorato molto su questo template per Gatsbyjs: [gatsby-starter-i18n-bulma](https://github.com/kalwalt/gatsby-starter-i18n-bulma): Sto sviluppando questo template per la nuova versione del mio sito web [www.walterpedan.com](www.walterperdan.com). Non è finito ma sono arrivato a un buon punto. Si basa su Gatsbyjs per javascript e Bulma per i CSS. Consentono di passare da una pagina a un altro con nomi diversi, invece delle caratteristiche standard dei plugin i18n. che consente solo di passare da una lingua all'altra. Cioè, se hai una pagina:
+In questo periodo ho lavorato molto su questo template per Gatsbyjs: [gatsby-starter-i18n-bulma](https://github.com/kalwalt/gatsby-starter-i18n-bulma). Sto sviluppando questo template per la nuova versione del mio sito web [www.walterpedan.com](www.walterperdan.com). Non è finito ma sono arrivato a un buon punto. Si basa su Gatsbyjs per javascript e Bulma per i CSS. Consentono di passare da una pagina a un altro con nomi diversi, invece delle caratteristiche standard dei plugin i18n. che consente solo di passare da una lingua all'altra. Cioè, se hai una pagina:
 `/en/artworks/` puoi dirigerti ad una pagina `/it/opere/` (nota la differenza)
 
 Devo ancora aggiungere il CMS Netlify, quindi richiederà un po 'di tempo per finire ....
