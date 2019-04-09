@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 17
 title: Walter Perdan artista visivo | presentazione
 description: >-
   Una piccola presentazione: sono un artista visivo che lavora su diversi campi, controlla

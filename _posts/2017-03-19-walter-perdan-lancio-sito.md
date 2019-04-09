@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 07
 title: "Walter Perdan, Visual artist, lancio del sito"
 description: "Primo post sul blog nel sito kalwalt.github.io, solo per dire ciao al mondo ..."
 date: 2017-03-19

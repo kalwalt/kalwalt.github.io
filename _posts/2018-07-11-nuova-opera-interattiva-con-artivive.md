@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 08
 title: "Artivive arte interattiva | Nuova opera interattiva con una tecnologia emergente, di Walter Perdan"
 description: "In questo articolo descrivo la mia esperienza e la nuova opera d'arte 'Suono di superifcie' realizzata con la tecnologia Artivive. Questa è una tecnologia emergente per la realtà aumentata."
 date: 2018-11-07

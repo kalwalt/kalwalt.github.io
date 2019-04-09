@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 16
 title: Miglioramenti e notizie sull'arte interattiva
 description: >-
   Alcune notizie sull'arte interattiva, web design e programmazione relative al mio sito web e le mie opere, articolo di Kalwalt alias Walter Perdan.

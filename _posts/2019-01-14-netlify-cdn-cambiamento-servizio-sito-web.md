@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 13
 title: 'Netlify CDN | cambio di servizio per il sito web'
 description: "In questo post spiego perché sono passato a Netlify per il mio sito web www.kalwaltart.it, per il suo CDN e altri servizi. Articolo di Kalwalt alias Walter Perdan."
 author: walter_perdan
