@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 19
 title: Realtà aumentata | Noise Noise opera interattiva
 description: >-
   Presento la mie opera interattiva con la realtà aumentata "Noise Noise"
