@@ -1,5 +1,6 @@
 ---
 layout: post
+idx: 20
 title: 'Arte interattiva, noise art e realtà aumentata'
 description: >-
   "Noise noise" è il nuovo dipinto interattivo che ho realizzato. Si tratta di
