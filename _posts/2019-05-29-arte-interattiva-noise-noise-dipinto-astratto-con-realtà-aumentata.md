@@ -23,7 +23,7 @@ tags: >-
 ---
 ## L'arte interattiva tra noise art e glitch art.
 
-{% include figure.html width="1500" caption="'<noise></noise>', colore acrilico su tela, 70 x 50 cm, 2019." height="1125" alt="Noise noise arte interattiva con realtà aumentata di Walter Perdan - Kalwalt" name="noise_noise_augmented_reality_art_kalwalt" target="_blank" title="'<noise></noise>' arte interattiva con realtà aumentata." rel="author" jpg_id="79594958-f64c-4e87-930c-38140148884a" link="https://www.kalwaltart.it/interactivity/noise_noise" webp_id="543ae1b0-e8a0-4f96-ac7e-eff0dc2b46e3" %}
+{% include figure.html width="1500" caption="Noise noise, colore acrilico su tela, 70 x 50 cm, 2019." height="1125" alt="Noise noise arte interattiva con realtà aumentata di Walter Perdan - Kalwalt" name="noise_noise_augmented_reality_art_kalwalt" target="_blank" title="Noise noise, arte interattiva con realtà aumentata." rel="author" jpg_id="79594958-f64c-4e87-930c-38140148884a" link="https://www.kalwaltart.it/interactivity/noise_noise" webp_id="543ae1b0-e8a0-4f96-ac7e-eff0dc2b46e3" %}
 
 Mi piace la sperimentazione, e la noise art ha qualcosa che mi affascina moltissimo. Spesso si mescolano i termini glitch art e noise art, ed in effetti sono molto vicini tra di loro. Sono solamente due sfaccettature diverse dello stesso tema. "Glitch" in effetti è un termine tecnico inglese  che indica un disturbo che avviene durante la trasmissione di un segnale. "Noise" invece, che potremmo tradurre con rumore, riguarda un più ampio ventaglio di significati.  Non solo in un ambito tecnico-scientifico ma anche più pratico e quotidiano. Investe anche il linguaggio e i suoi meccanismi interni di regolazione.
 
