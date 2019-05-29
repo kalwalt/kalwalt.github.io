@@ -31,4 +31,4 @@ La mia opera **`<noise> </noise>`** gioca su questi aspetti. La parola noise è 
 
 Un gioco di scatole cinesi tra il significato del marcatore e i marcatori **`<noise></noise>`** che contengono lo stesso. Sono in procinto di realizzare altre opere di **arte interativa** come questa, nel presente sto preparando una serie di disegni astratti con marker per la realtà aumentata che a breve posterò su questo blog.
 
-Sto lavorando anche molto su lo sviluppo software di **jsartoolkit5** e **Ar.js**, e la conversione del mio sito ufficiale [www.walterperdan.com](https://www.walterperdan.com) ad un framework basato su **Gatsbyjs** e **React** spero di scrivere altri articoli a riguardo, A presto!
+Sto lavorando anche molto sullo sviluppo delle librerie **jsartoolkit5** e **Ar.js**, e la conversione del mio sito ufficiale [www.walterperdan.com](https://www.walterperdan.com) ad un framework basato su **Gatsbyjs** e **React,** spero di scrivere altri articoli a riguardo, A presto!
