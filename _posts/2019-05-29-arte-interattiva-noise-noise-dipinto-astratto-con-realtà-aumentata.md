@@ -18,8 +18,8 @@ intro_paragraph: >-
   glitch art sono due ambiti della sperimentazione molto vicini tra di loro.
 categories: interactive-art
 tags: >-
-  glitch glitch-art noise noise-art interactive-art AR arte 2019 pittura
-  acrilico realtà-aumentata
+  Glitch Glitch-art Noise noise-art Interactive-art AR Arte 2019 Pittura
+  Acrilico Realtà-Aumentata
 ---
 ## L'arte interattiva tra noise art e glitch art.
 
