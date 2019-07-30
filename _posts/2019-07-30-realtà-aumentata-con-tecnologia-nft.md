@@ -18,6 +18,6 @@ intro_paragraph: >-
   **N**atural **F**eature **T**racking: una tecnologia markerless per la realtà
   aumentata.
 categories: ''
-tags: 'Realtà aumentata, arte interattiva,'
+tags: Interactive-art AR Arte 2019 Pittura  Realtà-Aumentata
 ---
 
