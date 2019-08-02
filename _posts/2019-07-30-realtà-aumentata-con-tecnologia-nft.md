@@ -7,7 +7,7 @@ description: >-
   per la realtà aumentata. Si tratta di una tecnologia markerless che permette
   più libertà per i creativi e gli artisti.
 author: Walter Perdan
-date: '2019-30-07 18:07:95'
+date: 2019-30-07
 lang: it
 seo:
   author: Walter Perdan
