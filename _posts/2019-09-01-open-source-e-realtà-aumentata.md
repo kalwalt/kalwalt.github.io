@@ -16,7 +16,7 @@ seo:
 image: >-
   https://ucarecdn.com/1be8cb43-b584-439c-a7a3-72a74e11465f/Artoolkitx_inside_atom.webp
 intro_paragraph: Lo scenario della Realtà Aumentata nel mondo Open Source.
-tags: Interactive-art AR Arte 2019 Realtà-Aumentata
+tags: Interactive-art AR Arte 2019 Realtà-Aumentata Artoolkit ArtoolkitX
 ---
 # Open Source e la Realtà Aumentata
 

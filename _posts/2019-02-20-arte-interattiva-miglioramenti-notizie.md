@@ -15,7 +15,7 @@ image: 'https://ucarecdn.com/5e541b7f-4561-45b6-9a10-dc432fb350e4/Art_is_a_joke_
 intro_paragraph: >-
    Alcune notizie relative all'arte interattiva, al web design e al mondo della programmazione.
 categories: Interactive-art
-tags: Interactive-art AR Artoolitx NFT Gatsbyjs React Uploadcare 2019
+tags: Interactive-art AR Artoolkit Artoolkitx NFT Gatsbyjs React Uploadcare 2019
 ---
 ## Miglioramenti: migrazione su uploadcare e altre notizie.
 
