@@ -13,12 +13,12 @@ seo:
   author: Walter Perdan
   datePublished: '2019-09-01'
   type: BlogPosting
-image: 'https://ucarecdn.com/c6f95a89-ac0c-4683-a707-dd3fa5ba866f/Schermata del 2019-09-01 13-54-50.webp'
+image: 'https://ucarecdn.com/93d0b062-4b1b-4362-a8f4-1d56797212b8/Artoolkitx-inside-atom.webp'
 intro_paragraph: Lo scenario della Realtà Aumentata nel mondo Open Source.
 ---
 # Open Source e la Realtà Aumentata
 
-{% include figure.html width="1200" caption="Sviluppando ArtoolkitX.js in Atom..." height="685" alt="Schermata su Artoolkitx.js" name="Schermata del 2019-09-01 13-54-50" title="ArtoolkitX.js un progetto Open Source per la AR" target="_blank" rel="author" link="https://github.com/kalwalt" jpg_id="dd69fcc5-5421-4ea7-bd68-0aed12e95fc6" webp_id="c6f95a89-ac0c-4683-a707-dd3fa5ba866f" %}
+{% include figure.html width="1200" caption="Sviluppando ArtoolkitX.js in Atom..." height="685" alt="Schermata su Artoolkitx.js" name="Artoolkitx-inside-atom" title="ArtoolkitX.js un progetto Open Source per la AR" target="_blank" rel="author" link="https://github.com/kalwalt" jpg_id="121b75bc-dbfe-47f6-9483-af527be0f288" webp_id="93d0b062-4b1b-4362-a8f4-1d56797212b8" %}
 
 L'[**Open Source**](https://it.wikipedia.org/wiki/Open_source) è un termine che deriva direttamente dal mondo dell'informatica. Letteralmente significa "sorgente aperto", nel senso che il codice sorgente è aperto a tutti i programmatori, in base alla licenza con cui viene distribuito. Un progetto Open Source quindi potrà essere copiato, modificato,  re-distribuito oppure se, la licenza lo permette, lo sviluppatore può anche vendere il software da lui creato.
 
