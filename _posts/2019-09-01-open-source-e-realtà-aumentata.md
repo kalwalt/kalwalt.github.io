@@ -13,8 +13,10 @@ seo:
   author: Walter Perdan
   datePublished: '2019-09-01'
   type: BlogPosting
-image: 'https://ucarecdn.com/93d0b062-4b1b-4362-a8f4-1d56797212b8/Artoolkitx-inside-atom.webp'
+image: >-
+  https://ucarecdn.com/93d0b062-4b1b-4362-a8f4-1d56797212b8/Artoolkitx-inside-atom.webp
 intro_paragraph: Lo scenario della Realtà Aumentata nel mondo Open Source.
+tags: Interactive-art AR Arte 2019 Realtà-Aumentata
 ---
 # Open Source e la Realtà Aumentata
 
@@ -30,4 +32,4 @@ Ma che cosa dire della Realtà Aumentata e l'Open Source?  Il progetto Open Sour
 
 Per il creativo e l'artista può significare un incentivo a sviluppare delle specifiche applicazioni che forse non sarebbero alla sua portata. Negli ultimi anni oltre alla versione per Android ed iOS è stata sviluppata una versione javascript, grazie ad Emscripten, un traduttore che trasforma il codice dal linguaggio (C/C++) in javascript e WASM. Questo semplifica le cose poiché è più semplice sviluppare un applicazione in questo modo, infatti è necessario collocare il codice (html e javascript) in un server è sarà fruibile a chiunque.
 
-Di questa esiste la versione [**jsartoolkit5**](https://github.com/artoolkit/jsartoolkit5) ed è in sviluppo la nuova versione basata su ARtoolkitX [**ArtoolkitX.js**](https://github.com/augmentmy-world/artoolkitX.js), sviluppata da [Thorsten Bux](http://augmentmy.world/), è la nuova versione migliorata e ancora in via di sviluppo. Io collaboro al progetto per cui se ci saranno delle novità importanti verranno comunicate su questo blog. L'idea è quella di creare uno strumento per il creativo ed il designer, grazie al quale semplifichi la creazione di applicazioni per la realtà aumentata. [**Webglstudio**](https://webglstudio.org) è un editor che permette di creare una scena 3d, aggiungendo anche codice javascript, glsl e molto altro. Sarebbe bello creare il proprio contenuto grazie all'editor di Webglstudio e in pochi click completare un progetto di arte interattiva e di visual design. Che cosa ne pensate? Se siete interessati seguite la pagina github di [ArtoolkitX.js](https://github.com/augmentmy-world/artoolkitX.js). A presto!
+Di questa esiste la versione [**jsartoolkit5**](https://github.com/artoolkit/jsartoolkit5) ed è in sviluppo la nuova versione basata su ARtoolkitX [**ArtoolkitX.js**](https://github.com/augmentmy-world/artoolkitX.js), sviluppata da [Thorsten Bux](http://augmentmy.world/), è la nuova versione migliorata  rispetto alla precedente. Io collaboro al progetto per cui se ci saranno delle novità importanti verranno comunicate su questo blog. L'idea è quella di creare uno strumento per il creativo ed il designer, grazie al quale semplifichi la creazione di applicazioni per la realtà aumentata. [**Webglstudio**](https://webglstudio.org) è un editor che permette di creare una scena 3d, aggiungendo anche codice javascript, glsl e molto altro. Sarebbe bello creare il proprio contenuto grazie all'editor di Webglstudio e in pochi click completare un progetto di arte interattiva e di visual design. Che cosa ne pensate? Se siete interessati seguite la pagina github di [ArtoolkitX.js](https://github.com/augmentmy-world/artoolkitX.js). A presto!
