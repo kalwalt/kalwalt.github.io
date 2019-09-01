@@ -5,7 +5,7 @@ title: Open Source e Realtà Aumentata
 description: >-
   Alcune considerazioni sul rapporto tra open source e realtà aumentata: La
   filosofia dell'open source e quali possibilità open source esistono per un
-  creativo riguardo alla realtà aumentata. 
+  creativo nel campo della realtà aumentata. 
 author: Walter Perdan
 date: '2019-09-01 13:09:39'
 lang: it
