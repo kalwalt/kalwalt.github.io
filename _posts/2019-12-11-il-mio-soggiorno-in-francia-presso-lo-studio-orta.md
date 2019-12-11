@@ -7,7 +7,7 @@ description: >-
   breve descrizione del sito Les Moulins e alcune considerazioni riguardo i mie
   progetti per la realtà aumentata.
 author: Walter Perdan
-date: '2019-12-11 16:12:85'
+date: '2019-12-11'
 lang: it
 seo:
   author: Walter Perdan
