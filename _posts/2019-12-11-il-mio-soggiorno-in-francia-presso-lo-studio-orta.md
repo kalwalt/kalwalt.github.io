@@ -20,4 +20,8 @@ intro_paragraph: >-
   rivalutato grazie al duo di artisti Jorge e Lucy Orta. Leggete l'articolo per
   saperne di più...
 ---
-Da settembre fino ad inizio dicembre ho avuto la fortuna di lavorare presso lo studio degli artisti Jorge e Lucy Orta in Francia. Ci trovavamo nel mezzo della campagna francese ad un'ora circa da Parigi. La zona è famosa per il formaggio Brie ed infatti il sito di Les Moulins non è molto lontano da Coulommiers, dove producono l'omonimo formaggio di tipo Brie.  Agl'inizi degli anni 90 il duo di artisti acquista il sito industriale di S.Mairie ove un tempo si produceva la carta filigrana. da fabbrica abbandonata il luogo si transforma in luogo deputato alla creazione e diffusione dell'arte.
+{% include figure.html width="1800" caption="Studio Orta" height="1350" alt="Studio Orta Les Moulins" name="les_moulins_studio_orta" target="_blank" title="Davanti all'atelier dello Studio Orta" rel="author" jpg_id="d7bcd408-516a-41b8-8ae4-514e532bc6c3" webp_id="5fc47593-060a-4187-9c88-d87c4eef8825" %}
+
+## Studio Orta les Moulins
+
+Da settembre fino ad inizio dicembre ho avuto la fortuna di lavorare presso lo studio degli artisti Jorge e Lucy Orta in Francia. Ci trovavamo nel mezzo della campagna francese ad un'ora circa da Parigi. La zona è famosa per il formaggio Brie ed infatti il sito di Les Moulins non è molto lontano da Coulommiers, dove producono l'omonimo formaggio di tipo Brie.  Agl'inizi degli anni 90 il duo di artisti acquista il sito industriale di S.Mairie ove un tempo si produceva la carta filigrana. Da fabbrica abbandonata il luogo si transforma in luogo deputato alla creazione e diffusione dell'arte grazie anche alla presenza della Galleria Continua e di altri artisti.
