@@ -19,8 +19,9 @@ intro_paragraph: >-
   Moulins de S.Mairie (Francia) un sito un tempo industriale ora recuperato e
   rivalutato grazie al duo di artisti Jorge e Lucy Orta. Leggete l'articolo per
   saperne di più...
+tags: AR Arte 2019 Realtà-Aumentata jsartoolkt5 markerless Studio-Orta
 ---
-{% include figure.html width="1800" caption="Studio Orta" height="1350" alt="Studio Orta Les Moulins" name="les_moulins_studio_orta" target="_blank" title="Davanti all'atelier dello Studio Orta" rel="author" jpg_id="d7bcd408-516a-41b8-8ae4-514e532bc6c3" webp_id="5fc47593-060a-4187-9c88-d87c4eef8825" %}
+{% include figure.html width="1800" caption="Studio Orta" height="1350" alt="Studio Orta Les Moulins" name="les_moulins_studio_orta" target="_blank" title="Davanti all'atelier dello Studio Orta" rel="author" jpg_id="d7bcd408-516a-41b8-8ae4-514e532bc6c3" link="https://www.studio-orta.com/" webp_id="5fc47593-060a-4187-9c88-d87c4eef8825" %}
 
 ## Studio Orta les Moulins
 
