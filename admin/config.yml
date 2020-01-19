@@ -50,12 +50,7 @@ collections: # A list of collections the CMS should be able to edit
             options:
               - { label: "Walter Perdan", value: "Walter Perdan" }
           - {label: "Date_Published", name: "datePublished", widget: "date", format: "YYYY-MM-DD"}
-      - label: "Image_path"
-        name: "image"
-        widget: "select"
-        options:
-          - { label: "upload", name: "upload", widget: "file"}
-          - { label: "path", name: "path", widget: "string"}
+      - {label: "Image_path", name: "image", widget: "image"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Body", name: "body", widget: "markdown", required: false}
       - {label: "Categories", name: "categories", widget: "string", required: false}
