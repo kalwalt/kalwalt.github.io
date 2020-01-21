@@ -43,4 +43,46 @@ L'immagine sopra non è l'ideale per la NFT poiché anche se dotata di una buona
 
 ### NFT nel cuore di Jsartoolkit5
 
-Ho iniziato a lavorare su questo progetto perché avevo scoperto un ramo (branch) nft morto nella repository [artoolkitx/jsartoolkit5](https://github.com/artoolkitx/jsartoolkit5) il problema era che le prestazioni erano veramente scarse su desktop e ancora peggio su dispositivo mobile. Inoltre c'era nel branch master il supporto per WASM. Il mio sforzo quindi è stato di fare l'upgrade del branch NFT con la master che conteneva WASM. Compito non facile perché richiedeva una buona conoscenza della struttura del codice di Jsartoolkit5, una buona dimestichezza con Emscripten e conoscenza del linguaggio C/C++ e javascript, poiché Emscripten non fa che tradurre il codice C/C++ in linguaggio javascript utilizzabile poi successivamente in un browser od in una applicazione basata su Node.js. Devo dire che all'inizio non sapevo cosa stavo facendo e non ero sicuro del risultato. Ma ho cominciato a piccoli passi e a poca a poco abbiamo trovato una soluzione soddisfacente.  Il fatto che mi ha più sopreso è che gradualmente incominciarono ad interessarsi altre persone e questo mi permise di risolvere molti problemi inerenti al codice. Infatti è possibile usufruire della NFT grazie all'implementazione di un WebWorker questo permette di sgravare una parte del carico di lavoro al thread principale con conseguente aumento in prestazioni e fps.
+Ho iniziato a lavorare su questo progetto perché avevo scoperto un ramo (branch) nft morto nella repository [artoolkitx/jsartoolkit5](https://github.com/artoolkitx/jsartoolkit5) il problema era che le prestazioni erano veramente scarse su desktop e ancora peggio su dispositivo mobile. Inoltre c'era nel branch master il supporto per WASM. Il mio sforzo quindi è stato di fare l'upgrade del branch NFT con la master che conteneva WASM. Compito non facile perché richiedeva una buona conoscenza della struttura del codice di Jsartoolkit5, una buona dimestichezza con Emscripten e conoscenza del linguaggio C/C++ e javascript, poiché Emscripten non fa che tradurre il codice C/C++ in linguaggio javascript utilizzabile poi successivamente in un browser od in una applicazione basata su Node.js. Devo dire che all'inizio non sapevo cosa stavo facendo e non ero sicuro del risultato. Ma ho cominciato a piccoli passi e a poca a poco abbiamo trovato una soluzione soddisfacente.  Il fatto che mi ha più sorpreso è che gradualmente incominciarono ad interessarsi altre persone e questo mi permise di risolvere molti problemi inerenti al codice. Infatti è possibile usufruire della NFT grazie all'implementazione di un WebWorker questo permette di sgravare una parte del carico di lavoro dal thread principale con conseguente aumento in prestazioni e fps. Certamente se rapportato ad applicazioni basate su ARcore, 8Wall o Artivive  non c'è confronto, ma siamo fiduciosi di poter fare degli ulteriori miglioramenti nel prossimo futuro.
+
+### Un esempio di codice con Jsartoolkit5 e la NFT
+
+Qui di seguito vi mostro un frammento di codice come esempio per una semplice applicazione con la NFT come potete ben vedete ed indispensabile inizializzare il video con Event Listener per poter iniettare il flusso video alla funzione start. Essa è il cuore principale della applicazione poichè gestisce il flusso di informazioni tra il Worker ed il Thread principale. 
+
+```
+<div id="container">
+    <video id="video"></video>
+    <canvas style="position: absolute; left:0; top:0" id="canvas_draw"></canvas>
+</div>
+// main worker create the web worker see in the examples/nft_improved_worker for details
+<script src="main_worker.js"></script>
+<script>
+var container = document.getElementById('container');
+var video = document.getElementById('video');
+var canvas_draw = document.getElementById('canvas_draw');
+
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    var hint = {};
+    if (isMobile()) {
+        hint = {
+            facingMode: {"ideal": "environment"},
+            audio: false,
+            video: {
+                width: {min: 240, max: 240},
+                height: {min: 360, max: 360},
+            },
+        };
+    }
+
+    navigator.mediaDevices.getUserMedia({video: hint}).then(function (stream) {
+        video.srcObject = stream;
+        video.play();
+        video.addEventListener("loadedmetadata", function() {
+            start(container, markers["pinball"], video, video.videoWidth, video.videoHeight, canvas_draw, function() { statsMain.update() }, function() { statsWorker.update()) };
+        });
+    });
+}
+</script>
+```
+
+Noi abbiamo usato la libreria Three.js per il rendering 3d ma sicuramente si può usare anche un'altra libreria. Questa parte del codice è gestita dal file **main_three.js** come potete vedere nell'esempio.
