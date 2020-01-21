@@ -37,8 +37,6 @@ Le immmagini da usare con la tecnologia NFT devono possedere un ragionevole **gr
 
 invece un immagine non molto adatta per la NFT potrebbe essere la seguente:
 
-{% include figure.html width="1732" caption="Un esempio di immagine non molto adatta per la NFT" height="1080" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" %}
-
 L'immagine sopra non è l'ideale per la NFT poiché anche se dotata di una buona risoluzione è provvista di poca varianza il risultato sarà inferiore all'esempio di prima e di conseguenza l'applicazione farà fatica a tracciare l'immagine.
 
 ### NFT nel cuore di Jsartoolkit5
@@ -49,7 +47,7 @@ Ho iniziato a lavorare su questo progetto perché avevo scoperto un ramo (branch
 
 Qui di seguito vi mostro un frammento di codice come esempio per una semplice applicazione con la NFT come potete ben vedete ed indispensabile inizializzare il video con Event Listener per poter iniettare il flusso video alla funzione start. Essa è il cuore principale della applicazione poichè gestisce il flusso di informazioni tra il Worker ed il Thread principale. 
 
-```
+```html
 <div id="container">
     <video id="video"></video>
     <canvas style="position: absolute; left:0; top:0" id="canvas_draw"></canvas>
