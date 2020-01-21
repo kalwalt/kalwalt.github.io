@@ -22,7 +22,9 @@ tags: AR NFT 2020 Realtà-Aumentata jsartoolkit5 markerless
 ---
 {% include figure.html width="1500" caption="Screenshot di un test con la immagine pinball.jpg" height="750" alt="NFT Natural Feature Tracking markerless jsartoolkit5" name="NFT-jsartoolkit5" target="_self" title="NFT una tecnologia Makrerless con jsartoolkit." rel="author" jpg_id="554de6fd-e32f-4901-90f8-68c31f60e8f1" link="#" webp_id="499fec07-8fbd-4cff-85ae-4dc0ff26bbaa" %}
 
-## Una nuova release per Jsartoolkit5 con NFT (Natural Feature Tracking)
+## La nuova versione di Jsartoolkit5 con NFT
+
+### NFT ovvero la Natural Feature Tracking
 
 La tecnologia **NFT** ( **N**atural **F**eature **T**racking ) è una nuova opzione tecnologica disponibile nel progetto open source jsartoolkit5 . Si tratta di una tecnologia Markerless che permette il tracciamento di qualsiasi immagine ( o quasi ) a dispetto della tecnologia con Marker che prevede o l'uso solo di Pattern geometrici bianco/neri ( ma si possono usare anche colorati purché mono colore e molto contrastati ) o Barcode cioè una matrice di valori binari in forma di quadrati nero o bianchi. Entrambi Barcode o Pattern, nel progetto Artoolkit5, devono necessariamente essere circondati da una cornice scura (meglio se nera) , ed è possibile persino decidere lo spessore di questa cornice, ma comunque il marker deve essere necessariamente di forma quadrata. Le tecnologie Markerless invece lasciano più libertà per le applicazioni di Realtà Aumentata. 
 
