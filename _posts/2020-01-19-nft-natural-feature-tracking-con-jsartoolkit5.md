@@ -36,11 +36,11 @@ Il termine Markerless comunque abbraccia un ampio spettro di possibilità, non s
 
 Le immmagini da usare con la tecnologia NFT devono possedere un ragionevole **grado di dettaglio** e di **bordi taglienti** ( un basso grado di auto-somiglianza e alta frequenza spaziale ), una **buona risoluzione** ed una forma rettangolare. Come riferimento tenete conto della immagine che abbiamo usato per i test la [pinball.jpg](https://github.com/artoolkitx/artoolkit5/blob/master/doc/Marker%20images/pinball.jpg) (1637 x 2048 px)
 
-{% include figure.html width="1200" caption="La immagine pinball usata per i test, ottima per  la NFT" height="1502" alt="pinball jsartoolkit5 artoolkit" name="pinball" target="_self" title="La immagine pinball" rel="author" jpg_id="f4ab8949-a3a7-4144-924e-459e28100dae" link="#" webp_id="f4ab8949-a3a7-4144-924e-459e28100dae" %}
+{% include figure.html width="1200" caption="La immagine pinball usata per i test, ottima per  la NFT" height="1500" alt="pinball jsartoolkit5 artoolkit" name="pinball" target="_self" title="La immagine pinball" rel="author" jpg_id="f4ab8949-a3a7-4144-924e-459e28100dae" link="#" webp_id="f4ab8949-a3a7-4144-924e-459e28100dae" %}
 
 invece un immagine non molto adatta per la NFT potrebbe essere la seguente:
 
-{% include figure.html width="1200" caption="Un esempio di immagine non molto adatta per la NFT" height="739" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" wepb_id="d26874c2-383b-4b58-ba61-a385831fa337" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" webp_id="d26874c2-383b-4b58-ba61-a385831fa337" %}
+{% include figure.html width="1200" caption="Un esempio di immagine non molto adatta per la NFT" height="739" alt="minimal image" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" wepb_id="d26874c2-383b-4b58-ba61-a385831fa337" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" webp_id="d26874c2-383b-4b58-ba61-a385831fa337" %}
 
 L'immagine sopra non è l'ideale per la NFT poiché anche se dotata di una buona risoluzione è provvista di poca varianza il risultato sarà inferiore all'esempio di prima e di conseguenza l'applicazione farà fatica a tracciare l'immagine.
 
