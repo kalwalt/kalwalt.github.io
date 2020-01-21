@@ -31,8 +31,16 @@ Il termine Markerless comunque abbraccia un ampio spettro di possibilità, non s
 
 ### Caratteristiche delle immagini per la NFT
 
-Le immmagini da usare con la tecnologia NFT devono possedere un ragionevole grado di dettaglio e di bordi taglienti ( un basso grado di auto-somiglianza e alta frequenza spaziale ), una buona risoluzione ed una forma rettangolare. Come riferimento tenete conto della immagine che abbiamo usato per i test la [pinball.jpg](https://github.com/artoolkitx/artoolkit5/blob/master/doc/Marker%20images/pinball.jpg)
+Le immmagini da usare con la tecnologia NFT devono possedere un ragionevole **grado di dettaglio** e di **bordi taglienti** ( un basso grado di auto-somiglianza e alta frequenza spaziale ), una **buona risoluzione** ed una forma rettangolare. Come riferimento tenete conto della immagine che abbiamo usato per i test la [pinball.jpg](https://github.com/artoolkitx/artoolkit5/blob/master/doc/Marker%20images/pinball.jpg) (1637 x 2048 px)
 
 {% include figure.html width="1200" caption="La immagine pinball usata per i test, ottima per  la NFT" height="1500" alt="pinball jsartoolkit5 artoolkit" name="pinball" target="_self" title="La immagine pinball" rel="author" jpg_id="f4ab8949-a3a7-4144-924e-459e28100dae" link="#" webp_id="f4ab8949-a3a7-4144-924e-459e28100dae" %}
 
-Ho iniziato a lavorare su questo progetto perché avevo scoperto un ramo (branch) morto nella repository.
+invece un immagine non molto adatta per la NFT potrebbe essere la seguente:
+
+{% include figure.html width="1732" caption="Un esempio di immagine non molto adatta per la NFT" height="1080" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" %}
+
+L'immagine sopra non è l'ideale per la NFT poiché anche se dotata di una buona risoluzione è provvista di poca varianza il risultato sarà inferiore all'esempio di prima e di conseguenza l'applicazione farà fatica a tracciare l'immagine.
+
+### NFT nel cuore di Jsartoolkit5
+
+Ho iniziato a lavorare su questo progetto perché avevo scoperto un ramo (branch) nft morto nella repository [artoolkitx/jsartoolkit5](https://github.com/artoolkitx/jsartoolkit5) il problema era che le prestazioni erano veramente scarse su desktop e ancora peggio su dispositivo mobile. Inoltre c'era nel branch master il supporto per WASM. Il mio sforzo quindi è stato di fare l'upgrade del branch NFT con la master che conteneva WASM. Compito non facile perché richiedeva una buona conoscenza della struttura del codice di Jsartoolkit5, una buona dimestichezza con Emscripten e conoscenza del linguaggio C/C++ e javascript, poiché Emscripten non fa che tradurre il codice C/C++ in linguaggio javascript utilizzabile poi successivamente in un browser od in una applicazione basata su Node.js. Devo dire che all'inizio non sapevo cosa stavo facendo e non ero sicuro del risultato. Ma ho cominciato a piccoli passi e a poca a poco abbiamo trovato una soluzione soddisfacente.  Il fatto che mi ha più sopreso è che gradualmente incominciarono ad interessarsi altre persone e questo mi permise di risolvere molti problemi inerenti al codice. Infatti è possibile usufruire della NFT grazie all'implementazione di un WebWorker questo permette di sgravare una parte del carico di lavoro al thread principale con conseguente aumento in prestazioni e fps.
