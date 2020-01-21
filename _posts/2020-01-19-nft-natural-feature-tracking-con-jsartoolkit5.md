@@ -95,9 +95,7 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
 </script>
 ```
 
-Noi abbiamo usato la libreria Three.js per il rendering 3d ma sicuramente si può usare anche un'altra libreria. Questa parte del codice è gestita dal file **main_worker.js** come potete vedere nell'esempio. Potete consultare il codice nella repository: <https://github.com/artoolkitx/jsartoolkit5/blob/master/examples/nft_improved_worker/main_threejs_worker.html>
-
-e se volete testare tutti gli esempi andate a questa mia [pagina](https://kalwalt.github.io/jsartoolkit5/examples/), per altri esempi  ho anche questa raccolta [kalwalt-interactivity-AR](https://github.com/kalwalt/kalwalt-interactivity-AR)
+Noi abbiamo usato la libreria Three.js per il rendering 3d ma sicuramente si può usare anche un'altra libreria. Questa parte del codice è gestita dal file **main_worker.js** come potete vedere nell'esempio. Potete consultare il codice di [main_trheejs_worker.html](<https://github.com/artoolkitx/jsartoolkit5/blob/master/examples/nft_improved_worker/main_threejs_worker.html>) nella repository, se invece volete testare tutti gli esempi andate a questa mia [pagina](https://kalwalt.github.io/jsartoolkit5/examples/), per altri esempi  ho anche questa raccolta [kalwalt-interactivity-AR](https://github.com/kalwalt/kalwalt-interactivity-AR)
 
 ### Ringraziamenti
 
