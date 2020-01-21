@@ -34,11 +34,11 @@ Il termine Markerless comunque abbraccia un ampio spettro di possibilità, non s
 
 Le immmagini da usare con la tecnologia NFT devono possedere un ragionevole **grado di dettaglio** e di **bordi taglienti** ( un basso grado di auto-somiglianza e alta frequenza spaziale ), una **buona risoluzione** ed una forma rettangolare. Come riferimento tenete conto della immagine che abbiamo usato per i test la [pinball.jpg](https://github.com/artoolkitx/artoolkit5/blob/master/doc/Marker%20images/pinball.jpg) (1637 x 2048 px)
 
-{% include figure.html width="1200" caption="La immagine pinball usata per i test, ottima per  la NFT" height="1500" alt="pinball jsartoolkit5 artoolkit" name="pinball" target="_self" title="La immagine pinball" rel="author" jpg_id="f4ab8949-a3a7-4144-924e-459e28100dae" link="#" webp_id="f4ab8949-a3a7-4144-924e-459e28100dae" %}
+{% include figure.html width="1200" caption="La immagine pinball usata per i test, ottima per  la NFT" height="1502" alt="pinball jsartoolkit5 artoolkit" name="pinball" target="_self" title="La immagine pinball" rel="author" jpg_id="f4ab8949-a3a7-4144-924e-459e28100dae" link="#" webp_id="f4ab8949-a3a7-4144-924e-459e28100dae" %}
 
 invece un immagine non molto adatta per la NFT potrebbe essere la seguente:
 
-{% include figure.html width="1732" caption="Un esempio di immagine non molto adatta per la NFT" height="1080" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" wepb_id="d26874c2-383b-4b58-ba61-a385831fa337" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" %}
+{% include figure.html width="1200" caption="Un esempio di immagine non molto adatta per la NFT" height="739" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" wepb_id="d26874c2-383b-4b58-ba61-a385831fa337" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" webp_id="d26874c2-383b-4b58-ba61-a385831fa337" %}
 
 L'immagine sopra non è l'ideale per la NFT poiché anche se dotata di una buona risoluzione è provvista di poca varianza il risultato sarà inferiore all'esempio di prima e di conseguenza l'applicazione farà fatica a tracciare l'immagine.
 
@@ -48,7 +48,7 @@ Ho iniziato a lavorare su questo progetto perché avevo scoperto un ramo (branch
 
 ### Un esempio di codice con Jsartoolkit5 e la NFT
 
-Qui di seguito vi mostro un frammento di codice come esempio per una semplice applicazione con la NFT come potete ben vedete ed indispensabile inizializzare il video con Event Listener per poter iniettare il flusso video alla funzione start. Essa è il cuore principale della applicazione poichè gestisce il flusso di informazioni tra il Worker ed il Thread principale. 
+Qui di seguito vi mostro un frammento di codice come esempio per una semplice applicazione con la NFT. Come potete ben vedete é indispensabile inizializzare il video tramite una `nagivator.GetUserMedia` e poi tramite un Event Listener iniettare il flusso video alla funzione start. Essa è il cuore principale della applicazione poiché gestisce il flusso di informazioni tra il WebWorker ed il Thread principale. 
 
 ```html
 <div id="container">
@@ -86,4 +86,6 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
 </script>
 ```
 
-Noi abbiamo usato la libreria Three.js per il rendering 3d ma sicuramente si può usare anche un'altra libreria. Questa parte del codice è gestita dal file **main_three.js** come potete vedere nell'esempio.
+Noi abbiamo usato la libreria Three.js per il rendering 3d ma sicuramente si può usare anche un'altra libreria. Questa parte del codice è gestita dal file **main_worker.js** come potete vedere nell'esempio. Potete consultare il codice nella repository: <https://github.com/artoolkitx/jsartoolkit5/blob/master/examples/nft_improved_worker/main_threejs_worker.html>
+
+e se volete testare tutti gli esempi andate a questa mia [pagina](https://kalwalt.github.io/jsartoolkit5/examples/), per altri esempi  ho anche questa raccolta [kalwalt-interactivity-AR](https://github.com/kalwalt/kalwalt-interactivity-AR)
