@@ -79,7 +79,14 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         video.srcObject = stream;
         video.play();
         video.addEventListener("loadedmetadata", function() {
-            start(container, markers["pinball"], video, video.videoWidth, video.videoHeight, canvas_draw, function() { statsMain.update() }, function() { statsWorker.update()) };
+            start(container, 
+                  markers["pinball"], 
+                  video, 
+                  video.videoWidth, 
+                  video.videoHeight, 
+                  canvas_draw, 
+                  function() { statsMain.update() }, 
+                  function() { statsWorker.update()) };
         });
     });
 }
