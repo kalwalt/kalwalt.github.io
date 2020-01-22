@@ -26,7 +26,7 @@ tags: AR NFT 2020 Realtà-Aumentata jsartoolkit5 markerless
 
 ### NFT ovvero la Natural Feature Tracking
 
-La tecnologia **NFT** ( **N**atural **F**eature **T**racking ) è una nuova opzione tecnologica disponibile nel progetto open source **Jsartoolkit5** . Si tratta di una tecnologia **Markerless** che permette il tracciamento di qualsiasi immagine ( o quasi ) a dispetto della tecnologia con **Marker** che prevede o l'uso solo di **Pattern** geometrici bianco/neri ( ma si possono usare anche colorati purché mono colore e molto contrastati ) o **Barcode** cioè una matrice di valori binari in forma di quadrati nero o bianchi. Entrambi Barcode o Pattern, nel progetto Artoolkit5, devono necessariamente essere circondati da una cornice scura (meglio se nera) , ed è possibile persino decidere lo spessore di questa cornice, ma comunque il marker deve essere per forza di forma quadrata. Le tecnologie Markerless invece lasciano più libertà per le applicazioni di Realtà Aumentata. 
+La tecnologia **NFT** ( **N**atural **F**eature **T**racking ) è una nuova opzione tecnologica disponibile nel progetto open source **Jsartoolkit5** . Si tratta di una tecnologia **Markerless** che permette il tracciamento di qualsiasi immagine ( o quasi ) a dispetto della tecnologia con **Marker** che prevede o l'uso solo di **Pattern** geometrici bianco/neri ( ma si possono usare anche colorati purché mono colore e molto contrastati ) o **Barcode** cioè una matrice di valori binari in forma di quadrati nero o bianchi. Entrambi Barcode o Pattern, nel progetto Artoolkit5, devono necessariamente essere circondati da una cornice scura (meglio se nera) , ed è possibile persino decidere lo spessore di questa cornice, ma comunque il marker deve essere per forza di forma quadrata. Le tecnologie Markerless invece lasciano più libertà per le applicazioni di Realtà Aumentata.
 
 ### Che cosè la tecnologia NFT markerless
 
@@ -34,11 +34,11 @@ Il termine Markerless abbraccia un ampio spettro di possibilità, non solo rigua
 
 ### Caratteristiche delle immagini per la NFT
 
-Le immagini da usare con la tecnologia NFT devono possedere un ragionevole **grado di dettaglio** e di **bordi taglienti** ( un basso grado di auto-somiglianza e alta frequenza spaziale ), una **buona risoluzione** ed una forma rettangolare. Come riferimento tenete conto della immagine che abbiamo usato per i test: la [pinball.jpg](https://github.com/artoolkitx/artoolkit5/blob/master/doc/Marker%20images/pinball.jpg) (1637 x 2048 px)
+Le immagini da usare con la tecnologia NFT devono possedere un ragionevole **grado di dettaglio** e di **bordi taglienti** ( un basso grado di auto-somiglianza e alta frequenza spaziale ), una **buona risoluzione** ed una forma rettangolare (in senso verticale od orizzontale). Come riferimento tenete conto della immagine che abbiamo usato per i test: la [pinball.jpg](https://github.com/artoolkitx/artoolkit5/blob/master/doc/Marker%20images/pinball.jpg) (1637 x 2048 px)
 
 {% include figure.html width="1200" caption="La immagine pinball usata per i test, ottima per  la NFT" height="1500" alt="pinball jsartoolkit5 artoolkit" name="pinball" target="_self" title="La immagine pinball" rel="author" jpg_id="f4ab8949-a3a7-4144-924e-459e28100dae" link="#" webp_id="f4ab8949-a3a7-4144-924e-459e28100dae" %}
 
-invece un immagine non molto adatta per la NFT potrebbe essere la seguente:
+invece non è molto adatta per la NFT l'immagine seguente:
 
 {% include figure.html width="1200" caption="Un esempio di immagine non molto adatta per la NFT" height="739" alt="minimal image" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" wepb_id="d26874c2-383b-4b58-ba61-a385831fa337" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" webp_id="d26874c2-383b-4b58-ba61-a385831fa337" %}
 
@@ -50,7 +50,7 @@ Ho iniziato a lavorare su questo progetto perché avevo scoperto un ramo (branch
 
 ### Un esempio di codice con Jsartoolkit5 e la NFT
 
-Qui di seguito vi mostro un frammento di codice come esempio per una semplice applicazione con la NFT. Come potete ben vedete é indispensabile inizializzare il video tramite una `navigator.GetUserMedia` e poi tramite un `addEventListener` iniettare il flusso video alla funzione start. Essa è il cuore principale della applicazione poiché gestisce il flusso di informazioni tra il WebWorker ed il Thread principale. 
+Qui di seguito vi mostro un frammento di codice come esempio per una semplice applicazione con la NFT. Come potete ben vedere é indispensabile inizializzare il video tramite una `navigator.GetUserMedia` e poi mediante un `addEventListener` iniettare il flusso video alla funzione start. Essa è il cuore principale della applicazione poiché gestisce il flusso di informazioni tra il WebWorker ed il Thread principale.
 
 ```html
 <div id="container">
@@ -81,13 +81,13 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         video.srcObject = stream;
         video.play();
         video.addEventListener("loadedmetadata", function() {
-            start(container, 
-                  markers["pinball"], 
-                  video, 
-                  video.videoWidth, 
-                  video.videoHeight, 
-                  canvas_draw, 
-                  function() { statsMain.update() }, 
+            start(container,
+                  markers["pinball"],
+                  video,
+                  video.videoWidth,
+                  video.videoHeight,
+                  canvas_draw,
+                  function() { statsMain.update() },
                   function() { statsWorker.update()) };
         });
     });
