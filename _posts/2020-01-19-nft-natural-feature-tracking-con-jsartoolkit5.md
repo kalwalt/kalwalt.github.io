@@ -20,7 +20,7 @@ intro_paragraph: >-
   realtà aumenta che permette il tracciamento di quasi qualsiasi immagine.
 tags: AR NFT 2020 Realtà-Aumentata jsartoolkit5 markerless
 ---
-{% include figure.html width="1200" caption="Screenshot di un test con la immagine pinball.jpg" height="700" alt="NFT Natural Feature Tracking markerless jsartoolkit5" name="NFT-jsartoolkit5" target="_self" title="NFT una tecnologia Markerless con jsartoolkit." rel="author" jpg_id="554de6fd-e32f-4901-90f8-68c31f60e8f1" link="#" webp_id="499fec07-8fbd-4cff-85ae-4dc0ff26bbaa" %}
+{% include figure.html width="1500" caption="Screenshot di un test con la immagine pinball.jpg" height="750" alt="NFT Natural Feature Tracking markerless jsartoolkit5" name="NFT-jsartoolkit5" target="_self" title="NFT una tecnologia Markerless con jsartoolkit." rel="author" jpg_id="554de6fd-e32f-4901-90f8-68c31f60e8f1" link="#" webp_id="499fec07-8fbd-4cff-85ae-4dc0ff26bbaa" %}
 
 ## La nuova versione di Jsartoolkit5 con NFT
 
@@ -36,11 +36,11 @@ Il termine Markerless abbraccia un ampio spettro di possibilità, non solo rigua
 
 Le immagini da usare con la tecnologia NFT devono possedere un ragionevole **grado di dettaglio** e di **bordi taglienti** ( un basso grado di auto-somiglianza e alta frequenza spaziale ), una **buona risoluzione** ed una forma rettangolare (in senso verticale od orizzontale). Come riferimento tenete conto della immagine che abbiamo usato per i test: la [pinball.jpg](https://github.com/artoolkitx/artoolkit5/blob/master/doc/Marker%20images/pinball.jpg) (1637 x 2048 px)
 
-{% include figure.html width="1200" caption="La immagine pinball usata per i test, ottima per  la NFT" height="1500" alt="pinball jsartoolkit5 artoolkit" name="pinball" target="_self" title="La immagine pinball" rel="author" jpg_id="f4ab8949-a3a7-4144-924e-459e28100dae" link="#" webp_id="f4ab8949-a3a7-4144-924e-459e28100dae" %}
+{% include figure.html width="2048" caption="La immagine pinball usata per i test, ottima per  la NFT" height="1637" alt="pinball jsartoolkit5 artoolkit" name="pinball" target="_self" title="La immagine pinball" rel="author" jpg_id="f4ab8949-a3a7-4144-924e-459e28100dae" link="#" webp_id="f4ab8949-a3a7-4144-924e-459e28100dae" %}
 
 invece non è molto adatta per la NFT l'immagine seguente:
 
-{% include figure.html width="1200" caption="Un esempio di immagine non molto adatta per la NFT" height="739" alt="minimal image" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" wepb_id="d26874c2-383b-4b58-ba61-a385831fa337" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" webp_id="d26874c2-383b-4b58-ba61-a385831fa337" %}
+{% include figure.html width="1732" caption="Un esempio di immagine non molto adatta per la NFT" height="1080" alt="minimal image" name="1732px-Wavy_Green_Field_in_Minimalist_Style" target="_blank" title="Paesaggio minimale" rel="author" jpg_id="06bc7f87-6f84-43e3-89c8-dd8d43186aaf" wepb_id="d26874c2-383b-4b58-ba61-a385831fa337" link="https://commons.wikimedia.org/wiki/File:Wavy_Green_Field_in_Minimalist_Style.jpg#/media/File:Wavy_Green_Field_in_Minimalist_Style.jpg" webp_id="d26874c2-383b-4b58-ba61-a385831fa337" %}
 
 L'immagine sopra non è l'ideale per la NFT poiché anche se dotata di una buona risoluzione è provvista di poca varianza il risultato sarà inferiore all'esempio di prima e di conseguenza l'applicazione farà fatica a tracciare l'immagine.
 
