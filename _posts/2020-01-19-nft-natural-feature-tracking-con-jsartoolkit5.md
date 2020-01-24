@@ -17,7 +17,7 @@ seo:
 image: 'https://ucarecdn.com/554de6fd-e32f-4901-90f8-68c31f60e8f1/NFTjsartoolkit5.jpeg'
 intro_paragraph: >-
   **NFT N**atural **F**eature **T**racking è una tecnologia markerless per la
-  realtà aumenta che permette il tracciamento di quasi qualsiasi immagine.
+  realtà aumentata che permette il tracciamento di quasi qualsiasi immagine.
 tags: AR NFT 2020 Realtà-Aumentata jsartoolkit5 markerless
 ---
 {% include figure.html width="1500" caption="Screenshot di un test con la immagine pinball.jpg" height="750" alt="NFT Natural Feature Tracking markerless jsartoolkit5" name="NFT-jsartoolkit5" target="_self" title="NFT una tecnologia Markerless con jsartoolkit." rel="author" jpg_id="554de6fd-e32f-4901-90f8-68c31f60e8f1" link="#" webp_id="499fec07-8fbd-4cff-85ae-4dc0ff26bbaa" %}
