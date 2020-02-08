@@ -20,6 +20,9 @@ intro_paragraph: >-
   programmatori interessati alla realtà aumentata. Basato sul
   https://webglstudio.org permetterà di realizzare molto facilmente delle
   applicazioni javascript .
+tags: >-
+  2020 arStudio webglstudio Realtà-Aumentata AR Artoolkit NFT jsartoolkit5
+  markerless
 ---
 {% include figure.html width="1366" caption="Schermata di ingresso di arStudio" height="768" alt="arStudio un editor javascript per la realtà aumentata" name="arStudio-javascript-augmented-reality-editor" target="_blank" title="arStudio un editor innovativo per la realtà aumentata" rel="author" jpg_id="641dbcae-4b8a-48b1-9020-8441f1c28ba2" link="https://github.com/augmentmy-world/arStudio" webp_id="f18071fc-d83e-4a69-acf5-6949e8928698" %}
 
