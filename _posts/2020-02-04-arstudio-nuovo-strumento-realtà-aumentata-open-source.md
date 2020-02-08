@@ -32,7 +32,7 @@ Sviluppare una applicazione per la realtà aumentata può essere un compito non 
 
 **Webglstudio** non è un programma per la creazione di oggetti 3d come Blender, 3dSmax o Maya, è piuttosto un editor per la trasformazione di scene 3d in applicazioni web interattive. Si compone di diverse finestre e funzioni, è insieme un editor per la scena, un editor per il codice di scripting (Js e GLSL) e un editor per i “grafi” come molti altri software sono forniti. Ma la cosa più importante è che quando decidete che il vostro progetto è finito, potete pubblicarlo direttamente come codice html e javascript, solo con un click di mouse. Le proprietà di questo editor, comunque, non si limitano a quelle che ho elencate ma vanno ben oltre le aspettative. Vi consiglio di vistare la pagina del demo per farvi un idea.
 
-{% include figure.html width="1366" caption="arStudio con un arTracker e un cubo nella scena" height="768" alt="arStudio javascript editor test" name="arStudiojavascripteditorARtesting" target="_blank" title="arStudio " rel="author" jpg_id="84a75c2e-f972-4f89-b5fb-0f6d92e0eb82" link="https://github.com/augmentmy-world/arStudio" webp_id="0be2deec-80d9-4833-8614-8469f12fe39b" %}
+{% include figure.html width="1366" caption="arStudio con un arTracker e un cubo nella scena" height="768" alt="arStudio javascript editor test" name="ar-Studio-javascript-editor-AR-testing" target="_blank" title="arStudio " rel="author" jpg_id="84a75c2e-f972-4f89-b5fb-0f6d92e0eb82" link="https://github.com/augmentmy-world/arStudio" webp_id="0be2deec-80d9-4833-8614-8469f12fe39b" %}
 
 ### ArStudio e la realtà aumentata.
 
@@ -42,7 +42,7 @@ Che cosa permetterà di fare **arStudio**? Sarà possibile con pochissimo sforzo
 * **Barcode markers**
 * **NFT markers** (solo la immagine Pinball)
 
-C’è ancora molto da fare ma il futuro è promettente per questo progetto, non esente da bug e altri problemi al momento, ma siamo molto fiduciosi e convinti che riusciremo a miglioralo sempre di più. Se volete testare l‘editor andate nella pagina github di [arStudio](https://github.com/augmentmy-world/arStudio), potete scaricare il file zip o clonare il progetto con **git** lanciando questo comando in un terminale: 
+C’è ancora molto da fare ma il futuro è promettente per questo progetto, non esente da bug e altri problemi al momento, ma siamo molto fiduciosi e convinti che riusciremo a miglioralo sempre di più. Se volete testare l‘editor andate nella pagina github di [arStudio](https://github.com/augmentmy-world/arStudio), potete scaricare il file zip o clonare il progetto con **git** lanciando questo comando in un terminale:
 
 ```
 git clone https://github.com/augmentmy-world/arStudio.git
@@ -51,7 +51,7 @@ git clone https://github.com/augmentmy-world/arStudio.git
 per far funzionare l'editor é necessario comunque lanciare un server (python o node)
 
 ```
-/Python 2.x
+//Python 2.x
 python -m SimpleHTTPServer
 
 //Python 3.x
