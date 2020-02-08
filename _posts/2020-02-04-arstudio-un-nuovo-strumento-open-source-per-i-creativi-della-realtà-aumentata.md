@@ -33,7 +33,13 @@ Sviluppare una applicazione per la realtà aumentata può essere un compito non 
 
 ### ArStudio e la realtà aumentata.
 
-Che cosa permetterà di fare **arStudio**? Sarà possibile con pochissimo sforzo sviluppare un’applicazione web interattiva per la realtà aumentata. Senza nemmeno scrivere una riga di codice! Al momento è possibile aggiungere nella scena **Pattern marker** (Hiro e Kanj), **Barcode marker** e i nuovi **NFT marker** (solo la immagine Pinball per adesso). C’è ancora molto da fare ma il futuro è promettente per questo progetto, non esente da bug e altri problemi al momento, ma siamo molto fiduciosi e convinti che riusciremo a miglioralo sempre di più. Se volete testare l‘editor andate nella pagina github di [arStudio](https://github.com/augmentmy-world/arStudio), potete scaricare il file zip o clonare il progetto con **git** lanciando questo comando in un terminale: 
+Che cosa permetterà di fare **arStudio**? Sarà possibile con pochissimo sforzo sviluppare un’applicazione web interattiva per la realtà aumentata. Senza nemmeno scrivere una riga di codice! Al momento è possibile aggiungere nella scena:
+
+* **Pattern markers** (Hiro e Kanj)
+* **Barcode markers**
+* **NFT markers** (solo la immagine Pinball)
+
+C’è ancora molto da fare ma il futuro è promettente per questo progetto, non esente da bug e altri problemi al momento, ma siamo molto fiduciosi e convinti che riusciremo a miglioralo sempre di più. Se volete testare l‘editor andate nella pagina github di [arStudio](https://github.com/augmentmy-world/arStudio), potete scaricare il file zip o clonare il progetto con **git** lanciando questo comando in un terminale: 
 
 ```
 git clone https://github.com/augmentmy-world/arStudio.git
