@@ -5,8 +5,9 @@ slug: Realtà aumentata profilo Patreon
 title: Il mio profilo Patreon per la Realtà Aumentata
 description: >-
   Patreon è una piattaforma per supportare creativi, ricercatori e inventori.
-  Nella mia pagina Patreon mostrerò contenuti gratuiti ed esclusivi per la
-  realtà aumentata.
+  Nella mia pagina Patreon
+  [www.patreon.com/walterperdan](https://www.patreon.com/walterperdan) mostrerò
+  contenuti gratuiti ed esclusivi per la realtà aumentata.
 author: Walter Perdan
 date: '2020-02-16 23:02:30'
 lang: it
