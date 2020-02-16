@@ -16,6 +16,11 @@ seo:
   type: BlogPosting
 image: >-
   https://ucarecdn.com/25a9ad28-bd3f-4d73-ac67-cf9056e58aef/Patreon_Walter_Perdan_Augmented_Reality_visual_art.jpg
+intro_paragraph: >-
+  **Patreon** è una piattaforma per supportare creativi e ricercatori in molti
+  campi. Dai un'occhiata alla mia pagina su
+  [www.patreon.com/walterperdan](https://www.patreon.com/walterperdan) dove
+  presenterò i contenuti per la realtà aumentata e non solo...
 tags: '2020 Patreon Augmented-Reality AR NFT jsartoolkit5 markerless '
 ---
 {% include figure.html width="1299" caption="Patreon  è una piattaforma che supporta i creativi" height="739" alt="Patreon Walter Perdan Augmented Reality visual art" name="Patreon_Walter_Perdan_Augmented_Reality_visual_art.jpg" target="_blank" title="Walter Perdan Patreon page" rel="author" jpg_id="25a9ad28-bd3f-4d73-ac67-cf9056e58aef" link="https://www.patreon.com/walterperdan" webp_id="7e79d87e-e27f-4d28-adb1-17e216b6b47d" %}
