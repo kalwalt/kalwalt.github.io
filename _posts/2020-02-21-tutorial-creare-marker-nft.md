@@ -93,14 +93,12 @@ In questo caso W=1637 e H=2048, la finestra dovrebbe essere simile a questa:
 
 nel passo successivo vi verrà richiesto di immettere il dpi:
 
-{% include figure.html width="1200" caption="Dpi dellimmagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dellimmagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
+{% include figure.html width="1200" caption="Dpi dell'immagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dell'immagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8587a967-9e5c-4718-93af-a589b4b88daf" %}
 
-immessi questi dati finali il programma incominicerà ad elaborare l'immagine per creare i files:
+Immessi questi dati finali il programma incominicerà ad elaborare l'immagine per creare i files:
 
 {% include figure.html width="1200" caption="Il marker NFT comincia ad essere generato..." height="711" alt="NFT-Marker-Creator con la node app e inizio procedura" name="NFT_Marker_Creator_node_app_init_marker" target="_blank" title="Inizio procedura di creazione del marker NFT" rel="author" jpg_id="6e809a5d-004b-437f-9843-cd55cd82d86a" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="da39384a-eedd-4068-a130-e163c591b7c8" %}
 
 In breve tempo il software genererà i files e vi chiedera di salvarli:
-
-
 
 {% include figure.html width="1200" caption="Il marker NFT é stato generato!" height="711" alt="NFT-Marker-Creator con la node app - procedura completata" name="NFT_Marker_Creator_node_app_end" target="_blank" title="Fine procedura di creazione del marker NFT" rel="author" jpg_id="0a30be76-de1b-496c-8758-7eaad59ce51e" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="72d8b29b-dcf0-4ddf-b6e8-2771c863d882" %}
