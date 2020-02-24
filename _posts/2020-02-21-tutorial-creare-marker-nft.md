@@ -23,8 +23,6 @@ tags: 2020 Realtà-Aumentata NFT markerless tutorial
 ---
 {% include figure.html width="1299" caption="Schermata iniziale della webapp NFT-Marker-Creator" height="741" alt="NFT-Marker-Creator per marker NFT per la Realtà Aumentata" name="Tutorial_NFT_Marker_Creator_AR" target="_blank" title="Realizzare un NFT Marker con NFT-Marker-Creator" rel="author" jpg_id="3aa158e5-f175-4d74-a3fc-ed54deaea815" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8af1c1d3-7bd4-4bad-8814-ee466692cd06" %}
 
-
-
 ### Introduzione
 
 In questo tutorial vi spiegherò passo passo la creazione di marker **NFT** da usare con il progetto **jsartoolkit5** per la realtà aumentata. Questo articolo è indirizzato a tutti i creativi che intendono creare le loro applicazioni Web di realtà aumentata. Una minima conoscenza di alcuni concetti è comunque necessaria per affrontare l'argomento.
@@ -59,7 +57,7 @@ non vi resta che cliccare sul bottone **Generate**, immediatatamente partirà il
 
 #### Tramite linea di comando
 
-È possibile generare i propri NFT markers anche con l'applicazione a linea di comando ( cioè tramite console ). In questo caso però è necessario installare [nodejs](https://nodejs.org/it/) seguite le istruzioni per l'installazione nel sito. È necessario inoltre scaricare NFT-Marker-Creator tramite git. [Git](https://it.wikipedia.org/wiki/Git_(software)) è un programma di controllo versione distribuito usato dagli sviluppatori. Bisogna innanzitutto [installare git](https://www.html.it/pag/53180/installazione-di-git/). Una volta installato nella cartella dove volete scaricare nFT-Marker_creator digitate in un terminale a linea di comando:
+È possibile generare i propri NFT markers anche con l'applicazione a linea di comando ( cioè tramite console ). In questo caso però è necessario installare [nodejs](https://nodejs.org/it/) seguite le istruzioni per l'installazione nel sito. È necessario inoltre scaricare NFT-Marker-Creator tramite git. [Git](https://it.wikipedia.org/wiki/Git_(software)) è un programma di controllo versione distribuito usato dagli sviluppatori. Bisogna innanzitutto [installare git](https://www.html.it/pag/53180/installazione-di-git/). Una volta installato nella cartella dove volete scaricare NFT-Marker-Creator digitate in un terminale a linea di comando:
 
 ```
 git clone https://github.com/Carnaux/NFT-Marker-Creator.git
@@ -91,16 +89,18 @@ date invio ed il programma vi chiederà i dati exif digitate Yes (Y):
 
 In questo caso W=1637 e H=2048, la finestra dovrebbe essere simile a questa:
 
-{% include figure.html width="1200" caption="Larghezza e altezza dell'immagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e larghezza altezza immagine" name="NFT_Marker_Creator_node_app_width_height_ok" target="_blank" title="Larghezza e altezza dell'immagine" rel="author" jpg_id="1456af7b-a1a7-4abc-b9ad-6789f2100dc3" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
+{% include figure.html width="1200" caption="Larghezza e altezza dellimmagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e larghezza altezza immagine" name="NFT_Marker_Creator_node_app_width_height_ok" target="_blank" title="Larghezza e altezza dellimmagine" rel="author" jpg_id="1456af7b-a1a7-4abc-b9ad-6789f2100dc3" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
 
 nel passo successivo vi verrà richiesto di immettere il dpi:
 
-
-
-{% include figure.html width="1200" caption="Dpi dell'immagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dell'immagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
+{% include figure.html width="1200" caption="Dpi dellimmagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dellimmagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
 
 immessi questi dati finali il programma incominicerà ad elaborare l'immagine per creare i files:
 
-
-
 {% include figure.html width="1200" caption="Il marker NFT comincia ad essere generato..." height="711" alt="NFT-Marker-Creator con la node app e inizio procedura" name="NFT_Marker_Creator_node_app_init_marker" target="_blank" title="Inizio procedura di creazione del marker NFT" rel="author" jpg_id="6e809a5d-004b-437f-9843-cd55cd82d86a" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="da39384a-eedd-4068-a130-e163c591b7c8" %}
+
+In breve tempo il software genererà i files e vi chiedera di salvarli:
+
+
+
+{% include figure.html width="1200" caption="Il marker NFT é stato generato!" height="711" alt="NFT-Marker-Creator con la node app - procedura completata" name="NFT_Marker_Creator_node_app_end" target="_blank" title="Fine procedura di creazione del marker NFT" rel="author" jpg_id="0a30be76-de1b-496c-8758-7eaad59ce51e" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="72d8b29b-dcf0-4ddf-b6e8-2771c863d882" %}
