@@ -27,7 +27,7 @@ tags: 2020 Realtà-Aumentata NFT markerless tutorial
 
 In questo tutorial vi spiegherò passo passo la creazione di marker **NFT** da usare con il progetto **jsartoolkit5** per la realtà aumentata. Questo articolo è indirizzato a tutti i creativi che intendono creare le loro applicazioni Web di realtà aumentata. Una minima conoscenza di alcuni concetti è comunque necessaria per affrontare l'argomento.
 
-I marker **NFT** (**N**atural **F**eature **T**racking) sono dei marker che vengono usati per tracciare delle immagini predeterminate. In sostanza si tratta di una tecnologia markerless. cioè senza l'utilizzo di markers. Per una distinzione su i tipi di marker vi rimando a questo articolo ed in fondo troverete altre risorse utili.
+I marker **NFT** (**N**atural **F**eature **T**racking) sono dei marker che vengono usati per tracciare delle immagini predeterminate. In sostanza si tratta di una tecnologia markerless, cioè senza l'utilizzo di markers. Per una distinzione su i tipi di marker vi rimando a questo articolo ed in fondo troverete altre risorse utili.
 
 ### Materiali necessari
 
@@ -59,8 +59,6 @@ non vi resta che cliccare sul bottone **Generate**, immediatatamente partirà il
 
 È possibile generare i propri NFT markers anche con l'applicazione a linea di comando ( cioè tramite console ). In questo caso però è necessario installare [nodejs](https://nodejs.org/it/) seguite le istruzioni per l'installazione nel sito. È necessario inoltre scaricare NFT-Marker-Creator tramite git. [Git](https://it.wikipedia.org/wiki/Git_(software)) è un programma di controllo versione distribuito usato dagli sviluppatori. Bisogna innanzitutto [installare git](https://www.html.it/pag/53180/installazione-di-git/). Una volta installato nella cartella dove volete scaricare nFT-Marker_creator digitate in un terminale a linea di comando:
 
-
-
 ```
 git clone https://github.com/Carnaux/NFT-Marker-Creator.git
 ```
@@ -71,7 +69,7 @@ in questo modo verrà scaricato l'intero progetto, entrate nella cartella:
 cd NFT-Marker-Creator
 ```
 
-e lanciate la node app:
+e lanciate la node app ( con **\-i** potete indicare il percorso dell'immagine ):
 
 ```
 node app.js -i pinball.jpg
@@ -79,6 +77,6 @@ node app.js -i pinball.jpg
 
 vedi anche nell'immagine di esempio:
 
-{% include figure.html width="1200" caption="Lanciando il programma con un immagine" height="711" alt="NFT-Marker-Creator con la node app" name="NFT_Marker_Creator_node_app_start" target="_blank" title="Lanciare il programma con un immagine" rel="author" jpg_id="8eecea84-cce8-46eb-8568-fb63ac6b44b2" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="72d8b29b-dcf0-4ddf-b6e8-2771c863d882" %}
+{% include figure.html width="1200" caption="Lanciando il programma con un immagine" height="711" alt="NFT-Marker-Creator con la node app" name="NFT_Marker_Creator_node_app_start" target="_blank" title="Lanciare il programma con un immagine" rel="author" jpg_id="8eecea84-cce8-46eb-8568-fb63ac6b44b2" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="075545fd-8cf8-4635-8ea9-bfedcc45e2eb" %}
 
-se avete la immagine nella stessa cartella oppure cambiate il percorso,
+date invio ed il programma vi chiederà di immettere i dati di larghezza (WIDTH) e altezza (HEIGHT):
