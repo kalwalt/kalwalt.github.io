@@ -23,8 +23,6 @@ tags: 2020 Realtà-Aumentata NFT markerless tutorial
 ---
 {% include figure.html width="1299" caption="Schermata iniziale della webapp NFT-Marker-Creator" height="741" alt="NFT-Marker-Creator per marker NFT per la Realtà Aumentata" name="Tutorial_NFT_Marker_Creator_AR" target="_blank" title="Realizzare un NFT Marker con NFT-Marker-Creator" rel="author" jpg_id="3aa158e5-f175-4d74-a3fc-ed54deaea815" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8af1c1d3-7bd4-4bad-8814-ee466692cd06" %}
 
-
-
 ### Introduzione
 
 In questo tutorial vi spiegherò passo passo la creazione di marker **NFT** da usare con il progetto **jsartoolkit5** per la realtà aumentata. Questo articolo è indirizzato a tutti i creativi che intendono creare le loro applicazioni Web di realtà aumentata. Una minima conoscenza di alcuni concetti è comunque necessaria per affrontare l'argomento.
@@ -45,4 +43,6 @@ Si può utilizzare la Web App andando su questo sito: [carnaux.github.io/NFT-Mar
 
 {% include figure.html width="1299" caption="Web app per la creazione di marker NFT" height="741" alt="Pagina iniziale NFT-Marker-Creator webapp" name="NFT_Marker_Creator_node_webapp_start" target="_blank" title="Pagina iniziale NFT-Marker-Creator" rel="author" jpg_id="f799693d-a7a8-4611-bc9c-e0c2b71dd1e8" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="186b4e8f-7671-43c1-9080-ce2fa89e0fdd" %}
 
-cliccate su **Upload Image** si aprirà una finestra dove navigherete nella cartella dove avete il file immagine. Per esempio in questo caso andiamo a utilizzare l'immagine di riferimento pinball.jpg nel progetto jsartoolkit5:
+cliccate su **Upload Image** si aprirà una finestra dove potete accedere alla cartella dove è contenuto il file immagine. Per esempio in questo caso andiamo a utilizzare l'immagine di riferimento pinball.jpg nel progetto jsartoolkit5:
+
+{% include figure.html width="1203" caption="Finestra per la scelta dell'immagine." height="741" alt="NFT-Marker-Creator upload immagine" name="NFT_Marker_Creator_node_webapp_upload_image" target="_blank" title="Scegliere un immagine per NFT-Marker-Creator" rel="author" jpg_id="00c87ff0-04ea-4f75-83e9-15f05aa1f59c" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="6613dad6-cc67-440d-bfbb-0633fa9fa65b" %}
