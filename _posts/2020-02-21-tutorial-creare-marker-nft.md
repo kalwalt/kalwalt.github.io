@@ -79,4 +79,20 @@ vedi anche nell'immagine di esempio:
 
 {% include figure.html width="1200" caption="Lanciando il programma con un immagine" height="711" alt="NFT-Marker-Creator con la node app" name="NFT_Marker_Creator_node_app_start" target="_blank" title="Lanciare il programma con un immagine" rel="author" jpg_id="8eecea84-cce8-46eb-8568-fb63ac6b44b2" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="075545fd-8cf8-4635-8ea9-bfedcc45e2eb" %}
 
-date invio ed il programma vi chiederà di immettere i dati di larghezza (WIDTH) e altezza (HEIGHT):
+date invio ed il programma vi chiederà i dati exif digitate Yes (Y):
+
+
+
+{% include figure.html width="1200" caption="Immettere i dati exif" height="711" alt="NFT-Marker-Creator con la node app e exif" name="NFT_Marker_Creator_node_app_exif" target="_blank" title="Dati exif" rel="author" jpg_id="68274b7d-401c-4280-ae7b-2abe95d746c7" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="72c95d00-165b-43f3-b011-0820d50ee9c7" %}
+
+ quindi il programma vi chiederà di immettere i dati di larghezza (WIDTH) e altezza (HEIGHT):
+
+
+
+{% include figure.html width="1200" caption="Larghezza e altezza dell'immagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e exif" name="NFT_Marker_Creator_node_app_width_height" target="_blank" title="Larghezza e altezza dell'immagine" rel="author" jpg_id="40f7323d-a1bd-42a7-b485-a7c44a867fa2" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8a053b2e-cd87-4a84-98bc-211b8d77a7b1" %}
+
+la finestra dovrebbe essere simile a questa:
+
+
+
+{% include figure.html width="1200" caption="Larghezza e altezza dell'immagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e larghezza altezza immagine" name="NFT_Marker_Creator_node_app_width_height_ok" target="_blank" title="Larghezza e altezza dell'immagine" rel="author" jpg_id="1456af7b-a1a7-4abc-b9ad-6789f2100dc3" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
