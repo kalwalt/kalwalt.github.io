@@ -23,6 +23,8 @@ tags: 2020 Realtà-Aumentata NFT markerless tutorial
 ---
 {% include figure.html width="1299" caption="Schermata iniziale della webapp NFT-Marker-Creator" height="741" alt="NFT-Marker-Creator per marker NFT per la Realtà Aumentata" name="Tutorial_NFT_Marker_Creator_AR" target="_blank" title="Realizzare un NFT Marker con NFT-Marker-Creator" rel="author" jpg_id="3aa158e5-f175-4d74-a3fc-ed54deaea815" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8af1c1d3-7bd4-4bad-8814-ee466692cd06" %}
 
+
+
 ### Introduzione
 
 In questo tutorial vi spiegherò passo passo la creazione di marker **NFT** da usare con il progetto **jsartoolkit5** per la realtà aumentata. Questo articolo è indirizzato a tutti i creativi che intendono creare le loro applicazioni Web di realtà aumentata. Una minima conoscenza di alcuni concetti è comunque necessaria per affrontare l'argomento.
@@ -81,18 +83,24 @@ vedi anche nell'immagine di esempio:
 
 date invio ed il programma vi chiederà i dati exif digitate Yes (Y):
 
-
-
 {% include figure.html width="1200" caption="Immettere i dati exif" height="711" alt="NFT-Marker-Creator con la node app e exif" name="NFT_Marker_Creator_node_app_exif" target="_blank" title="Dati exif" rel="author" jpg_id="68274b7d-401c-4280-ae7b-2abe95d746c7" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="72c95d00-165b-43f3-b011-0820d50ee9c7" %}
 
- quindi il programma vi chiederà di immettere i dati di larghezza (WIDTH) e altezza (HEIGHT):
+ quindi il programma vi chiederà di immettere i dati di larghezza (W) e altezza (H):
 
+{% include figure.html width="1200" caption="Larghezza e altezza dellimmagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e exif" name="NFT_Marker_Creator_node_app_width_height" target="_blank" title="Larghezza e altezza dellimmagine" rel="author" jpg_id="40f7323d-a1bd-42a7-b485-a7c44a867fa2" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="7c73a4cd-722c-498d-a225-6e5e72596851" %}
 
-
-{% include figure.html width="1200" caption="Larghezza e altezza dell'immagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e exif" name="NFT_Marker_Creator_node_app_width_height" target="_blank" title="Larghezza e altezza dell'immagine" rel="author" jpg_id="40f7323d-a1bd-42a7-b485-a7c44a867fa2" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8a053b2e-cd87-4a84-98bc-211b8d77a7b1" %}
-
-la finestra dovrebbe essere simile a questa:
-
-
+In questo caso W=1637 e H=2048, la finestra dovrebbe essere simile a questa:
 
 {% include figure.html width="1200" caption="Larghezza e altezza dell'immagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e larghezza altezza immagine" name="NFT_Marker_Creator_node_app_width_height_ok" target="_blank" title="Larghezza e altezza dell'immagine" rel="author" jpg_id="1456af7b-a1a7-4abc-b9ad-6789f2100dc3" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
+
+nel passo successivo vi verrà richiesto di immettere il dpi:
+
+
+
+{% include figure.html width="1200" caption="Dpi dell'immagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dell'immagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
+
+immessi questi dati finali il programma incominicerà ad elaborare l'immagine per creare i files:
+
+
+
+{% include figure.html width="1200" caption="Il marker NFT comincia ad essere generato..." height="711" alt="NFT-Marker-Creator con la node app e inizio procedura" name="NFT_Marker_Creator_node_app_init_marker" target="_blank" title="Inizio procedura di creazione del marker NFT" rel="author" jpg_id="6e809a5d-004b-437f-9843-cd55cd82d86a" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="da39384a-eedd-4068-a130-e163c591b7c8" %}
