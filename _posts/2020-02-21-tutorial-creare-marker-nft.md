@@ -107,12 +107,17 @@ In breve tempo il software genererà i files e vi chiedera di salvarli:
 
 Alla fine viene mostrato anche il `confidence level` come per la web app.
 
+### Conclusioni finali
+
+
+
 ### Risorse utili
 
 wiki di NFT-Marker-Creator: https://github.com/Carnaux/NFT-Marker-Creator/wiki
 
-Artoolkit-docs: web version [https://kalwalt.github.io/artoolkit-docs](https://kalwalt.github.io/artoolkit-docs/3_Marker_Training/marker_nft_training.html)
+**Artoolkit-docs**: 
 
-Artoolkit-docs: github repository <https://github.com/kalwalt/artoolkit-docs>
+* *web version* [https://kalwalt.github.io/artoolkit-docs](https://kalwalt.github.io/artoolkit-docs/3_Marker_Training/marker_nft_training.html)
+* *github repository* <https://github.com/kalwalt/artoolkit-docs>
 
 marker-nft-utilities: <https://github.com/kalwalt/artoolkit-docs/blob/master/3_Marker_Training/marker_nft_utilities.md>
