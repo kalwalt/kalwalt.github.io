@@ -27,7 +27,7 @@ tags: 2020 Realtà-Aumentata NFT markerless tutorial
 
 In questo tutorial vi spiegherò passo passo la creazione di marker **NFT** da usare con il progetto **jsartoolkit5** per la realtà aumentata. Questo articolo è indirizzato a tutti i creativi che intendono creare le loro applicazioni Web di realtà aumentata. Una minima conoscenza di alcuni concetti è comunque necessaria per affrontare l'argomento.
 
-I marker **NFT** (**N**atural **F**eature **T**racking) sono dei marker che vengono usati per tracciare delle immagini predeterminate. In sostanza si tratta di una tecnologia markerless, cioè senza l'utilizzo di markers. Per una distinzione su i tipi di marker vi rimando a questo articolo ed in fondo troverete altre risorse utili.
+I marker **NFT** (**N**atural **F**eature **T**racking) sono dei marker che vengono usati per tracciare delle immagini predeterminate. In sostanza si tratta di una tecnologia markerless, cioè senza l'utilizzo di markers. Per una distinzione su i tipi di marker vi rimando a questo [articolo](https://www.kalwaltart.it/blog/2020/01/19/nft-natural-feature-tracking-con-jsartoolkit5/) ed in fondo troverete altre risorse utili.
 
 ### Materiali necessari
 
@@ -53,7 +53,9 @@ a questo punto la vostra finestra sarà simile alla seguente:
 
 {% include figure.html width="1299" caption="Schermata iniziale della webapp NFT-Marker-Creator" height="741" alt="Creare marker NFT con NFT-Marker-Creator" name="Tutorial_NFT_Marker_Creator_AR" target="_blank" title="Immagine caricata nella webapp NFT-Marker-Creator" rel="author" jpg_id="f574b279-d6d8-4392-8dfa-8d56fa10ac50" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="5386020e-47cd-46b1-b877-44fda675a77d" %}
 
-non vi resta che cliccare sul bottone **Generate**, immediatatamente partirà il programma ed in breve tempo verranno creati tre file in questo caso: pinball.fset pinball.iset e pinball.fset3.
+nella pagina è mostrato anche il `confidence level` cioè una valutazione dell'immagine in base al quale l'immagine è più o meno idonea: piu stelle ci sono meglio è. Diciamo che è meglio che ne abbia almeno 3 per avere il numero sufficiente di descrittori.
+
+Non vi resta a questo punto, che cliccare sul bottone **Generate**, immediatatamente partirà il programma ed in breve tempo verranno creati tre file in questo caso: pinball.fset pinball.iset e pinball.fset3.
 
 #### Tramite linea di comando
 
@@ -93,7 +95,7 @@ In questo caso W=1637 e H=2048, la finestra dovrebbe essere simile a questa:
 
 nel passo successivo vi verrà richiesto di immettere il dpi:
 
-{% include figure.html width="1200" caption="Dpi dell'immagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dell'immagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8587a967-9e5c-4718-93af-a589b4b88daf" %}
+{% include figure.html width="1200" caption="Dpi dellimmagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dellimmagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8587a967-9e5c-4718-93af-a589b4b88daf" %}
 
 Immessi questi dati finali il programma incominicerà ad elaborare l'immagine per creare i files:
 
@@ -102,3 +104,15 @@ Immessi questi dati finali il programma incominicerà ad elaborare l'immagine pe
 In breve tempo il software genererà i files e vi chiedera di salvarli:
 
 {% include figure.html width="1200" caption="Il marker NFT é stato generato!" height="711" alt="NFT-Marker-Creator con la node app - procedura completata" name="NFT_Marker_Creator_node_app_end" target="_blank" title="Fine procedura di creazione del marker NFT" rel="author" jpg_id="0a30be76-de1b-496c-8758-7eaad59ce51e" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="72d8b29b-dcf0-4ddf-b6e8-2771c863d882" %}
+
+Alla fine viene mostrato anche il `confidence level` come per la web app.
+
+### Risorse utili
+
+wiki di NFT-Marker-Creator: https://github.com/Carnaux/NFT-Marker-Creator/wiki
+
+Artoolkit-docs: web version [https://kalwalt.github.io/artoolkit-docs](https://kalwalt.github.io/artoolkit-docs/3_Marker_Training/marker_nft_training.html)
+
+Artoolkit-docs: github repository <https://github.com/kalwalt/artoolkit-docs>
+
+marker-nft-utilities: <https://github.com/kalwalt/artoolkit-docs/blob/master/3_Marker_Training/marker_nft_utilities.md>
