@@ -22,3 +22,21 @@ intro_paragraph: >-
 tags: 2020 Realtà-Aumentata NFT markerless tutorial
 ---
 {% include figure.html width="1299" caption="Schermata iniziale della webapp NFT-Marker-Creator" height="741" alt="NFT-Marker-Creator per marker NFT per la Realtà Aumentata" name="Tutorial_NFT_Marker_Creator_AR" target="_blank" title="Realizzare un NFT Marker con NFT-Marker-Creator" rel="author" jpg_id="3aa158e5-f175-4d74-a3fc-ed54deaea815" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8af1c1d3-7bd4-4bad-8814-ee466692cd06" %}
+
+### Introduzione
+
+In questo tutorial vi spiegherò passo passo la creazione di marker **NFT** da usare con il progetto **jsartoolkit5** per la realtà aumentata. Questo articolo è indirizzato a tutti i creativi che intendono creare le loro applicazioni Web di realtà aumentata. Una minima conoscenza di alcuni concetti è comunque necessaria per affrontare l'argomento.
+
+I marker **NFT** (**N**atural **F**eature **T**racking) sono dei marker che vengono usati per tracciare delle immagini predeterminate. In sostanza si tratta di una tecnologia markerless. cioè senza l'utilizzo di markers. Per una distinzione su i tipi di marker vi rimando a questo articolo ed in fondo troverete altre risorse utili.
+
+### Materiali necessari
+
+Per la creazione dei marker NFT è prerequisito fondamentale il possesso di un **immagine** in formato jpg o png a colori e del software necessario: **NFT-Marker-Creator.**
+
+Sebbene sia possibile creare i marker NFT con diverse risoluzioni e dimensioni in pixel, è fortemente consigliato generare il marker NFT con un ottimale risoluzione e dimensione: una dimensione totale in pixels ( base x altezza ) tra i 3.300.000 - 3.500.000 pixels e dpi di almeno 200 ottimale 300.
+
+é possibile usare la versione online dell'applicazione oppure la versione a linea di comando. Di seguito vi illustrerò i due modi.
+
+### Generare il marker NFT
+
+Si può utilizzare la Web App andando su questo sito: [carnaux.github.io/NFT-Marker-Creator](https://carnaux.github.io/NFT-Marker-Creator/) la pagina si presenterà in questo modo:
