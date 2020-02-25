@@ -67,7 +67,7 @@ Navigate alla pagina principale di [github.com/Carnaux/NFT-Marker-Creator](https
 
 {% include figure.html width="1200" caption="Finestra per scaricare il file zip." height="845" alt="NFT-Marker-Creator scaricare zip" name="NFT_Marker_Creator_download_zip" target="_blank" title="Scaricare il file zip del progetto NFT-Marker-Creator" rel="author" jpg_id="eb42bbb0-b757-471d-9733-65c875f88d70" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="cc26324c-5487-4ded-97b2-ea149bd6869f" %}
 
-cliccate su `Download zip`, in breve verrà scaricato il pacchetto. Estraete i files  in una cartella piacere e in una finestra di comando (console):
+cliccate su `Download zip`, in breve verrà scaricato il pacchetto. Estraete i files  in una cartella a piacere ed in una finestra di comando (console) digitate:
 
 ```
 cd NFT-Marker-Creator-master
