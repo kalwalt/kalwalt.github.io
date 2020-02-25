@@ -27,13 +27,13 @@ tags: 2020 Realtà-Aumentata NFT markerless tutorial
 
 In questo tutorial vi spiegherò passo passo la creazione di markers **NFT** da usare con il progetto **jsartoolkit5** per la realtà aumentata. Questo articolo è indirizzato a tutti i creativi che intendono creare le loro applicazioni Web di realtà aumentata. Una minima conoscenza di alcuni concetti è comunque necessaria per affrontare l'argomento.
 
-I markers **NFT** (**N**atural **F**eature **T**racking) sono dei marker che vengono usati per tracciare delle immagini predeterminate. In sostanza si tratta di una tecnologia markerless, cioè senza l'utilizzo di markers. Per una distinzione su i tipi di marker vi rimando a questo [articolo](https://www.kalwaltart.it/blog/2020/01/19/nft-natural-feature-tracking-con-jsartoolkit5/) ed in fondo troverete altre risorse utili.
+I markers **NFT** (**N**atural **F**eature **T**racking) sono dei markers che vengono usati per tracciare delle immagini predeterminate. In sostanza si tratta di una tecnologia markerless, cioè senza l'utilizzo di markers. Per una distinzione su i tipi di markers vi rimando a questo [articolo](https://www.kalwaltart.it/blog/2020/01/19/nft-natural-feature-tracking-con-jsartoolkit5/) ed in fondo troverete altre risorse utili.
 
 ### Materiali necessari
 
-Per la creazione dei marker NFT è prerequisito fondamentale il possesso di un **immagine** in formato jpg o png a colori e del software necessario: **NFT-Marker-Creator.**
+Per la creazione dei markers NFT è prerequisito fondamentale il possesso di un **immagine** in formato jpg o png a colori e del software necessario: **NFT-Marker-Creator.**
 
-Sebbene sia possibile creare i marker NFT con diverse risoluzioni e dimensioni in pixel, è fortemente consigliato generare il marker NFT con un ottimale risoluzione e dimensione: una dimensione totale in pixels ( base x altezza ) tra i 3.300.000 - 3.500.000 pixels e dpi di almeno 200 ottimale 300.
+Sebbene sia possibile creare i markers NFT con diverse risoluzioni e dimensioni in pixel, è fortemente consigliato generare il markers NFT con un ottimale risoluzione e dimensione: una dimensione totale in pixels ( base x altezza ) tra i 3.300.000 - 3.500.000 pixels e dpi di almeno 200 ottimale 300.
 
 È possibile usare la versione online dell'applicazione oppure la versione a linea di comando. Di seguito vi illustrerò i due modi.
 
@@ -47,7 +47,7 @@ Si può utilizzare la Web App andando su questo sito: [carnaux.github.io/NFT-Mar
 
 cliccate su **Upload Image** si aprirà una finestra dove potete accedere alla cartella dove è contenuto il file immagine. Per esempio in questo caso andiamo a utilizzare l'immagine di riferimento pinball.jpg nel progetto jsartoolkit5:
 
-{% include figure.html width="1203" caption="Finestra per la scelta dell'immagine." height="741" alt="NFT-Marker-Creator upload immagine" name="NFT_Marker_Creator_node_webapp_upload_image" target="_blank" title="Scegliere un immagine per NFT-Marker-Creator" rel="author" jpg_id="00c87ff0-04ea-4f75-83e9-15f05aa1f59c" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="6613dad6-cc67-440d-bfbb-0633fa9fa65b" %}
+{% include figure.html width="1203" caption="Finestra per la scelta dellimmagine." height="741" alt="NFT-Marker-Creator upload immagine" name="NFT_Marker_Creator_node_webapp_upload_image" target="_blank" title="Scegliere un immagine per NFT-Marker-Creator" rel="author" jpg_id="00c87ff0-04ea-4f75-83e9-15f05aa1f59c" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="6613dad6-cc67-440d-bfbb-0633fa9fa65b" %}
 
 a questo punto la vostra finestra sarà simile alla seguente:
 
@@ -128,6 +128,8 @@ In breve tempo il software genererà i files e vi chiederà di salvarli:
 Alla fine viene mostrato anche il `confidence level` come per la web app.
 
 ### Conclusioni finali
+
+Il modo più semplice per creare i propri markers NFT e di usare la [Webapp](https://carnaux.github.io/NFT-Marker-Creator/). Si può anche usare quella presente nella [repository](https://github.com/Carnaux/NFT-Marker-Creator/tree/master/docs).
 
 È fortemente consigliato generare i propri NFT markers con la miglior immagine possibile in termini di numero di pixels (larghezza e altezza e quindi pixel totali) e dpi:
 
