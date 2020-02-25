@@ -47,7 +47,7 @@ Si può utilizzare la Web App andando su questo sito: [carnaux.github.io/NFT-Mar
 
 cliccate su **Upload Image** si aprirà una finestra dove potete accedere alla cartella dove è contenuto il file immagine. Per esempio in questo caso andiamo a utilizzare l'immagine di riferimento pinball.jpg nel progetto jsartoolkit5:
 
-{% include figure.html width="1203" caption="Finestra per la scelta dellimmagine." height="741" alt="NFT-Marker-Creator upload immagine" name="NFT_Marker_Creator_node_webapp_upload_image" target="_blank" title="Scegliere un immagine per NFT-Marker-Creator" rel="author" jpg_id="00c87ff0-04ea-4f75-83e9-15f05aa1f59c" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="6613dad6-cc67-440d-bfbb-0633fa9fa65b" %}
+{% include figure.html width="1203" caption="Finestra per la scelta dell`immagine." height="741" alt="NFT-Marker-Creator upload immagine" name="NFT_Marker_Creator_node_webapp_upload_image" target="_blank" title="Scegliere un immagine per NFT-Marker-Creator" rel="author" jpg_id="00c87ff0-04ea-4f75-83e9-15f05aa1f59c" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="6613dad6-cc67-440d-bfbb-0633fa9fa65b" %}
 
 a questo punto la vostra finestra sarà simile alla seguente:
 
@@ -107,15 +107,15 @@ date invio ed il programma vi chiederà i dati exif digitate Yes (Y):
 
  quindi il programma vi chiederà di immettere i dati di larghezza (W) e altezza (H) dell'immagine:
 
-{% include figure.html width="1200" caption="Larghezza e altezza dellimmagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e exif" name="NFT_Marker_Creator_node_app_width_height" target="_blank" title="Larghezza e altezza dellimmagine" rel="author" jpg_id="40f7323d-a1bd-42a7-b485-a7c44a867fa2" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="7c73a4cd-722c-498d-a225-6e5e72596851" %}
+{% include figure.html width="1200" caption="Larghezza e altezza dell`immagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e exif" name="NFT_Marker_Creator_node_app_width_height" target="_blank" title="Larghezza e altezza dell`immagine" rel="author" jpg_id="40f7323d-a1bd-42a7-b485-a7c44a867fa2" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="7c73a4cd-722c-498d-a225-6e5e72596851" %}
 
 In questo caso W=1637 e H=2048, la finestra dovrebbe essere simile a questa:
 
-{% include figure.html width="1200" caption="Larghezza e altezza dellimmagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e larghezza altezza immagine" name="NFT_Marker_Creator_node_app_width_height_ok" target="_blank" title="Larghezza e altezza dellimmagine" rel="author" jpg_id="1456af7b-a1a7-4abc-b9ad-6789f2100dc3" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
+{% include figure.html width="1200" caption="Larghezza e altezza dell`immagine per il NFT marker" height="711" alt="NFT-Marker-Creator con la node app e larghezza altezza immagine" name="NFT_Marker_Creator_node_app_width_height_ok" target="_blank" title="Larghezza e altezza dell`immagine" rel="author" jpg_id="1456af7b-a1a7-4abc-b9ad-6789f2100dc3" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="83313613-8225-450b-8198-0fe82d975d84" %}
 
 nel passo successivo vi verrà richiesto di immettere il dpi:
 
-{% include figure.html width="1200" caption="Dpi dellimmagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dellimmagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8587a967-9e5c-4718-93af-a589b4b88daf" %}
+{% include figure.html width="1200" caption="Dpi dell`immagine" height="711" alt="NFT-Marker-Creator con la node app e dpi" name="NFT_Marker_Creator_node_app_dpi" target="_blank" title="Dpi dell`immagine" rel="author" jpg_id="e7089dd6-4b1d-4b2a-b4a5-f2e2d1ee723d" link="https://carnaux.github.io/NFT-Marker-Creator/" webp_id="8587a967-9e5c-4718-93af-a589b4b88daf" %}
 
 Immessi questi dati finali il programma incominicerà ad elaborare l'immagine per creare i files:
 
