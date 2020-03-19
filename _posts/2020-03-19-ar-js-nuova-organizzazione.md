@@ -18,7 +18,7 @@ intro_paragraph: >-
   AR.js si è trasformato in una nuova organizzazione github ed è stata
   rilasciata la versione 3.0.0; Leggi l'articolo per saperne di più ...
 ---
-{% include figure.html width="1299" caption="Discover the new AR.js org!" height="741" alt="Ar.js new github organization" name="ar_js_org_introduction" target="_blank" title="AR.js as github org" rel="author" jpg_id="2d7fac12-ca25-46dd-a6ba-497560a30e33" link="https://github.com/AR-js-org" webp_id="6e60f782-d54c-4d4b-9995-9def4f01ac5e" %}
+{% include figure.html width="1299" caption="Scopri la nuova organizzazione AR.js su github!" height="741" alt="Ar.js new github organization" name="ar_js_org_introduction" target="_blank" title="AR.js github org" rel="author" jpg_id="2d7fac12-ca25-46dd-a6ba-497560a30e33" link="https://github.com/AR-js-org" webp_id="6e60f782-d54c-4d4b-9995-9def4f01ac5e" %}
 
 **AR.js** è giunto ad un notevole traguardo, che di fatto lo porta ad essere uno dei più importanti progetti opensource per la Realtà Aumentata: la prima cosa più riguardevole è che è diventato un organizzazione su [github](https://ar-js-org.github.io/), secondo ma non meno importante è arrivato alla versione 3.0.0 con integrata la tecnologia **NFT**( Natural Feature Tracking ).
 
@@ -40,7 +40,7 @@ AR.js è un progetto iniziato da [Jerome Etienne](https://github.com/jeromeetien
 
 Il maggior vantaggio di usare AR.js sta nel fatto che una volta scritto il codice è immediatamente usufruibile, è sufficiente posizionarlo in un Server: si tratta solamente di una pagina scritta in HTML, javascript e CSS.
 
-{% include figure.html className="" width="1299" caption="NFT tracking con jsartoolkit5 il cuore di AR.js" height="741" alt="NFT tracking jsartoolkit5" name="NFTjsartoolkit5" target="_blank" title="NFT la nuova tecnologia markerless all'interno di AR.js" rel="author" jpg_id="554de6fd-e32f-4901-90f8-68c31f60e8f1" link="https://ar-js-org.github.io/AR.js/aframe/examples/image-tracking/nft/" webp_id="499fec07-8fbd-4cff-85ae-4dc0ff26bbaa" %}
+{% include figure.html className="" width="1299" caption="NFT tracking con jsartoolkit5 il cuore di AR.js" height="741" alt="NFT tracking jsartoolkit5" name="NFTjsartoolkit5" target="_blank" title="NFT la nuova tecnologia markerless allinterno di AR.js" rel="author" jpg_id="554de6fd-e32f-4901-90f8-68c31f60e8f1" link="https://ar-js-org.github.io/AR.js/aframe/examples/image-tracking/nft/" webp_id="499fec07-8fbd-4cff-85ae-4dc0ff26bbaa" %}
 
 ## Nuova organizzazione, nuova documentazione.
 
