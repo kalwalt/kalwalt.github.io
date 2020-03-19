@@ -60,4 +60,4 @@ AR.js: <https://github.com/AR-js-org/AR.js>
 
 AR.js Documentazione: <https://ar-js-org.github.io/AR.js-Docs/> github repository <https://github.com/AR-js-org/AR.js-Docs>                         
 
-Mio articolo su NFT (Natural Feature Tracking): <https://www.kalwaltart.com/blog/2020/01/21/nft-natural-feature-tracking-with-jsartoolkit5/>
+Mio articolo su NFT (Natural Feature Tracking): [](https://www.kalwaltart.com/blog/2020/01/21/nft-natural-feature-tracking-with-jsartoolkit5/)<https://www.kalwaltart.it/blog/2020/01/19/nft-natural-feature-tracking-con-jsartoolkit5/>
