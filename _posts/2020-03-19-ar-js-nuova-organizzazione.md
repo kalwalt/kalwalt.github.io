@@ -7,7 +7,7 @@ description: >-
   AR.js si è trasformata in una nuova organizzazione github ed è giunta alla
   versione 3.0.0; un breve articolo per annunciare questo importante traguardo.
 author: Walter Perdan
-date: '2020-03-19 20:03:94'
+date: '2020-03-19 20:03:04'
 lang: it
 seo:
   datePublished: '2020-03-19'
