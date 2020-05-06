@@ -6,10 +6,10 @@ title: "JsartoolkitNFT: una versione leggera di Jsartoolkit5"
 description: "Un breve articolo per parlare del nuovo progetto jsartoolkitNFT:
   una versione leggera di jsartoolkit5."
 author: Walter Perdan
-date: 2020-05-06 15:05:72
+date: 2020-05-06T15:05:72.020Z
 lang: it
 seo:
-  datePublished: 2020-05-06T00:00:00.000Z
+  datePublished: 2020-05-06T15:05:72.020Z
   type: BlogPosting
   author: Walter Perdan
 image: https://ucarecdn.com/18f403aa-52ce-4035-b418-c5c57794843b/JsartoolkitNFT_kalwalt_augmented_reality.jpg
