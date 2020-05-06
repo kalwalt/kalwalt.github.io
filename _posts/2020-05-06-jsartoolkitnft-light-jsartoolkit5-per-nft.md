@@ -6,14 +6,15 @@ title: "JsartoolkitNFT: una versione leggera di Jsartoolkit5"
 description: "Un breve articolo per parlare del nuovo progetto jsartoolkitNFT:
   una versione leggera di jsartoolkit5."
 author: Walter Perdan
-date: 2020-05-06
+date: 2020-05-06T00:00:00.000Z
 lang: it
 seo:
-  datePublished: 2020-05-06
+  datePublished: 2020-05-06T00:00:00.000Z
   type: BlogPosting
   author: Walter Perdan
 image: https://ucarecdn.com/18f403aa-52ce-4035-b418-c5c57794843b/JsartoolkitNFT_kalwalt_augmented_reality.jpg
 intro_paragraph: "JsartoolkitNFT: una versione leggera e migliorata di Jsartoolkit5"
+tags: 2020 Realtà-Aumentata AR NFT markerless  Artoolkit Artoolkit5 jsartookit5
 ---
 {% include figure.html width="1299" caption="Uno screenshot dello sviluppo di arNft e jsartoolkitNFT nell'editor Atom" height="741" alt="Uno screenshot dello sviluppo di arNft" name="JsartoolkitNFT_kalwalt_augmented_reality" target="_blank" title="JsartoolkitNFT: una versione semplificata di jsartoolkit5" rel="author" jpg_id="18f403aa-52ce-4035-b418-c5c57794843b" link="https://github.com/kalwalt/jsartoolkitNFT" webp_id="01f28032-74e0-423f-bb46-3fb7166e264c" %}
 
