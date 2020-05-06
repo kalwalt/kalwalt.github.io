@@ -15,6 +15,7 @@ seo:
 image: https://ucarecdn.com/18f403aa-52ce-4035-b418-c5c57794843b/JsartoolkitNFT_kalwalt_augmented_reality.jpg
 intro_paragraph: "JsartoolkitNFT: una versione leggera e migliorata di Jsartoolkit5"
 tags: 2020 Realtà-Aumentata AR NFT markerless  Artoolkit Artoolkit5 jsartookit5
+  jsartoolkitNFT
 ---
 {% include figure.html width="1299" caption="Uno screenshot dello sviluppo di arNft e jsartoolkitNFT nell'editor Atom" height="741" alt="Uno screenshot dello sviluppo di arNft" name="JsartoolkitNFT_kalwalt_augmented_reality" target="_blank" title="JsartoolkitNFT: una versione semplificata di jsartoolkit5" rel="author" jpg_id="18f403aa-52ce-4035-b418-c5c57794843b" link="https://github.com/kalwalt/jsartoolkitNFT" webp_id="01f28032-74e0-423f-bb46-3fb7166e264c" %}
 
@@ -26,7 +27,7 @@ Ho rimosso gran parte del codice perchè non veniva affatto utilizzato per i mar
 
 Quale è l’idea? Rendere il più semplice possibile il codice, per questo motivo ho sviluppato un livello ulteriore per semplificare ed aiutare lo sviluppatore. Ho creato una nuova libreria **arNFT** che una volta inizializzata permette di scrivere il codice in questo modo:
 
-```
+```javascript
 <script src="../dist/arNFT.min.js"></script>
 <script>
 
