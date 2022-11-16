@@ -1,6 +1,6 @@
 ---
 layout: post
-idx: 31
+idx: 33
 slug: webarkit-sviluppo
 title: Lo sviluppo di WebARKit e oltre
 description: Parliamo di Webarkit e del suo sviluppo in questo ultimo periodo.

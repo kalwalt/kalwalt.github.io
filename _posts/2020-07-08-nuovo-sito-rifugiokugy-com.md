@@ -1,6 +1,6 @@
 ---
 layout: post
-idx: 29
+idx: 31
 slug: nuovo sito rifugiokugy.com
 title: Il nuovo sito rifugiokugy.com
 description: Durante il lockdown e in questi ultimi due mesi ho creato il sito
