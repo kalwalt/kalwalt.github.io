@@ -18,7 +18,7 @@ intro_paragraph: "Un riassunto di questi ultimi mesi: jsfeatNext e
   WebARKit."
 tags: webar webarkit jsfeat jsfeatNext JsartoolkitNFT ARnft dlib 2022
 ---
-Nel corso di questi mesi/anni dall'ultimo articolo su questo blog sono successe molte cose, in primis l’avvento del Covid con tutte le conseguenze che ha portato di restrizioni e preoccupazioni ed in secondo luogo cambiamenti di lavoro ma che non starò qui a dilungarmi su questi fatti. Voglio solo dire che ci sono state delle difficoltà che però comunque hanno lasciato spazio e tempo allo sviluppo dei progetti software.
+Nel corso di questi mesi/anni dall'ultimo articolo su questo blog sono successe molte cose, in primis l’avvento del Covid con tutte le conseguenze che ha portato di restrizioni e preoccupazioni ed in secondo luogo cambiamenti di lavoro ma che non starò qui a dilungarmi su questi fatti. Voglio solo dire che ci sono state delle difficoltà che comunque hanno lasciato spazio e tempo allo sviluppo dei progetti software.
 
 Ho continuato a mantenere e sviluppare **ARnft** e **jsartoolkitNFT** appartenenti alla nostra organizzazione open source **WebARKit**, e parallelamente portare avanti altre ricerche. 
 
