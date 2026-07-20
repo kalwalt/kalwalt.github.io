@@ -21,8 +21,14 @@ categories: programming open-source webar
 tags: " webar, webarkit, rust, webarkitlib-rs purecv, 2026"
 ---
 # La Strategia: Strangler Fig
-
+<style>
+img {
+width: 640px
+}
+</style>
 ![KPM di Webarkitlib-rs completamente in Rust](https://ucarecdn.com/9ad1c018-0c32-423c-8fee-5b4c48a5f3d9/WebARKitLibrsKPMnoFFiRustfig.jpg "KPM di Webarkitlib-rs completamente in Rust")
+
+
 
 Il modulo **KPM** (Key Point Matching) del progetto [WebARKitLib-rs](https://github.com/webarkit/WebARKitLib-rs), che in precedenza si affidava a FFI per interagire con il codice C/C++, è stato ora interamente convertito in Rust. Per raggiungere questo obiettivo, ho adottato la strategia "*Strangler Fig*": ho scomposto il modulo in sotto-moduli, isolando le funzioni critiche. Per ciascuna di esse, ho predisposto test di parità che confrontano l'implementazione in Rust con la corrispondente nativa in C/C++, garantendo l'assoluta precisione del porting. Ecco un esempio pratico:
 
